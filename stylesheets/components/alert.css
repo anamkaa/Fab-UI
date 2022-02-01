@@ -1,0 +1,68 @@
+@import url("/stylesheets/main.css");
+
+body{
+    background-color: #f8f8ff;
+}
+
+.alert{
+    margin: 1rem;
+    width: max-content;
+    border: 1px solid;
+    border-radius: 0.2rem;
+    font-weight: semi-bold;
+   
+}
+
+.alert-dark{
+    background-color: black;
+    color: white;
+}
+
+.alert-icon{
+    display: flex;
+    align-items: center;
+}
+
+.alert-i{
+    padding-left: 0.5rem;
+}
+
+.alert-text{
+    padding: 0.5rem;
+}
+
+.alert-primary{
+    color: var(--info);
+    background-color: var(--info-bg);
+}
+
+.alert-success{
+    color: var(--success);
+    background-color: var(--success-bg);
+}
+
+.alert-warning{
+    color: var(--warning);
+    background-color: var(--warning-bg)	;
+}
+
+.alert-error{
+    color: var(--error) ;
+    background-color: var(--error-bg);
+}
+
+.alert-primary-outline{
+    color: var(--info);
+}
+
+.alert-success-outline{
+    color: var(--success);
+}
+
+.alert-warning-outline{
+    color: var(--warning);
+}
+
+.alert-error-outline{
+    color: var(--error) ;
+}
