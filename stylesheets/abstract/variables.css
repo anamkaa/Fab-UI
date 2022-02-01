@@ -1,0 +1,17 @@
+:root{
+    --shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%),
+    0 1px 3px 0 rgb(0 0 0 / 12%);
+
+    --info:#9d4edd;
+    --info-bg:#ebdcf8;
+
+    --success:#008000;
+    --success-bg:#cce6cc;
+
+    --warning:#ffea00;
+    --warning-bg:#fffde6;
+
+    --error:#ff002b;
+    --error-bg:#ffe6ea;
+    
+}
