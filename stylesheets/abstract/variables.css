@@ -24,5 +24,10 @@
 
     --btn-light-hover:#f2f3f4;
     --btn-dark-hover:#414a4c;
+
+    --badge-online:#78de45;
+    --badge-idle:#faa61a;
+    --badge-dnd:#ff0000;
+    --badge-border:#dc3172;
    
 }
