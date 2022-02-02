@@ -1,0 +1,163 @@
+@import url("/stylesheets/main.css");
+
+.btn {
+  margin: 1rem;
+  padding: 0.5rem;
+  font-size: 15px;
+  min-width: 80px;
+  letter-spacing: 1px;
+  border-radius: 0.2rem;
+  border: 1px solid;
+  background-color: var(--bg-white);
+}
+
+.btn-dark {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+.btn-lg {
+  font-size: 20px;
+}
+
+.btn-sm {
+  font-size: 12px;
+}
+
+.btn-shadow {
+  box-shadow: var(--shadow);
+}
+
+.btn-hover:hover {
+  background-color: var(--btn-light-hover);
+}
+
+.btn-dark-hover:hover {
+  background-color: var(--btn-dark-hover);
+}
+
+.btn-primary-hover:hover {
+  background-color: var(--oc-primary-hover);
+}
+
+.btn-secondary-hover:hover {
+  background-color: var(--success-bg-light);
+}
+
+.btn-info-hover:hover {
+  background-color: var(--info-bg-light);
+}
+
+.btn-success-hover:hover {
+  background-color: var(--success-bg-light);
+}
+
+.btn-warning-hover:hover {
+  background-color: var(--warning-bg-light);
+}
+
+.btn-error-hover:hover {
+  background-color: var(--error-bg-light);
+}
+
+/*  basic-btn-style*/
+
+.btn-primary {
+  color: var(--oc-primary);
+  background-color: var(--oc-primary-light);
+}
+
+.btn-secondary {
+  color: var(--oc-secondary-1);
+  background-color: var(--oc-secondary-light);
+}
+
+.btn-info {
+  color: var(--info);
+  background-color: var(--info-bg);
+}
+
+.btn-success {
+  color: var(--success);
+  background-color: var(--success-bg);
+}
+
+.btn-warning {
+  color: var(--warning);
+  background-color: var(--warning-bg);
+}
+
+.btn-error {
+  color: var(--error);
+  background-color: var(--error-bg);
+}
+
+/* outline-btn-style */
+
+.btn-primary-outline {
+  color: var(--oc-primary);
+}
+
+.btn-secondary-outline {
+  color: var(--oc-secondary-1);
+}
+
+.btn-info-outline {
+  color: var(--info);
+}
+
+.btn-success-outline {
+  color: var(--success);
+}
+
+.btn-warning-outline {
+  color: var(--warning);
+}
+
+.btn-error-outline {
+  color: var(--error);
+}
+
+/* button ghost style */
+
+.btn-primary-ghost {
+  color: var(--oc-primary);
+  border: none;
+}
+
+.btn-secondary-ghost {
+  color: var(--oc-secondary-1);
+  border: none;
+}
+
+.btn-info-ghost {
+  color: var(--info);
+  border: none;
+}
+
+.btn-success-ghost {
+  color: var(--success);
+  border: none;
+}
+
+.btn-warning-ghost {
+  color: var(--warning);
+  border: none;
+}
+
+.btn-error-ghost {
+  color: var(--error);
+  border: none;
+}
+
+.btn-i {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-icon {
+  min-width: 40px;
+}

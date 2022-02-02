@@ -2,16 +2,27 @@
     --shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%),
     0 1px 3px 0 rgb(0 0 0 / 12%);
 
+    --oc-primary-light:#caf0f8;
+    --oc-primary-hover:#e6f8fb ;
+    --oc-secondary-light:#dcf1e7;
+
     --info:#9d4edd;
     --info-bg:#ebdcf8;
+    --info-bg-light: #f5edfc;
 
     --success:#008000;
     --success-bg:#cce6cc;
+    --success-bg-light: #eef8f3 ;
 
-    --warning:#ffea00;
-    --warning-bg:#fffde6;
+    --warning:#ff6d00;
+    --warning-bg:#ffd3b3;
+    --warning-bg-light: #ffe2cc ;
 
     --error:#ff002b;
-    --error-bg:#ffe6ea;
-    
+    --error-bg: #ffccd5;
+    --error-bg-light: #ffe6ea;
+
+    --btn-light-hover:#f2f3f4;
+    --btn-dark-hover:#414a4c;
+   
 }
