@@ -19,12 +19,12 @@
 }
 
 .avatar-xl {
-  width:4rem;
-  height:4rem;
+  width: 4rem;
+  height: 4rem;
 }
 
 .avatar-sq {
-  border-radius: 0.2rem;
+  border-radius: 5%;
 }
 
 .avatar-container {
@@ -32,37 +32,26 @@
   width: fit-content;
 }
 
-.badge-online {
+.badge {
   width: 15px;
   height: 15px;
   border-radius: 100%;
-  background-color: var(--badge-online);
   position: absolute;
-  bottom: 25px;
-  left: 50px;
+  bottom: 30%;
+  right: 15%;
   border: 1.5px solid white;
+}
+
+.badge-online {
+  background-color: var(--badge-online);
 }
 
 .badge-idle {
-  width: 15px;
-  height: 15px;
-  border-radius: 100%;
   background-color: var(--badge-idle);
-  position: absolute;
-  bottom: 25px;
-  left: 50px;
-  border: 1.5px solid white;
 }
 
 .badge-dnd {
-  width: 15px;
-  height: 15px;
-  border-radius: 100%;
-  background-color:var(--badge-dnd) ;
-  position: absolute;
-  bottom: 25px;
-  left: 50px;
-  border: 1.5px solid white;
+  background-color: var(--badge-dnd);
 }
 
 .av-cont {
