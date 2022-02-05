@@ -1,0 +1,31 @@
+@import url("/stylesheets/main.css");
+
+.image-container {
+  margin: 1rem;
+}
+
+.image {
+  max-height: 400px;
+  max-inline-size: 100%;
+  block-size: auto;
+  object-fit: cover;
+}
+
+.image-square-round {
+  border-radius: 5%;
+}
+
+.image-round {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.image-sm {
+  max-height: 200px;
+}
+
+.image-lg {
+  max-height: 600px;
+}
