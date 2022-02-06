@@ -1,0 +1,61 @@
+@import url("/stylesheets/main.css");
+
+.input-holder {
+  width: fit-content;
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: var(--bg-black);
+  color: white;
+  border-radius: 0.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  min-width: 300px;
+  padding: 0.1rem;
+  border-radius: 0.1rem;
+  border: 1px solid transparent;
+  outline: none;
+}
+
+.input-error {
+  border: 1.5px solid var(--error);
+  background-color: var(--error-bg);
+}
+
+.input-text {
+  margin-top: 0.5rem;
+  font-size: 0.7rem;
+}
+
+.input-text-error {
+  color: var(--error);
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: var(--bg-black);
+}
+
+.input-holder-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-holder-box {
+  display: flex;
+  padding: 1rem;
+}
+
+.input-chip {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+}
+
+.icon-chip {
+  background-color: var(--bg-white);
+  padding: 0.2rem;
+}
