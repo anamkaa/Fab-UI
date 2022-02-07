@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/c4d0bd5372.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/stylesheets/main.css">
+   <link rel="stylesheet" href="/stylesheets/components/input.css">
+  </head>
+  <body>
+    <div class="input-holder">
+      <label for="">Email</label>
+      <input type="text" class="input" placeholder="username@example.com" />
+    </div>
+
+    <div class="input-holder">
+      <label for="">Password</label>
+      <input type="password" class="input" placeholder="enter password" />
+      <p class="input-text">Password should be minimum 6 characters</p>
+    </div>
+
+    <div class="input-holder">
+      <label for="">Password</label>
+      <input type="text" class="input input-error" />
+      <p class="input-text input-text-error">No special characters allowed!</p>
+    </div>
+
+    <div class="input-holder">
+      <label for="">Email</label>
+      <div class="icon-chip">
+        <div class="input-holder-icon">
+          <i class="fas fa-envelope icon"></i>
+          <input type="text" class="input" placeholder="username@example.com" />
+        </div>
+      </div>
+    </div>
+
+    <div class="input-holder">
+      <label for="">Address</label>
+      <div class="icon-chip">
+        <div class="input-holder-icon">
+          <i class="fas fa-home icon"></i>
+          <input type="text" class="input" />
+        </div>
+      </div>
+    </div>
+
+    <div class="input-holder">
+      <label for="">Contact</label>
+      <div class="icon-chip">
+        <div class="input-holder-icon">
+          <i class="fas fa-phone-square-alt icon"></i>
+          <input type="number" class="input" />
+        </div>
+      </div>
+    </div>
+
+    <div class="input-holder">
+      <label for="">Feedbacks</label>
+      <textarea
+        name=""
+        id=""
+        cols="5"
+        rows="5"
+        class="input"
+        placeholder="Give your Feedbacks"
+      ></textarea>
+    </div>
+
+    <div class="input-holder">
+      <input type="date" class="input" />
+    </div>
+
+    <div class="input-holder">
+      <input type="file" class="input" />
+    </div>
+
+    <div class="input-holder input-holder-box">
+      <label for="">Choose from below:</label>
+      <select name="" id="" class="input">
+        <option value="Option 1">Option 1</option>
+        <option value="Option 2">Option 2</option>
+        <option value="Option 3">Option 3</option>
+        <option value="Option 4">Option 4</option>
+      </select>
+    </div>
+
+    <div class="input-holder input-holder-box">
+      <label for="">Choose from below:</label>
+      <div class="input-chip">
+        <input type="checkbox" class="checkbox" />
+        <label for="">Option 1 </label>
+      </div>
+      <div class="input-chip">
+        <input type="checkbox" class="checkbox" />
+        <label for="">Option 2 </label>
+      </div>
+      <div class="input-chip">
+        <input type="checkbox" class="checkbox" disabled />
+        <label for="">Disabled </label>
+      </div>
+    </div>
+
+    <div class="input-holder input-holder-box">
+      <label for="">Choose one from below:</label>
+      <div class="input-chip">
+        <input type="radio" class="radio" name="option" />
+        <label for="">Option One </label>
+      </div>
+      <div class="input-chip">
+        <input type="radio" class="radio" name="option" />
+        <label for="">Option Two </label>
+      </div>
+      <div class="input-chip">
+        <input type="radio" class="radio" name="option" />
+        <label for="">Option Three </label>
+      </div>
+      <div class="input-chip">
+        <input type="radio" class="radio" disabled />
+        <label for="">Disabled </label>
+      </div>
+    </div>
+  </body>
+</html>
