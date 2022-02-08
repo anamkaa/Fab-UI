@@ -1,0 +1,54 @@
+@import url("/stylesheets/main.css");
+
+.snackbar-wrapper {
+  max-width: 25rem;
+  background-color: var(--bg-black);
+  padding: 0.8rem;
+  margin: 0.5rem;
+  box-shadow: var(--shadow);
+}
+
+.snackbar-icon {
+  margin-left: auto;
+  color: var(--bg-white);
+}
+
+.snackbar-basic {
+  display: flex;
+  align-items: center;
+}
+
+.snackbar-btn {
+  text-transform: uppercase;
+  background-color: transparent;
+  font-size: 0.9rem;
+  color: var(--oc-primary);
+  padding: 0.2rem;
+  margin: 0.4rem;
+}
+
+.snackbar-btn:hover {
+  color: var(--oc-primary-2);
+}
+
+.snackbar-text {
+  color: var(--bg-white);
+  font-size: 0.9rem;
+}
+
+.snackbar-wrapper-2 {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.snackbar-stacked-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.snackbar-stacked {
+  display: flex;
+  flex-direction: column;
+}
