@@ -1,0 +1,44 @@
+@import url("/stylesheets/main.css");
+
+.demo-cont {
+  margin: 1rem;
+}
+
+.nav-wrap {
+  padding: 1rem;
+  background-color: var(--oc-primary);
+  color: var(--bg-white);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.dark {
+  background-color: var(--bg-black);
+}
+
+.nav-icon-wrap {
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-head {
+  font-size: 1.8rem;
+}
+
+.nav-icon {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.nav-icon-chip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0.6rem;
+}
+
+.nav-icon-text {
+  font-size: 1rem;
+}
