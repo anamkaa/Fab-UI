@@ -1,8 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;800;900&family=Rubik:wght@300;400;600;700&display=swap');
+@import url("/stylesheets/main.css");
 
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;800;900&family=Rubik:wght@300;400;600;700&display=swap");
 
+body {
+  font-family: "Heebo", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
 
-body{
-font-family: 'Heebo', sans-serif;
-font-family: 'Rubik', sans-serif;
+.h1 {
+  font-size: 40px;
+}
+
+.h2 {
+  font-size: 32px;
+}
+
+.h3 {
+  font-size: 28px;
+}
+
+.h4 {
+  font-size: 24px;
+}
+
+.h5 {
+  font-size: 20px;
+}
+
+.h6 {
+  font-size: 16px;
+}
+
+.text-small {
+  font-size: small;
+}
+
+.gray-text {
+  color: var(--gray);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-bold {
+  font-weight: 900;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-slashed {
+  text-decoration: line-through;
 }
