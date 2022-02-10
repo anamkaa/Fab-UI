@@ -5,18 +5,18 @@
 
 .nav-doc-header {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .nav-head {
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: 500;
   color: var(--info);
 }
 
 .nav-icon-doc {
   color: var(--black);
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
 
 .nav-icon-doc:hover {
@@ -43,6 +43,10 @@
   margin: 1rem;
 }
 
+.btn-doc{
+  font-size: 1.2rem ;
+}
+
 .btn-doc-cta {
   border: 1.5px solid var(--info);
   background-color: #fedd6d;
@@ -53,7 +57,7 @@
   background-color: #ffe797;
 }
 
-.btn-doc {
+.btn-doc-shadow {
   box-shadow: 2px 2px 2px var(--gray);
 }
 
@@ -71,6 +75,6 @@
 }
 
 .logo {
-  max-height: 100px;
+  max-height: 60px;
   margin: 0 2rem 0 2rem;
 }
