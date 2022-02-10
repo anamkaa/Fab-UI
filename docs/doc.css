@@ -1,0 +1,45 @@
+@import url("/stylesheets/main.css");
+
+.nav-wrap-doc{
+    background-color: var(--bg-white);
+    position: sticky;
+    top: 0;
+}
+
+.text-black{
+    color: var(--bg-black);
+}
+
+.aside{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--bg-white);
+    flex: 25%;
+}
+
+.aside-header{
+font-weight: 600;
+
+}
+
+.aside-element{
+padding: 0.5rem;
+font-weight: 600;
+color: var(--info);
+}
+
+.aside-element:hover{
+   color: var(--info-dark);
+}
+
+.main-wrap{
+    display: flex;
+}
+
+.main{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--bg-white);
+    flex: 75%;
+}
+
