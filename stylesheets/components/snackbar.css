@@ -5,6 +5,7 @@
   background-color: var(--bg-black);
   padding: 0.8rem;
   margin: 0.5rem;
+  border-radius: 0.2rem;
   box-shadow: var(--shadow);
 }
 
