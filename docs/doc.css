@@ -2,8 +2,6 @@
 
 .nav-wrap-doc{
     background-color: var(--bg-white);
-    position: sticky;
-    top: 0;
 }
 
 .text-black{
@@ -43,3 +41,15 @@ color: var(--info);
     flex: 75%;
 }
 
+.nav-foot{
+    margin: 1rem 0 1rem 0;
+    color: var(--info);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-foot-pill{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
