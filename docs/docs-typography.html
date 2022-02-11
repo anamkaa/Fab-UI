@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+    src="https://kit.fontawesome.com/c4d0bd5372.js"
+    crossorigin="anonymous"
+  ></script>
+    <title>Typography | Fab-UI</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/shades-of-purple.min.css"
+  />
+  <link rel="stylesheet" href="/stylesheets/main.css" />
+</head>
+<body>
+    <div class="container">
+ <!--  navbar-->
+ <nav class="nav-wrap nav-wrap-doc">
+    <div class="nav-doc-header">
+      <img
+        src="/assets/f-logo.svg"
+        alt="logo"
+        class="image image-sm logo"
+      />
+      <div class="nav-head">Fab-UI</div>
+    </div>
+
+    <div class="nav-icon-wrap">
+      <div class="nav-icon-chip">
+        <button class="btn btn-info-ghost nav-icon btn-doc">Home</button>
+      </div>
+      <div class="nav-icon-chip">
+        <button class="btn btn-info-ghost nav-icon btn-doc">
+          Documentation
+        </button>
+      </div>
+
+      <div class="nav-icon-chip">
+        <button
+          class="btn btn-info btn-info-hover nav-icon btn-doc-cta btn-doc-shadow btn-doc"
+        >
+          Download
+        </button>
+      </div>
+    </div>
+  </nav>
+  <!--  -->
+
+<div class="main-wrap">
+<!-- aside -->
+<aside class="aside">
+    <div class="aside-container">
+      <div class="aside-header h4 text-black">Getting Started</div>
+
+      <div class="aside-element h6">Installation</div>
+      <div class="aside-element h6">Colors</div>
+    </div>
+    <div class="aside-container">
+      <div class="aside-header h4 text-black">Components</div>
+
+      <div class="aside-element h6">Alert</div>
+      <div class="aside-element h6">Avatar</div>
+      <div class="aside-element h6">Badge</div>
+      <div class="aside-element h6">Button</div>
+      <div class="aside-element h6">card</div>
+      <div class="aside-element h6">Image</div>
+      <div class="aside-element h6">Input</div>
+      <div class="aside-element h6">Navigation</div>
+      <div class="aside-element h6">Snackbar</div>
+      <div class="aside-element h6">Typography</div>
+    </div>
+  </aside>
+  <!--  -->
+
+  <div class="main">
+
+    <div class="main-head">
+        <div class="h3 text-bold main-head-title text-black">Typography</div>
+        <p class="h5 main-head-text text-black">
+        Typography can be used to get different size and styles for the text.
+        </p>
+      </div>
+
+
+      <!-- text size -->
+      <div class="sub-head">
+        <div class="h4 text-bold main-head-title text-black">
+         Text Size
+        </div>
+        <p class="h6 main-head-text text-black">
+          Use the class <code class="code-pill">.h1</code>, <code class="code-pill">.h2</code>, <code class="code-pill">.h3</code>, <code class="code-pill">.h4</code>, <code class="code-pill">.h5</code>, <code class="code-pill">.h6</code>, <code class="code-pill">.text-small</code>, to get different sizes of text.
+        </p>
+      </div>
+
+      <div class="example">
+    <p class="h1">This is H1 text.</p>
+    <p class="h2">This is H2 text.</p>
+    <p class="h3">This is H3 text.</p>
+    <p class="h4">This is H4 text.</p>
+    <p class="h5">This is H5 text.</p>
+    <p class="h6">This is H6 text.</p>
+    <p class="text-small">This is small text.</p>
+    </div>
+
+    <pre>
+        <code class="html image">
+            &lt;p class="h1"&gt;This is H1 text.&lt;/p&gt;
+
+            &lt;p class="h2"&gt;This is H2 text.&lt;/p&gt;
+
+            &lt;p class="h3"&gt;This is H3 text.&lt;/p&gt;
+
+            &lt;p class="h4"&gt;This is H4 text.&lt;/p&gt;
+
+            &lt;p class="h5"&gt;This is H5 text.&lt;/p&gt;
+
+            &lt;p class="h6"&gt;This is H6 text.&lt;/p&gt;
+            
+            &lt;p class="text-small"&gt;This is small text.&lt;/p&gt;
+        </code>
+        </pre>
+
+      <!-- text-size end -->
+
+        <!-- text alignment -->
+        <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+             Text Alignment
+            </div>
+            <p class="h6 main-head-text text-black">
+              Use the class <code class="code-pill">.text-center</code> to center the text, <code class="code-pill">.text-left</code> to align left the text, <code class="code-pill">.text-right</code> to align right the text.
+            </p>
+          </div>
+    
+          <div class="example">
+            <p class="text-center">This is center text.</p>
+            <p class="text-left">This is left text.</p>
+            <p class="text-right">This is right text.</p>
+        </div>
+    
+        <pre>
+            <code class="html image">
+                &lt;p class="text-center"&gt;This is center text.&lt;/p&gt;
+
+                &lt;p class="text-left"&gt;This is left text.&lt;/p&gt;
+
+                &lt;p class="text-right"&gt;This is right text.&lt;/p&gt;
+            </code>
+            </pre>
+    
+          <!-- text alignment end -->
+
+           <!-- text style -->
+        <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+             Text Style
+            </div>
+            <p class="h6 main-head-text text-black">
+              Use the class <code class="code-pill">.text-bold</code> to get bold text, <code class="code-pill">.text-italic</code> to get italic text, <code class="code-pill">.text-underline</code> to underline the text, <code class="code-pill">.text-slashed</code> to get slashed text.
+            </p>
+          </div>
+    
+          <div class="example">
+    <p class="text-bold">This is bold text.</p>
+    <p class="text-italic">This is italic text.</p>
+    <p class="text-underline">This is underline text.</p>
+    <p class="text-slashed">This is slashed text.</p>
+        </div>
+    
+        <pre>
+            <code class="html image">
+               &lt;p class="text-bold"&gt;This is bold text.&lt;/p&gt;
+
+               &lt;p class="text-italic"&gt;This is italic text.&lt;/p&gt;
+
+               &lt;p class="text-underline"&gt;This is underline text.&lt;/p&gt;
+
+               &lt;p class="text-slashed"&gt;This is slashed text.&lt;/p&gt;
+            </code>
+            </pre>
+    
+          <!-- text style end -->
+
+          <!-- text color -->
+        <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+             Text Color
+            </div>
+            <p class="h6 main-head-text text-black">
+              Use the class <code class="code-pill">.gray-text</code> to get gray text.
+            </p>
+          </div>
+    
+          <div class="example">
+            <p class="gray-text">This is gray text.</p>
+        </div>
+    
+        <pre>
+            <code class="html image">
+                &lt;p class="gray-text"&gt;This is gray text.&lt;/p&gt;
+            </code>
+            </pre>
+    
+          <!-- text color end -->
+
+
+
+
+
+
+
+
+
+
+
+      
+      <div class="nav-foot">
+        <div class="nav-foot-pill">
+          <i class="fa-solid fa-chevron-left fa"><a href="#"></a></i>
+          <span class="h5">Snackbar</span>
+        </div>
+        <div class="nav-foot-pill">
+          <span class="h5">Home</span>
+          <i class="fa-solid fa-chevron-right fa"><a href="#"></a></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+
+
+</div>
+
+
+
+ <!-- footer -->
+ <footer class="foot">
+    <div class="foot-icon">
+      <div class="nav-icon-chip">
+        <a href="#">
+          <i class="fa-brands fa-github fa nav-icon nav-icon-doc"></i>
+        </a>
+      </div>
+      <div class="nav-icon-chip">
+        <a href="#">
+          <i class="fa-brands fa-twitter fa nav-icon nav-icon-doc"></i>
+        </a>
+      </div>
+      <div class="nav-icon-chip">
+        <a href="#">
+          <i class="fa-brands fa-linkedin fa nav-icon nav-icon-doc"></i>
+        </a>
+      </div>
+    </div>
+
+    <p class="h6 text-center">
+      Made with <i class="far fa-heart"></i> by Anamika
+    </p>
+    <div class="text-small text-center">
+      Illustrations by
+      <a href="https://freewebillustrations.com/" target="_blank"
+        >FreeWebIllustrations</a
+      >
+    </div>
+    <div class="text-small text-center">
+      <i class="fa-solid fa-copyright fa"></i> 2022 | Fab-UI | All rights
+      reserved
+    </div>
+  </footer>
+  <!--  -->
+
+    </div>
+
+
+
+
+
+
+
+    <script src="/path/to/highlight.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+</body>
+</html>
