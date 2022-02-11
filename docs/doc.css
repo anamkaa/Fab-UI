@@ -2,6 +2,9 @@
 
 .nav-wrap-doc{
     background-color: var(--bg-white);
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .text-black{
@@ -13,6 +16,10 @@
     padding: 1rem;
     background-color: var(--bg-white);
     flex: 25%;
+    align-self: start;
+    position:  -webkit-sticky;
+    position: sticky;
+    top: 8rem;
 }
 
 .aside-header{
