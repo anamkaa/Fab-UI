@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+    src="https://kit.fontawesome.com/c4d0bd5372.js"
+    crossorigin="anonymous"
+  ></script>
+    <title>Badge | Fab-UI</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/shades-of-purple.min.css"
+  />
+  <link rel="stylesheet" href="/stylesheets/main.css">
+</head>
+<body>
+    
+
+<div class="container">
+
+        <!--  navbar-->
+        <nav class="nav-wrap nav-wrap-doc">
+            <div class="nav-doc-header">
+              <img
+                src="/assets/f-logo.svg"
+                alt="logo"
+                class="image image-sm logo"
+              />
+              <div class="nav-head">Fab-UI</div>
+            </div>
+    
+            <div class="nav-icon-wrap">
+              <div class="nav-icon-chip">
+                <button class="btn btn-info-ghost nav-icon btn-doc">Home</button>
+              </div>
+              <div class="nav-icon-chip">
+                <button class="btn btn-info-ghost nav-icon btn-doc">
+                  Documentation
+                </button>
+              </div>
+    
+              <div class="nav-icon-chip">
+                <button
+                  class="btn btn-info btn-info-hover nav-icon btn-doc-cta btn-doc-shadow btn-doc"
+                >
+                  Download
+                </button>
+              </div>
+            </div>
+          </nav>
+          <!--  -->
+
+
+<div class="main-wrap">
+
+       <!-- aside -->
+       <aside class="aside">
+        <div class="aside-container">
+          <div class="aside-header h4 text-black">Getting Started</div>
+
+          <div class="aside-element h6">Installation</div>
+          <div class="aside-element h6">Colors</div>
+        </div>
+        <div class="aside-container">
+          <div class="aside-header h4 text-black">Components</div>
+
+          <div class="aside-element h6">Alert</div>
+          <div class="aside-element h6">Avatar</div>
+          <div class="aside-element h6">Badge</div>
+          <div class="aside-element h6">Button</div>
+          <div class="aside-element h6">card</div>
+          <div class="aside-element h6">Image</div>
+          <div class="aside-element h6">Input</div>
+          <div class="aside-element h6">Navigation</div>
+          <div class="aside-element h6">Snackbar</div>
+          <div class="aside-element h6">Typography</div>
+        </div>
+      </aside>
+      <!--  -->
+
+      <div class="main">
+
+        <div class="main-head">
+            <div class="h3 text-bold main-head-title text-black">Badge</div>
+            <p class="h5 main-head-text text-black">
+            Badges are used for certain indications for the user. There are lot of variations to serve the purpose.
+            </p>
+          </div>
+
+             <!-- badge on icon -->
+             <div class="sub-head">
+                <div class="h4 text-bold main-head-title text-black">
+                  Badge on Icon
+                </div>
+                <!-- <p class="h6 main-head-text text-black">
+                  Use the class <code class="code-pill">.avatar</code> to get a simple avatar.
+                </p> -->
+              </div>
+    
+              <div class="example">
+                  <div class="av-cont">
+                    <div class="badge-container">
+                        <i class="fas fa-bell bdg-i"></i>
+                        <div class="badge badge-online badge-icon"></div>
+                      </div>
+                
+                      <div class="badge-container">
+                        <i class="fab fa-facebook-messenger bdg-i"></i>
+                        <div class="badge badge-dnd badge-icon"></div>
+                      </div>
+                
+                      <div class="badge-container">
+                        <i class="fas fa-envelope bdg-i"></i>
+                        <div class="badge badge-idle badge-icon"></div>
+                      </div>
+                  </div>
+               
+              </div>
+  
+  
+               <pre>
+               <code class="html image">
+                 &lt;div class="badge-container"&gt;
+                   &lt;i class="fas fa-bell bdg-i"&gt;&lt;/i&gt;
+                   &lt;div class="badge badge-online badge-icon"&gt;&lt;/div&gt;
+                 &lt;/div&gt;
+            
+                 &lt;div class="badge-container"&gt;
+                   &lt;i class="fab fa-facebook-messenger bdg-i"&gt;&lt;/i&gt;
+                   &lt;div class="badge badge-dnd badge-icon"&gt;&lt;/div&gt;
+                 &lt;/div&gt;
+            
+                 &lt;div class="badge-container"&gt;
+                   &lt;i class="fas fa-envelope bdg-i"&gt;&lt;/i&gt;
+                   &lt;div class="badge badge-idle badge-icon"&gt;&lt;/div&gt;
+                 &lt;/div&gt; 
+               </code>
+               </pre>
+    
+              <!-- <script src="https://gist.github.com/anamkaa/43e8f70bc8f13e3953a912bb58cc56a4.js"></script> -->
+  
+              <!-- badge on icon-->
+
+
+               <!-- badge with text on icon -->
+             <div class="sub-head">
+                <div class="h4 text-bold main-head-title text-black">
+                  Badge with text on Icon
+                </div>
+                <!-- <p class="h6 main-head-text text-black">
+                  Use the class <code class="code-pill">.avatar</code> to get a simple avatar.
+                </p> -->
+              </div>
+    
+              <div class="example">
+                <div class="av-cont">
+                    <div class="badge-container">
+                      <i class="fas fa-bell bdg-i"></i>
+                      <div class="badge badge-online badge-icon badge-text">4</div>
+                    </div>
+              
+                    <div class="badge-container">
+                      <i class="fab fa-facebook-messenger bdg-i"></i>
+                      <div class="badge badge-dnd badge-icon badge-text">10</div>
+                    </div>
+              
+                    <div class="badge-container">
+                      <i class="fas fa-envelope bdg-i"></i>
+                      <div class="badge badge-idle badge-icon badge-text">100</div>
+                    </div>
+                  </div>
+               
+              </div>
+  
+  
+               <pre>
+               <code class="html image">
+                 &lt;div class="badge-container"&gt;
+                   &lt;i class="fas fa-bell bdg-i"&gt;&lt;/i&gt;
+                   &lt;div class="badge badge-online badge-icon badge-text"&gt;4&lt;/div&gt;
+                 &lt;/div&gt;
+            
+                 &lt;div class="badge-container"&gt;
+                   &lt;i class="fab fa-facebook-messenger bdg-i"&gt;&lt;/i&gt;
+                   &lt;div class="badge badge-dnd badge-icon badge-text"&gt;10&lt;/div&gt;
+                 &lt;/div&gt;
+            
+                 &lt;div class="badge-container"&gt;
+                   &lt;i class="fas fa-envelope bdg-i"&gt;&lt;/i&gt;
+                   &lt;div class="badge badge-idle badge-icon badge-text"&gt;100&lt;/div&gt;
+                 &lt;/div&gt;
+               </code>
+               </pre>
+    
+              <!-- <script src="https://gist.github.com/anamkaa/43e8f70bc8f13e3953a912bb58cc56a4.js"></script> -->
+  
+              <!-- badge with text on icon-->
+
+               <!-- badge on avatar -->
+             <div class="sub-head">
+                <div class="h4 text-bold main-head-title text-black">
+                  Badge on Avatar
+                </div>
+                <!-- <p class="h6 main-head-text text-black">
+                  Use the class <code class="code-pill">.avatar</code> to get a simple avatar.
+                </p> -->
+              </div>
+    
+              <div class="example">
+                <div class="av-cont">
+                    <div class="avatar-container">
+                      <img src="https://bit.ly/dan-abramov" alt="avatar-img" class="avatar" />
+                      <div class="badge badge-online"></div>
+                    </div>
+              
+                    <div class="avatar-container">
+                      <img src="https://bit.ly/dan-abramov" alt="avatar-img" class="avatar" />
+                      <div class="badge badge-idle"></div>
+                    </div>
+              
+                    <div class="avatar-container">
+                      <img src="https://bit.ly/dan-abramov" alt="avatar-img" class="avatar" />
+                      <div class="badge badge-dnd"></div>
+                    </div>
+                  </div>
+               
+              </div>
+  
+  
+               <pre>
+               <code class="html image">
+                 &lt;div class="avatar-container"&gt;
+                   &lt;img src="" alt="avatar-img" class="avatar" /&gt;
+                   &lt;div class="badge badge-online"&gt;&lt;/div&gt;
+                 &lt;/div&gt;
+            
+                 &lt;div class="avatar-container"&gt;
+                   &lt;img src="" alt="avatar-img" class="avatar" /&gt;
+                   &lt;div class="badge badge-idle"&gt;&lt;/div&gt;
+                 &lt;/div&gt;
+            
+                 &lt;div class="avatar-container"&gt;
+                   &lt;img src="" alt="avatar-img" class="avatar" /&gt;
+                   &lt;div class="badge badge-dnd"&gt;&lt;/div&gt;
+                 &lt;/div&gt;
+               </code>
+               </pre>
+    
+              <!-- <script src="https://gist.github.com/anamkaa/43e8f70bc8f13e3953a912bb58cc56a4.js"></script> -->
+  
+              <!-- badge on avatar end-->
+
+               <!-- badge on button -->
+             <div class="sub-head">
+                <div class="h4 text-bold main-head-title text-black">
+                  Badge on Button
+                </div>
+                <!-- <p class="h6 main-head-text text-black">
+                  Use the class <code class="code-pill">.avatar</code> to get a simple avatar.
+                </p> -->
+              </div>
+    
+              <div class="example">
+                <div class="av-cont">
+                    <div class="badge-container">
+                      <button class="btn btn-primary">Primary Solid</button>
+                      <div class="badge badge-online badge-btn"></div>
+                    </div>
+              
+                    <div class="badge-container">
+                      <button class="btn btn-primary">Primary Solid</button>
+                      <div class="badge badge-dnd badge-btn badge-text">100</div>
+                    </div>
+                  </div>
+               
+              </div>
+  
+  
+               <pre>
+               <code class="html image">
+                  &lt;div class="badge-container"&gt;
+                    &lt;button class="btn btn-primary"&gt;Primary Solid&lt;/button&gt;
+                    &lt;div class="badge badge-online badge-btn"&gt;&lt;/div&gt;
+                  &lt;/div&gt;
+            
+                  &lt;div class="badge-container"&gt;
+                    &lt;button class="btn btn-primary"&gt;Primary Solid&lt;/button&gt;
+                    &lt;div class="badge badge-dnd badge-btn badge-text"&gt;100&lt;/div&gt;
+                  &lt;/div&gt;   
+               </code>
+               </pre>
+    
+              <!-- <script src="https://gist.github.com/anamkaa/43e8f70bc8f13e3953a912bb58cc56a4.js"></script> -->
+  
+              <!-- badge on button end-->
+
+               <!-- badge with text -->
+             <div class="sub-head">
+                <div class="h4 text-bold main-head-title text-black">
+                  Badge with text
+                </div>
+                <p class="h6 main-head-text text-black">
+                    Use the class <code class="code-pill">.badge-solid</code> and use classes <code class="code-pill">.btn-primary</code>,  <code class="code-pill">.btn-error</code>, <code class="code-pill">.btn-info</code>,<code class="code-pill">.btn-success</code>, <code class="code-pill">.btn-warning</code> to get different variations.
+                  </p>
+              </div>
+    
+              <div class="example">
+                <div class="av-cont">
+                    <div class="badge-solid btn-primary">New</div>
+              
+                    <div class="badge-solid btn-error">Out of Stock</div>
+              
+                    <div class="badge-solid btn-info">Default</div>
+              
+                    <div class="badge-solid btn-success">sale</div>
+              
+                    <div class="badge-solid btn-warning">offer</div>
+                  </div>
+               
+              </div>
+  
+  
+               <pre>
+               <code class="html image">
+               &lt;div class="badge-solid btn-primary"&gt;Text&lt;/div&gt;
+              
+               &lt;div class="badge-solid btn-error"&gt;Text&lt;/div&gt;
+          
+               &lt;div class="badge-solid btn-info"&gt;Text&lt;/div&gt;
+          
+               &lt;div class="badge-solid btn-success"&gt;Text&lt;/div&gt;
+          
+               &lt;div class="badge-solid btn-warning"&gt;Text&lt;/div&gt;  
+               </code>
+               </pre>
+    
+              <!-- <script src="https://gist.github.com/anamkaa/43e8f70bc8f13e3953a912bb58cc56a4.js"></script> -->
+  
+              <!-- badge with text end-->
+
+                <!-- badge with text outline-->
+             <div class="sub-head">
+                <div class="h4 text-bold main-head-title text-black">
+                  Badge with text outline
+                </div>
+                <p class="h6 main-head-text text-black">
+                  Use the class <code class="code-pill">.badge-solid</code> and use classes <code class="code-pill">.btn-primary-outline</code>,  <code class="code-pill">.btn-error-outline</code>, <code class="code-pill">.btn-info-outline</code>,<code class="code-pill">.btn-success-outline</code>, <code class="code-pill">.btn-warning-outline</code> to get different variations.
+                </p>
+              </div>
+    
+              <div class="example">
+                <div class="av-cont">
+                    <div class="badge-solid btn-primary-outline">New</div>
+              
+                    <div class="badge-solid btn-error-outline">Out of Stock</div>
+              
+                    <div class="badge-solid btn-info-outline">Default</div>
+              
+                    <div class="badge-solid btn-success-outline">sale</div>
+              
+                    <div class="badge-solid btn-warning-outline">offer</div>
+                  </div>
+               
+              </div>
+  
+  
+               <pre>
+               <code class="html image">
+               &lt;div class="badge-solid btn-primary-outline"&gt;Text&lt;/div&gt;
+              
+               &lt;div class="badge-solid btn-error-outline"&gt;Text&lt;/div&gt;
+          
+               &lt;div class="badge-solid btn-info-outline"&gt;Text&lt;/div&gt;
+          
+               &lt;div class="badge-solid btn-success-outline"&gt;Text&lt;/div&gt;
+          
+               &lt;div class="badge-solid btn-warning-outline"&gt;Text&lt;/div&gt;  
+               </code>
+               </pre>
+    
+              <!-- <script src="https://gist.github.com/anamkaa/43e8f70bc8f13e3953a912bb58cc56a4.js"></script> -->
+  
+              <!-- badge with text outline end-->
+
+                <!-- badge pill-->
+             <div class="sub-head">
+                <div class="h4 text-bold main-head-title text-black">
+                  Badge pill
+                </div>
+                <p class="h6 main-head-text text-black">
+                  Use the class <code class="code-pill">.badge-solid</code> and <code class="code-pill">.badge-pill</code>. Use classes <code class="code-pill">.btn-primary</code>,  <code class="code-pill">.btn-error</code>, <code class="code-pill">.btn-info</code>,<code class="code-pill">.btn-success</code>, <code class="code-pill">.btn-warning</code> to get different variations.
+                </p>
+              </div>
+    
+              <div class="example">
+                <div class="av-cont">
+                    <div class="badge-solid badge-pill btn-primary">New</div>
+              
+                    <div class="badge-solid badge-pill btn-error">Out of Stock</div>
+              
+                    <div class="badge-solid badge-pill btn-info">Default</div>
+              
+                    <div class="badge-solid badge-pill btn-success">sale</div>
+              
+                    <div class="badge-solid badge-pill btn-warning">offer</div>
+                  </div>
+               
+              </div>
+  
+  
+               <pre>
+               <code class="html image">
+                &lt;div class="badge-solid badge-pill btn-primary"&gt;Text&lt;/div&gt;
+              
+                &lt;div class="badge-solid badge-pill btn-error"&gt;Text&lt;/div&gt;
+          
+                &lt;div class="badge-solid badge-pill btn-info"&gt;Text&lt;/div&gt;
+          
+                &lt;div class="badge-solid badge-pill btn-success"&gt;Text&lt;/div&gt;
+          
+                &lt;div class="badge-solid badge-pill btn-warning"&gt;Text&lt;/div&gt;
+               </code>
+               </pre>
+    
+              <!-- <script src="https://gist.github.com/anamkaa/43e8f70bc8f13e3953a912bb58cc56a4.js"></script> -->
+  
+              <!-- badge pill end-->
+
+                <!-- badge pill outline-->
+             <div class="sub-head">
+                <div class="h4 text-bold main-head-title text-black">
+                  Badge pill
+                </div>
+                <p class="h6 main-head-text text-black">
+                  Use the class <code class="code-pill">.badge-solid</code> and <code class="code-pill">.badge-pill</code>. Use classes <code class="code-pill">.btn-primary-outline</code>,  <code class="code-pill">.btn-error-outline</code>, <code class="code-pill">.btn-info-outline</code>,<code class="code-pill">.btn-success-outline</code>, <code class="code-pill">.btn-warning-outline</code> to get different variations.
+                </p>
+              </div>
+    
+              <div class="example">
+                <div class="av-cont">
+                    <div class="badge-solid badge-pill btn-primary-outline">New</div>
+
+                    <div class="badge-solid badge-pill btn-error-outline">Out of Stock</div>
+              
+                    <div class="badge-solid badge-pill btn-info-outline">Default</div>
+              
+                    <div class="badge-solid badge-pill btn-success-outline">sale</div>
+              
+                    <div class="badge-solid badge-pill btn-warning-outline">offer</div>
+                  </div>
+               
+              </div>
+  
+  
+               <pre>
+               <code class="html image">
+                   &lt;div class="badge-solid badge-pill btn-primary-outline"&gt;Text&lt;/div&gt;
+
+                   &lt;div class="badge-solid badge-pill btn-error-outline"&gt;Text&lt;/div&gt;
+              
+                   &lt;div class="badge-solid badge-pill btn-info-outline"&gt;Text&lt;/div&gt;
+              
+                   &lt;div class="badge-solid badge-pill btn-success-outline"&gt;Text&lt;/div&gt;
+              
+                   &lt;div class="badge-solid badge-pill btn-warning-outline"&gt;Text&lt;/div&gt;
+               </code>
+               </pre>
+
+         
+
+
+               
+    
+              <!-- <script src="https://gist.github.com/anamkaa/43e8f70bc8f13e3953a912bb58cc56a4.js"></script> -->
+  
+              <!-- badge pill outline end-->
+
+
+          
+          <div class="nav-foot">
+            <div class="nav-foot-pill">
+              <i class="fa-solid fa-chevron-left fa"><a href="#"></a></i> <span class="h5">Avatar</span>
+            </div>
+            <div class="nav-foot-pill">
+              <span class="h5">Button</span> <i class="fa-solid fa-chevron-right fa"><a href="#"></a></i>
+            </div>
+          </div>
+      
+
+      </div>
+
+
+</div>
+
+
+
+
+
+             <!-- footer -->
+        <footer class="foot">
+            <div class="foot-icon">
+              <div class="nav-icon-chip">
+                <a href="#">
+                  <i class="fa-brands fa-github fa nav-icon nav-icon-doc"></i>
+                </a>
+              </div>
+              <div class="nav-icon-chip">
+                <a href="#">
+                  <i class="fa-brands fa-twitter fa nav-icon nav-icon-doc"></i>
+                </a>
+              </div>
+              <div class="nav-icon-chip">
+                <a href="#">
+                  <i class="fa-brands fa-linkedin fa nav-icon nav-icon-doc"></i>
+                </a>
+              </div>
+            </div>
+    
+            <p class="h6 text-center">
+              Made with <i class="far fa-heart"></i> by Anamika
+            </p>
+            <div class="text-small text-center">
+              Illustrations by
+              <a href="https://freewebillustrations.com/" target="_blank"
+                >FreeWebIllustrations</a
+              >
+            </div>
+            <div class="text-small text-center">
+              <i class="fa-solid fa-copyright fa"></i> 2022 | Fab-UI | All rights
+              reserved
+            </div>
+          </footer>
+          <!--  -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="/path/to/highlight.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+</body>
+</html>
