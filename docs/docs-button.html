@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/c4d0bd5372.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Button | Fab-UI</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/shades-of-purple.min.css"
+    />
+
+    <link rel="stylesheet" href="/stylesheets/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!--  navbar-->
+      <nav class="nav-wrap nav-wrap-doc">
+        <div class="nav-doc-header">
+          <img
+            src="/assets/f-logo.svg"
+            alt="logo"
+            class="image image-sm logo"
+          />
+          <div class="nav-head">Fab-UI</div>
+        </div>
+
+        <div class="nav-icon-wrap">
+          <div class="nav-icon-chip">
+            <button class="btn btn-info-ghost nav-icon btn-doc">Home</button>
+          </div>
+          <div class="nav-icon-chip">
+            <button class="btn btn-info-ghost nav-icon btn-doc">
+              Documentation
+            </button>
+          </div>
+
+          <div class="nav-icon-chip">
+            <button
+              class="btn btn-info btn-info-hover nav-icon btn-doc-cta btn-doc-shadow btn-doc"
+            >
+              Download
+            </button>
+          </div>
+        </div>
+      </nav>
+      <!--  -->
+
+      <div class="main-wrap">
+        <!-- aside -->
+        <aside class="aside">
+          <div class="aside-container">
+            <div class="aside-header h4 text-black">Getting Started</div>
+
+            <div class="aside-element h6">Installation</div>
+            <div class="aside-element h6">Colors</div>
+          </div>
+          <div class="aside-container">
+            <div class="aside-header h4 text-black">Components</div>
+
+            <div class="aside-element h6">Alert</div>
+            <div class="aside-element h6">Avatar</div>
+            <div class="aside-element h6">Badge</div>
+            <div class="aside-element h6">Button</div>
+            <div class="aside-element h6">card</div>
+            <div class="aside-element h6">Image</div>
+            <div class="aside-element h6">Input</div>
+            <div class="aside-element h6">Navigation</div>
+            <div class="aside-element h6">Snackbar</div>
+            <div class="aside-element h6">Typography</div>
+          </div>
+        </aside>
+        <!--  -->
+
+        <div class="main">
+          <div class="main-head">
+            <div class="h3 text-bold main-head-title text-black">Button</div>
+            <p class="h5 main-head-text text-black">
+              Buttons are used for action in forms, dialogs, and other
+              functionalities. They can have variations in colors , sizes and
+              states.
+            </p>
+          </div>
+
+           <!-- size button -->
+           <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+               Button Size
+            </div>
+            <p class="h6 main-head-text text-black">
+              Use the class <code class="code-pill">.btn</code>, then use
+              <code class="code-pill">.btn-sm</code> for small and
+              <code class="code-pill">.btn-lg</code> for large button.
+              
+            </p>
+          </div>
+
+          <div class="example">
+            <button class="btn btn-sm">Button Small </button>
+
+            <button class="btn">Button Normal</button>
+
+            <button class="btn btn-lg">Button Large </button>
+          </div>
+
+          <pre>
+           <code class="html image">
+            &lt;button class="btn btn-sm"&gt;Button Small &lt;/button&gt;
+
+            &lt;button class="btn"&gt;Button Normal&lt;/button&gt;
+
+            &lt;button class="btn btn-lg"&gt;Button Large &lt;/button&gt;
+           </code>
+           </pre>
+
+          <!-- <script src="https://gist.github.com/anamkaa/43e8f70bc8f13e3953a912bb58cc56a4.js"></script> -->
+
+          <!-- size button end-->
+
+
+          <!-- solid button -->
+          <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+              Solid Button
+            </div>
+            <p class="h6 main-head-text text-black">
+              Use the class <code class="code-pill">.btn</code>, then use
+              <code class="code-pill">.btn-dark</code>,
+              <code class="code-pill">.btn-primary</code>,
+              <code class="code-pill">.btn-secondary</code>,
+              <code class="code-pill">.btn-info</code>,
+              <code class="code-pill">.btn-success</code>,<code
+                class="code-pill"
+                >.btn-warning</code
+              >,<code class="code-pill">.btn-error</code> for required
+              variations.
+            </p>
+          </div>
+
+          <div class="example">
+            <button class="btn">Button light</button>
+
+            <button class="btn btn-dark">Button dark</button>
+
+            <button class="btn btn-primary">Primary Solid</button>
+
+            <button class="btn btn-secondary">Secondary Solid</button>
+
+            <button class="btn btn-info">Info Solid</button>
+
+            <button class="btn btn-success">Success Solid</button>
+
+            <button class="btn btn-warning">Warning Solid</button>
+
+            <button class="btn btn-error">Error Solid</button>
+          </div>
+
+          <pre>
+           <code class="html image">
+           &lt;button class="btn"&gt;Button light&lt;/button&gt;
+
+           &lt;button class="btn btn-dark"&gt;Button dark&lt;/button&gt;
+
+           &lt;button class="btn btn-primary"&gt;Primary Solid&lt;/button&gt;
+
+           &lt;button class="btn btn-secondary"&gt;Secondary Solid&lt;/button&gt;
+
+           &lt;button class="btn btn-info"&gt;Info Solid&lt;/button&gt;
+
+           &lt;button class="btn btn-success"&gt;Success Solid&lt;/button&gt;
+
+           &lt;button class="btn btn-warning"&gt;Warning Solid&lt;/button&gt;
+
+           &lt;button class="btn btn-error"&gt;Error Solid&lt;/button&gt;
+           </code>
+           </pre>
+
+          <!-- <script src="https://gist.github.com/anamkaa/43e8f70bc8f13e3953a912bb58cc56a4.js"></script> -->
+
+          <!-- solid button end-->
+
+          <!-- outline button -->
+          <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+              Outline Button
+            </div>
+            <p class="h6 main-head-text text-black">
+              Use the class <code class="code-pill">.btn</code>, then use
+              <code class="code-pill">.btn-primary-outline</code>,
+              <code class="code-pill">.btn-secondary-outline</code>,
+              <code class="code-pill">.btn-info-outline</code>,
+              <code class="code-pill">.btn-success-outline</code>,<code
+                class="code-pill"
+                >.btn-warning-outline</code
+              >,<code class="code-pill">.btn-error-outline</code> for required
+              variations.
+            </p>
+          </div>
+
+          <div class="example">
+            <button class="btn btn-primary-outline">Primary outline</button>
+
+            <button class="btn btn-secondary-outline">Secondary outline</button>
+
+            <button class="btn btn-info-outline">Info outline</button>
+
+            <button class="btn btn-success-outline">Success outline</button>
+
+            <button class="btn btn-warning-outline">Warning outline</button>
+
+            <button class="btn btn-error-outline">Error outline</button>
+          </div>
+
+          <pre>
+           <code class="html image">
+           &lt;button class="btn btn-primary-outline"&gt;Primary Solid&lt;/button&gt;
+
+           &lt;button class="btn btn-secondary-outline"&gt;Secondary Solid&lt;/button&gt;
+
+           &lt;button class="btn btn-info-outline"&gt;Info Solid&lt;/button&gt;
+
+           &lt;button class="btn btn-success-outline"&gt;Success Solid&lt;/button&gt;
+
+           &lt;button class="btn btn-warning-outline"&gt;Warning Solid&lt;/button&gt;
+
+           &lt;button class="btn btn-error-outline"&gt;Error Solid&lt;/button&gt;
+           </code>
+           </pre>
+
+          <!-- <script src="https://gist.github.com/anamkaa/43e8f70bc8f13e3953a912bb58cc56a4.js"></script> -->
+
+          <!-- outline button end-->
+
+          <!-- button with icon -->
+          <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+              Button with icon
+            </div>
+          </div>
+
+          <div class="example">
+            <button class="btn btn-primary">
+              <i class="fas fa-info-circle"></i>
+              Primary
+            </button>
+
+            <button class="btn btn-secondary">
+              <i class="fas fa-info-circle"></i>
+              Secondary
+            </button>
+
+            <button class="btn btn-info">
+              <i class="fas fa-info-circle"></i>
+              Info
+            </button>
+
+            <button class="btn btn-success">
+              <i class="far fa-check-circle"></i>
+              Success
+            </button>
+
+            <button class="btn btn-warning">
+              <i class="fas fa-exclamation-circle"></i>
+              Warning
+            </button>
+
+            <button class="btn btn-error">
+              <i class="fas fa-exclamation-triangle"></i>
+              Error
+            </button>
+          </div>
+
+          <pre>
+           <code class="html image">
+           &lt;button class="btn btn-primary"&gt;
+               &lt;i class="fas fa-info-circle"&gt;&lt;/i&gt;
+                Primary
+           &lt;/button&gt;
+        
+           &lt;button class="btn btn-secondary"&gt;
+               &lt;i class="fas fa-info-circle"&gt;&lt;/i&gt;
+                Secondary
+           &lt;/button&gt;
+        
+           &lt;button class="btn btn-info"&gt;
+               &lt;i class="fas fa-info-circle"&gt;&lt;/i&gt;
+                Info
+           &lt;/button&gt;
+        
+           &lt;button class="btn btn-success"&gt;
+               &lt;i class="far fa-check-circle"&gt;&lt;/i&gt;
+                Success
+           &lt;/button&gt;
+        
+           &lt;button class="btn btn-warning"&gt;
+               &lt;i class="fas fa-exclamation-circle"&gt;&lt;/i&gt;
+                Warning
+           &lt;/button&gt;
+        
+           &lt;button class="btn btn-error"&gt;
+               &lt;i class="fas fa-exclamation-triangle"&gt;&lt;/i&gt;
+                Error
+           &lt;/button&gt;
+           </code>
+           </pre>
+
+          <!-- <script src="https://gist.github.com/anamkaa/43e8f70bc8f13e3953a912bb58cc56a4.js"></script> -->
+
+          <!-- button with icon end-->
+
+          <!-- button with icon outline -->
+          <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+              Button with icon outline
+            </div>
+          </div>
+
+          <div class="example">
+            <button class="btn btn-primary-outline">
+              <i class="fas fa-info-circle"></i>
+              Primary
+            </button>
+
+            <button class="btn btn-secondary-outline">
+              <i class="fas fa-info-circle"></i>
+              Secondary
+            </button>
+
+            <button class="btn btn-info-outline">
+              <i class="fas fa-info-circle"></i>
+              Info
+            </button>
+
+            <button class="btn btn-success-outline">
+              <i class="far fa-check-circle"></i>
+              Success
+            </button>
+
+            <button class="btn btn-warning-outline">
+              <i class="fas fa-exclamation-circle"></i>
+              Warning
+            </button>
+
+            <button class="btn btn-error-outline">
+              <i class="fas fa-exclamation-triangle"></i>
+              Error
+            </button>
+          </div>
+
+          <pre>
+           <code class="html image">
+           &lt;button class="btn btn-primary-outline"&gt;
+               &lt;i class="fas fa-info-circle"&gt;&lt;/i&gt;
+                Primary
+           &lt;/button&gt;
+        
+           &lt;button class="btn btn-secondary-outline"&gt;
+               &lt;i class="fas fa-info-circle"&gt;&lt;/i&gt;
+                Secondary
+           &lt;/button&gt;
+        
+           &lt;button class="btn btn-info-outline"&gt;
+               &lt;i class="fas fa-info-circle"&gt;&lt;/i&gt;
+                Info
+           &lt;/button&gt;
+        
+           &lt;button class="btn btn-success-outline"&gt;
+               &lt;i class="far fa-check-circle"&gt;&lt;/i&gt;
+                Success
+           &lt;/button&gt;
+        
+           &lt;button class="btn btn-warning-outline"&gt;
+               &lt;i class="fas fa-exclamation-circle"&gt;&lt;/i&gt;
+                Warning
+           &lt;/button&gt;
+        
+           &lt;button class="btn btn-error-outline"&gt;
+               &lt;i class="fas fa-exclamation-triangle"&gt;&lt;/i&gt;
+                Error
+           &lt;/button&gt;
+           </code>
+           </pre>
+
+          <!-- <script src="https://gist.github.com/anamkaa/43e8f70bc8f13e3953a912bb58cc56a4.js"></script> -->
+
+          <!-- button with icon otline end-->
+
+          <!-- ghost button -->
+          <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+              Ghost Button
+            </div>
+            <p class="h6 main-head-text text-black">
+              Use the class <code class="code-pill">.btn</code>, then use
+              <code class="code-pill">.btn-primary-ghost</code>,
+              <code class="code-pill">.btn-secondary-ghost</code>,
+              <code class="code-pill">.btn-info-ghost</code>,
+              <code class="code-pill">.btn-success-ghost</code>,<code
+                class="code-pill"
+                >.btn-warning-ghost</code
+              >,<code class="code-pill">.btn-error-ghost</code> for required
+              variations.
+            </p>
+          </div>
+
+          <div class="example">
+            <button class="btn btn-primary-ghost">Primary Btn</button>
+
+            <button class="btn btn-secondary-ghost">Secondary Btn</button>
+
+            <button class="btn btn-info-ghost">Info Btn</button>
+
+            <button class="btn btn-success-ghost">Success Btn</button>
+
+            <button class="btn btn-warning-ghost">Warning Btn</button>
+
+            <button class="btn btn-error-ghost">Error Btn</button>
+          </div>
+
+          <pre>
+           <code class="html image">
+           &lt;button class="btn btn-primary-ghost"&gt; Primary Btn&lt;/button&gt;
+
+           &lt;button class="btn btn-secondary-ghost"&gt; Secondary Btn&lt;/button&gt;
+        
+           &lt;button class="btn btn-info-ghost"&gt;  Info Btn&lt;/button&gt;
+        
+           &lt;button class="btn btn-success-ghost"&gt;  Success Btn&lt;/button&gt;
+        
+           &lt;button class="btn btn-warning-ghost"&gt; Warning Btn&lt;/button&gt;
+        
+           &lt;button class="btn btn-error-ghost"&gt; Error Btn&lt;/button&gt;
+           </code>
+           </pre>
+
+          <!-- <script src="https://gist.github.com/anamkaa/43e8f70bc8f13e3953a912bb58cc56a4.js"></script> -->
+
+          <!-- ghost button end-->
+
+          <!-- Float button -->
+          <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+              Floating Button
+            </div>
+          </div>
+
+          <div class="example">
+            <button class="btn btn-icon btn-shadow">
+              <i class="fas fa-chevron-right btn-i"></i>
+            </button>
+
+            <button class="btn btn-icon btn-shadow">
+              <i class="fas fa-chevron-left btn-i"></i>
+            </button>
+
+            <button class="btn btn-icon btn-shadow">
+              <i class="fas fa-cart-arrow-down btn-i"></i>
+            </button>
+
+            <button class="btn btn-icon btn-shadow">
+              <i class="fas fa-plus-square btn-i"></i>
+            </button>
+
+            <button class="btn btn-icon btn-shadow">
+              <i class="fas fa-minus-square btn-i"></i>
+            </button>
+
+            <button class="btn btn-icon btn-shadow">
+              <i class="fas fa-heart btn-i"></i>
+            </button>
+
+            <button class="btn btn-icon btn-shadow">
+              <i class="fas fa-moon btn-i"></i>
+            </button>
+
+            <button class="btn btn-icon btn-shadow">
+              <i class="fas fa-sun btn-i"></i>
+            </button>
+          </div>
+
+          <pre>
+           <code class="html image">
+           &lt;button class="btn btn-icon btn-shadow"&gt;
+               &lt;i class="fas fa-chevron-right btn-i"&gt;&lt;/i&gt;
+           &lt;/button&gt;
+        
+           &lt;button class="btn btn-icon btn-shadow"&gt;
+               &lt;i class="fas fa-chevron-left btn-i"&gt;&lt;/i&gt;
+           &lt;/button&gt;
+        
+           &lt;button class="btn btn-icon btn-shadow"&gt;
+               &lt;i class="fas fa-cart-arrow-down btn-i"&gt;&lt;/i&gt;
+           &lt;/button&gt;
+        
+           &lt;button class="btn btn-icon btn-shadow"&gt;
+               &lt;i class="fas fa-plus-square btn-i"&gt;&lt;/i&gt;
+           &lt;/button&gt;
+        
+           &lt;button class="btn btn-icon btn-shadow"&gt;
+               &lt;i class="fas fa-minus-square btn-i"&gt;&lt;/i&gt;
+           &lt;/button&gt;
+        
+           &lt;button class="btn btn-icon btn-shadow"&gt;
+               &lt;i class="fas fa-heart btn-i"&gt;&lt;/i&gt;
+           &lt;/button&gt;
+        
+           &lt;button class="btn btn-icon btn-shadow"&gt;
+               &lt;i class="fas fa-moon btn-i"&gt;&lt;/i&gt;
+           &lt;/button&gt;
+        
+           &lt;button class="btn btn-icon btn-shadow"&gt;
+               &lt;i class="fas fa-sun btn-i"&gt;&lt;/i&gt;
+           &lt;/button&gt;
+           </code>
+           </pre>
+
+          <!-- <script src="https://gist.github.com/anamkaa/43e8f70bc8f13e3953a912bb58cc56a4.js"></script> -->
+
+          <!-- Float button end-->
+
+          <!-- button hover -->
+          <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+              Hover Button
+            </div>
+          </div>
+
+          <div class="example">
+            <button class="btn btn-hover">Button light hover</button>
+
+            <button class="btn btn-dark btn-dark-hover">
+              Button dark hover
+            </button>
+
+            <button class="btn btn-primary btn-primary-hover">
+              Primary hover
+            </button>
+
+            <button class="btn btn-secondary btn-secondary-hover">
+              Secondary hover
+            </button>
+
+            <button class="btn btn-info btn-info-hover">Info hover</button>
+
+            <button class="btn btn-success btn-success-hover">
+              Success hover
+            </button>
+
+            <button class="btn btn-warning btn-warning-hover">
+              Warning hover
+            </button>
+
+            <button class="btn btn-error btn-error-hover">Error hover</button>
+          </div>
+
+          <pre>
+           <code class="html image">
+            &lt;button class="btn btn-hover">Button light hover&lt;/button&gt;
+
+            &lt;button class="btn btn-dark btn-dark-hover"&gt;Button dark hover&lt;/button&gt;
+
+            &lt;button class="btn btn-primary btn-primary-hover"&gt;Primary hover&lt;/button&gt;
+
+            &lt;button class="btn btn-secondary btn-secondary-hover"&gt;Secondary hover
+            &lt;/button&gt;
+        
+            &lt;button class="btn btn-info btn-info-hover"&gt;Info hover&lt;/button&gt;
+        
+            &lt;button class="btn btn-success btn-success-hover"&gt;Success hover&lt;/button&gt;
+        
+            &lt;button class="btn btn-warning btn-warning-hover"&gt;Warning hover&lt;/button&gt;
+        
+            &lt;button class="btn btn-error btn-error-hover"&gt;Error hover&lt;/button&gt;
+           </code>
+           </pre>
+
+          <!-- <script src="https://gist.github.com/anamkaa/43e8f70bc8f13e3953a912bb58cc56a4.js"></script> -->
+
+          <!-- button hover end-->
+
+<!-- button shadow -->
+<div class="sub-head">
+    <div class="h4 text-bold main-head-title text-black">
+      Shadow Button
+    </div>
+    <p class="h6 main-head-text text-black">
+        Use the class <code class="code-pill">.btn</code>, then use
+        <code class="code-pill">.btn-shadow</code> for shadow.
+       
+      </p>
+  </div>
+
+  <div class="example">
+    <button class="btn btn-shadow">Button light shadow</button>
+
+    <button class="btn btn-dark btn-shadow">Button dark shadow</button>
+
+    <button class="btn btn-primary btn-shadow">Primary shadow</button>
+  </div>
+
+  <pre>
+   <code class="html image">
+    &lt;button class="btn btn-shadow">Button light shadow&lt;/button&gt;
+
+    &lt;button class="btn btn-dark btn-shadow"&gt;Button dark shadow&lt;/button&gt;
+
+    &lt;button class="btn btn-primary btn-shadow"&gt;Primary shadow&lt;/button&gt;
+   </code>
+   </pre>
+
+  <!-- <script src="https://gist.github.com/anamkaa/43e8f70bc8f13e3953a912bb58cc56a4.js"></script> -->
+
+  <!-- button shadow end-->
+
+  <div class="nav-foot">
+    <div class="nav-foot-pill">
+      <i class="fa-solid fa-chevron-left fa"><a href="#"></a></i> <span class="h5">Badge</span>
+    </div>
+    <div class="nav-foot-pill">
+      <span class="h5">Card</span> <i class="fa-solid fa-chevron-right fa"><a href="#"></a></i>
+    </div>
+  </div>
+
+        </div>
+      </div>
+
+      <!-- footer -->
+      <footer class="foot">
+        <div class="foot-icon">
+          <div class="nav-icon-chip">
+            <a href="#">
+              <i class="fa-brands fa-github fa nav-icon nav-icon-doc"></i>
+            </a>
+          </div>
+          <div class="nav-icon-chip">
+            <a href="#">
+              <i class="fa-brands fa-twitter fa nav-icon nav-icon-doc"></i>
+            </a>
+          </div>
+          <div class="nav-icon-chip">
+            <a href="#">
+              <i class="fa-brands fa-linkedin fa nav-icon nav-icon-doc"></i>
+            </a>
+          </div>
+        </div>
+
+        <p class="h6 text-center">
+          Made with <i class="far fa-heart"></i> by Anamika
+        </p>
+        <div class="text-small text-center">
+          Illustrations by
+          <a href="https://freewebillustrations.com/" target="_blank"
+            >FreeWebIllustrations</a
+          >
+        </div>
+        <div class="text-small text-center">
+          <i class="fa-solid fa-copyright fa"></i> 2022 | Fab-UI | All rights
+          reserved
+        </div>
+      </footer>
+      <!--  -->
+    </div>
+
+    <script src="/path/to/highlight.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>
