@@ -5,7 +5,6 @@
 }
 
 .image {
-  max-height: 400px;
   max-inline-size: 100%;
   block-size: auto;
   object-fit: cover;
@@ -24,6 +23,10 @@
 
 .image-sm {
   max-height: 200px;
+}
+
+.image-md {
+  max-height: 400px;
 }
 
 .image-lg {
