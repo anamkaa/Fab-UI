@@ -9,6 +9,11 @@
     src="https://kit.fontawesome.com/c4d0bd5372.js"
     crossorigin="anonymous"
   ></script>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/shades-of-purple.min.css"
+/>
+  <link rel="stylesheet" href="/stylesheets/main.css">
     <link rel="stylesheet" href="/docs/doc.css">
 </head>
 <body>
@@ -42,8 +47,7 @@
     <div class="aside-container">
         <div class="aside-header h4 text-black">Getting Started</div>
        
-        <div class="aside-element h6">Installation</div>
-        <div class="aside-element h6">Colors</div>
+        <a href="/docs/doc.html"><div class="aside-element h6">Installation</div></a>
     </div>
     <div class="aside-container">
         <div class="aside-header h4 text-black">Components</div>
@@ -66,11 +70,33 @@
   <div class="main">
 
     <div class="main-head">
-        <div class="h3 text-bold main-head-title text-black">Installation</div>
+      <div class="h3 text-bold main-head-title text-black">Installation Guide</div>
+  </div>
+
+    <div class="main-head">
         <p class="h5 main-head-text text-black">
-         
+         Copy and Paste the stylesheet <code class="code-pill">&lt;link&gt;</code> into your <code class="code-pill">&lt;head&gt;</code> element , to load the Fab-UI stylesheet.  
          </p>
     </div>
+
+    <pre>
+      <code class="html image">
+      &lt;link rel="stylesheet" href="https://fab-ui-lib.netlify.app/stylesheets/main.css"&gt;
+      </code>
+      </pre>
+
+      
+    <div class="main-head">
+      <p class="h5 main-head-text text-black">
+      You can also import the URL given below in your stylesheet, to load the Fab-UI stylesheet. 
+       </p>
+  </div>
+
+  <pre>
+    <code class="html image">
+   @import url("https://fab-ui-lib.netlify.app/stylesheets/main.css")
+    </code>
+    </pre>
 
     <div class="nav-foot">
       <div class="nav-foot-pill">
@@ -123,5 +149,11 @@
       <!--  -->
     </div>
     
+
+    <script src="/path/to/highlight.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
 </body>
 </html>
