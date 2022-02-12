@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+    src="https://kit.fontawesome.com/c4d0bd5372.js"
+    crossorigin="anonymous"
+  ></script>
+    <title>Input | Fab-UI</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/shades-of-purple.min.css"
+  />
+  <link rel="stylesheet" href="/stylesheets/main.css" />
+</head>
+<body>
+
+    <div class="container">
+<!--  navbar-->
+<nav class="nav-wrap nav-wrap-doc">
+    <div class="nav-doc-header">
+      <img
+        src="/assets/f-logo.svg"
+        alt="logo"
+        class="image image-sm logo"
+      />
+      <div class="nav-head">Fab-UI</div>
+    </div>
+
+    <div class="nav-icon-wrap">
+      <div class="nav-icon-chip">
+        <button class="btn btn-info-ghost nav-icon btn-doc">Home</button>
+      </div>
+      <div class="nav-icon-chip">
+        <button class="btn btn-info-ghost nav-icon btn-doc">
+          Documentation
+        </button>
+      </div>
+
+      <div class="nav-icon-chip">
+        <button
+          class="btn btn-info btn-info-hover nav-icon btn-doc-cta btn-doc-shadow btn-doc"
+        >
+          Download
+        </button>
+      </div>
+    </div>
+  </nav>
+  <!--  -->
+
+<div class="main-wrap">
+<!-- aside -->
+<aside class="aside">
+    <div class="aside-container">
+      <div class="aside-header h4 text-black">Getting Started</div>
+
+      <div class="aside-element h6">Installation</div>
+      <div class="aside-element h6">Colors</div>
+    </div>
+    <div class="aside-container">
+      <div class="aside-header h4 text-black">Components</div>
+
+      <div class="aside-element h6">Alert</div>
+      <div class="aside-element h6">Avatar</div>
+      <div class="aside-element h6">Badge</div>
+      <div class="aside-element h6">Button</div>
+      <div class="aside-element h6">card</div>
+      <div class="aside-element h6">Image</div>
+      <div class="aside-element h6">Input</div>
+      <div class="aside-element h6">Navigation</div>
+      <div class="aside-element h6">Snackbar</div>
+      <div class="aside-element h6">Typography</div>
+    </div>
+  </aside>
+  <!--  -->
+
+  <div class="main">
+    <div class="main-head">
+        <div class="h3 text-bold main-head-title text-black">Input</div>
+        <p class="h5 main-head-text text-black">
+       Inputs fields can be used to take inputs from the user in terms of text, numbers, files etc. There can be a lot of ways in which we can take input.
+        </p>
+      </div>
+
+<!-- input text -->
+<div class="sub-head">
+    <div class="h4 text-bold main-head-title text-black">
+     Text Input
+    </div>
+  </div>
+
+  <div class="example">
+      <div class="input-holder">
+        <label for="">Email</label>
+        <input type="text" class="input" placeholder="username@example.com" />
+      </div>
+    </div>
+
+    <pre>
+        <code class="html image">
+              &lt;div class="input-holder"&gt;
+                &lt;label for=""&gt;Email&lt;/label&gt;
+                &lt;input type="text" class="input" placeholder="username@example.com" /&gt;
+              &lt;/div&gt;
+        </code>
+        </pre>
+<!--  text input end-->
+
+<!-- input with helper text -->
+<div class="sub-head">
+    <div class="h4 text-bold main-head-title text-black">
+     Input with helper text
+    </div>
+  </div>
+
+  <div class="example">
+      <div class="input-holder">
+        <label for="">Password</label>
+        <input type="password" class="input" placeholder="enter password" />
+        <p class="input-text">Password should be minimum 6 characters</p>
+      </div>
+  
+      <div class="input-holder">
+        <label for="">Password</label>
+        <input type="text" class="input input-error" />
+        <p class="input-text input-text-error">No special characters allowed!</p>
+      </div>
+    </div>
+
+    <pre>
+        <code class="html image">
+             &lt;div class="input-holder"&gt;
+               &lt;label for=""&gt;Password&lt;/label&gt;
+               &lt;input type="password" class="input" placeholder="enter password" /&gt;
+               &lt;p class="input-text"&gt;Password should be minimum 6 characters&lt;/p&gt;
+             &lt;/div&gt;
+          
+             &lt;div class="input-holder"&gt;
+               &lt;label for=""&gt;Password&lt;/label&gt;
+               &lt;input type="text" class="input input-error" /&gt;
+               &lt;p class="input-text input-text-error"&gt;No special characters allowed!&lt;/p&gt;
+             &lt;/div&gt;
+        </code>
+        </pre>
+<!--   input with helper text end-->
+
+<!-- input with icon -->
+<div class="sub-head">
+    <div class="h4 text-bold main-head-title text-black">
+     Input with icon
+    </div>
+  </div>
+
+  <div class="example">
+    <div class="input-holder">
+        <label for="">Email</label>
+        <div class="icon-chip">
+          <div class="input-holder-icon">
+            <i class="fas fa-envelope icon"></i>
+            <input type="text" class="input" placeholder="username@example.com" />
+          </div>
+        </div>
+      </div>
+  
+      <div class="input-holder">
+        <label for="">Address</label>
+        <div class="icon-chip">
+          <div class="input-holder-icon">
+            <i class="fas fa-home icon"></i>
+            <input type="text" class="input" />
+          </div>
+        </div>
+      </div>
+  
+      <div class="input-holder">
+        <label for="">Contact</label>
+        <div class="icon-chip">
+          <div class="input-holder-icon">
+            <i class="fas fa-phone-square-alt icon"></i>
+            <input type="number" class="input" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <pre>
+        <code class="html image">
+             &lt;div class="input-holder"&gt;
+               &lt;label for=""&gt;Email&lt;/label&gt;
+               &lt;div class="icon-chip"&gt;
+                 &lt;div class="input-holder-icon"&gt;
+                   &lt;i class="fas fa-envelope icon"&gt;&lt;/i&gt;
+                   &lt;input type="text" class="input" placeholder="username@example.com" /&gt;
+                 &lt;/div&gt;
+               &lt;/div&gt;
+             &lt;/div&gt;
+          
+             &lt;div class="input-holder"&gt;
+               &lt;label for=""&gt;Address&lt;/label&gt;
+               &lt;div class="icon-chip"&gt;
+                 &lt;div class="input-holder-icon"&gt;
+                   &lt;i class="fas fa-home icon"&gt;&lt;/i&gt;
+                   &lt;input type="text" class="input" /&gt;
+                 &lt;/div&gt;
+               &lt;/div&gt;
+             &lt;/div&gt;
+          
+             &lt;div class="input-holder"&gt;
+               &lt;label for=""&gt;Contact&lt;/label&gt;
+               &lt;div class="icon-chip"&gt;
+                 &lt;div class="input-holder-icon"&gt;
+                   &lt;i class="fas fa-phone-square-alt icon"&gt;&lt;/i&gt;
+                   &lt;input type="number" class="input" /&gt;
+                 &lt;/div&gt;
+               &lt;/div&gt;
+             &lt;/div&gt;
+        </code>
+        </pre>
+<!--   input with icon end-->
+
+<!-- input date -->
+<div class="sub-head">
+    <div class="h4 text-bold main-head-title text-black">
+     Date Input
+    </div>
+  </div>
+
+  <div class="example">
+      <div class="input-holder">
+        <input type="date" class="input" />
+      </div>
+    </div>
+
+    <pre>
+        <code class="html image">
+             &lt;div class="input-holder"&gt;
+               &lt;input type="date" class="input" /&gt;
+             &lt;/div&gt;
+        </code>
+        </pre>
+<!--  text date end-->
+
+<!-- input fil -->
+<div class="sub-head">
+    <div class="h4 text-bold main-head-title text-black">
+     File Input
+    </div>
+  </div>
+
+  <div class="example">
+      <div class="input-holder">
+        <input type="file" class="input" />
+      </div>
+    </div>
+
+    <pre>
+        <code class="html image">
+             &lt;div class="input-holder"&gt;
+               &lt;input type="file" class="input" /&gt;
+             &lt;/div&gt;
+        </code>
+        </pre>
+<!--  input file end-->
+
+<!-- text area -->
+<div class="sub-head">
+    <div class="h4 text-bold main-head-title text-black">
+    Textarea
+    </div>
+  </div>
+
+  <div class="example">
+      <div class="input-holder">
+        <label for="">Feedbacks</label>
+        <textarea  name=""  id=""  cols="5"  rows="5"  class="input"  placeholder="Give your Feedbacks"></textarea>
+      </div>
+    </div>
+
+    <pre>
+        <code class="html image">
+             &lt;div class="input-holder"&gt;
+               &lt;label for=""&gt;Text&lt;/label&gt;
+               &lt;textarea  name=""  id=""  cols=""  rows=""  class="input"  placeholder=""&gt;&lt;/textarea&gt;
+             &lt;/div&gt;
+        </code>
+        </pre>
+<!--  text area end-->
+
+<!-- dropdown -->
+<div class="sub-head">
+    <div class="h4 text-bold main-head-title text-black">
+     Drop-down Select Input
+    </div>
+  </div>
+
+  <div class="example">
+      <div class="input-holder input-holder-box">
+        <label for="">Choose from below:</label>
+        <select name="" id="" class="input">
+          <option value="Option 1">Option 1</option>
+          <option value="Option 2">Option 2</option>
+          <option value="Option 3">Option 3</option>
+          <option value="Option 4">Option 4</option>
+        </select>
+      </div>
+    </div>
+
+    <pre>
+        <code class="html image">
+             &lt;div class="input-holder input-holder-box"&gt;
+               &lt;label for=""&gt;Choose from below:&lt;/label&gt;
+               &lt;select name="" id="" class="input"&gt;
+                 &lt;option value="Option 1"&gt;Option 1&lt;/option&gt;
+                 &lt;option value="Option 2"&gt;Option 2&lt;/option&gt;
+                 &lt;option value="Option 3"&gt;Option 3&lt;/option&gt;
+                 &lt;option value="Option 4"&gt;Option 4&lt;/option&gt;
+               &lt;/select&gt;
+             &lt;/div&gt;
+        </code>
+        </pre>
+<!--  dropdown end-->
+
+<!-- Checkbox -->
+<div class="sub-head">
+    <div class="h4 text-bold main-head-title text-black">
+        Checkbox 
+    </div>
+  </div>
+
+  <div class="example">
+     <div class="input-holder input-holder-box">
+        <label for="">Choose from below:</label>
+        <div class="input-chip">
+          <input type="checkbox" class="checkbox" />
+          <label for="">Option 1 </label>
+        </div>
+        <div class="input-chip">
+          <input type="checkbox" class="checkbox" />
+          <label for="">Option 2 </label>
+        </div>
+        <div class="input-chip">
+          <input type="checkbox" class="checkbox" disabled />
+          <label for="">Disabled </label>
+        </div>
+      </div>
+    </div>
+
+    <pre>
+        <code class="html image">
+             &lt;div class="input-holder input-holder-box"&gt;
+               &lt;label for=""&gt;Choose from below:&lt;/label&gt;
+               &lt;div class="input-chip"&gt;
+                 &lt;input type="checkbox" class="checkbox" /&gt;
+                 &lt;label for=""&gt;Option 1&lt;/label&gt;
+               &lt;/div&gt;
+               &lt;div class="input-chip"&gt;
+                 &lt;input type="checkbox" class="checkbox" /&gt;
+                 &lt;label for=""&gt;Option 2&lt;/label&gt;
+               &lt;/div&gt;
+               &lt;div class="input-chip"&gt;
+                 &lt;input type="checkbox" class="checkbox" disabled /&gt;
+                 &lt;label for=""&gt;Disabled&lt;/label&gt;
+               &lt;/div&gt;
+             &lt;/div&gt;
+        </code>
+        </pre>
+<!--   Checkbox  end-->
+
+<!-- Radio Button -->
+<div class="sub-head">
+    <div class="h4 text-bold main-head-title text-black">
+        Radio Button 
+    </div>
+  </div>
+
+  <div class="example">
+      <div class="input-holder input-holder-box">
+        <label for="">Choose one from below:</label>
+        <div class="input-chip">
+          <input type="radio" class="radio" name="option" />
+          <label for="">Option One </label>
+        </div>
+        <div class="input-chip">
+          <input type="radio" class="radio" name="option" />
+          <label for="">Option Two </label>
+        </div>
+        <div class="input-chip">
+          <input type="radio" class="radio" name="option" />
+          <label for="">Option Three </label>
+        </div>
+        <div class="input-chip">
+          <input type="radio" class="radio" disabled />
+          <label for="">Disabled </label>
+        </div>
+      </div>
+    </div>
+
+    <pre>
+        <code class="html image">
+               &lt;div class="input-holder input-holder-box"&gt;
+                &lt;label for=""&gt;Choose one from below:&lt;/label&gt;
+                &lt;div class="input-chip"&gt;
+                  &lt;input type="radio" class="radio" name="option" /&gt;
+                  &lt;label for=""&gt;Option One &lt;/label&gt;
+                &lt;/div&gt;
+                &lt;div class="input-chip"&gt;
+                  &lt;input type="radio" class="radio" name="option" /&gt;
+                  &lt;label for=""&gt;Option Two &lt;/label&gt;
+                &lt;/div&gt;
+                &lt;div class="input-chip"&gt;
+                  &lt;input type="radio" class="radio" name="option" /&gt;
+                  &lt;label for=""&gt;Option Three &lt;/label&gt;
+                &lt;/div&gt;
+                &lt;div class="input-chip"&gt;
+                  &lt;input type="radio" class="radio" disabled /&gt;
+                  &lt;label for=""&gt;Disabled &lt;/label&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+        </code>
+        </pre>
+<!--  Radio Button  end-->
+
+
+
+
+
+
+
+
+
+
+
+      <div class="nav-foot">
+        <div class="nav-foot-pill">
+          <i class="fa-solid fa-chevron-left fa"><a href="#"></a></i>
+          <span class="h5">Image</span>
+        </div>
+        <div class="nav-foot-pill">
+          <span class="h5">Navigation</span>
+          <i class="fa-solid fa-chevron-right fa"><a href="#"></a></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  </div>
+
+</div>
+
+
+
+  <!-- footer -->
+ <footer class="foot">
+    <div class="foot-icon">
+      <div class="nav-icon-chip">
+        <a href="#">
+          <i class="fa-brands fa-github fa nav-icon nav-icon-doc"></i>
+        </a>
+      </div>
+      <div class="nav-icon-chip">
+        <a href="#">
+          <i class="fa-brands fa-twitter fa nav-icon nav-icon-doc"></i>
+        </a>
+      </div>
+      <div class="nav-icon-chip">
+        <a href="#">
+          <i class="fa-brands fa-linkedin fa nav-icon nav-icon-doc"></i>
+        </a>
+      </div>
+    </div>
+
+    <p class="h6 text-center">
+      Made with <i class="far fa-heart"></i> by Anamika
+    </p>
+    <div class="text-small text-center">
+      Illustrations by
+      <a href="https://freewebillustrations.com/" target="_blank"
+        >FreeWebIllustrations</a
+      >
+    </div>
+    <div class="text-small text-center">
+      <i class="fa-solid fa-copyright fa"></i> 2022 | Fab-UI | All rights
+      reserved
+    </div>
+  </footer>
+  <!--  -->
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="/path/to/highlight.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+    
+</body>
+</html>
