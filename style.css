@@ -45,6 +45,7 @@
 
 .btn-doc{
   font-size: 1.2rem ;
+  background-color: var(--bg-color);
 }
 
 .btn-doc-cta {

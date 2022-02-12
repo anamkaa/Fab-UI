@@ -1,7 +1,7 @@
 @import url("/stylesheets/main.css");
 
 .nav-wrap-doc{
-    background-color: var(--bg-white);
+    background-color: var(--bg-color);
     position: sticky;
     top: 0;
     z-index: 1;
