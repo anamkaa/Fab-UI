@@ -5,7 +5,7 @@
 }
 
 .nav-wrap {
-  padding: 1rem;
+  padding: 0.2rem;
   background-color: var(--oc-primary);
   color: var(--bg-white);
   display: flex;
@@ -36,7 +36,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 0.6rem;
+  margin: 0.2rem;
 }
 
 .nav-icon-text {
