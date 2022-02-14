@@ -1,239 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script
-    src="https://kit.fontawesome.com/c4d0bd5372.js"
-    crossorigin="anonymous"
-  ></script>
+      src="https://kit.fontawesome.com/c4d0bd5372.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Card | Fab-UI</title>
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/shades-of-purple.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/shades-of-purple.min.css"
+    />
 
-  <link rel="stylesheet" href="/stylesheets/main.css" />
-</head>
-<body>
+    <link rel="stylesheet" href="/stylesheets/main.css" />
+  </head>
+  <body>
     <div class="container">
-  <!--  navbar-->
-  <nav class="nav-wrap nav-wrap-doc">
-    <div class="nav-doc-header">
-      <img src="/assets/f-logo.svg" alt="logo" class="image image-sm logo" />
-      <a href="/index.html"> <div class="nav-head nav-doc-head">Fab-UI</div></a> 
-    </div>
-
-    <div class="nav-icon-wrap">
-      <div class="nav-icon-chip">
-        <a href="/docs/doc.html"> <div class="nav-head nav-doc-head">Docs</div></a> 
-      </div>
-      <div class="nav-icon-chip">
-        <a href="/docs/doc.html"> <div class="nav-head nav-doc-head"><i class="fa-brands fa-github fa nav-icon btn-doc"></i></div></a> 
-      </div>
-    </div>
-  </nav>
-  <!--  -->
-
-  <div class="main-wrap">
-   <!-- aside -->
-   <aside class="aside">
-    <div class="aside-container">
-        <div class="aside-header h4 text-black">Getting Started</div>
-       
-        <a href="/docs/doc.html"> <div class="aside-element h6">Installation</div></a>
-      
-    </div>
-    <div class="aside-container">
-        <div class="aside-header h4 text-black">Components</div>
-       
-       <a href="/docs/docs-alert.html"><div class="aside-element h6">Alert</div></a> 
-       <a href="/docs/docs-avatar.html"><div class="aside-element h6">Avatar</div></a> 
-       <a href="/docs/docs-badge.html"> <div class="aside-element h6">Badge</div></a>
-       <a href="/docs/docs-button.html"> <div class="aside-element h6">Button</div></a>
-       <a href="/docs/docs-card.html"><div class="aside-element h6">Card</div></a> 
-       <a href="/docs/docs-image.html"> <div class="aside-element h6">Image</div></a>
-       <a href="/docs/docs-input.html"><div class="aside-element h6">Input</div></a> 
-       <a href="/docs/docs-navigation.html"> <div class="aside-element h6">Navigation</div></a>
-       <a href="/docs/docs-snackbar.html"><div class="aside-element h6">Snackbar</div></a> 
-       <a href="/docs/docs-typography.html"> <div class="aside-element h6">Typography</div></a>
-    </div>
-  </aside>
-  <!--  -->
-
-<div class="main">
-    <div class="main-head">
-        <div class="h3 text-bold main-head-title text-black">Cards</div>
-        <p class="h5 main-head-text text-black">
-          Cards can be used for various purpose like social media, e-comm websites etc. They can have a lot of variations to serve the purpose.
-        </p>
-      </div>
-
-      <!-- text card -->
-      <div class="sub-head">
-        <div class="h4 text-bold main-head-title text-black">
-          Only Text Card
+      <!--  navbar-->
+      <nav class="nav-wrap nav-wrap-doc">
+        <div class="nav-doc-header">
+          <img
+            src="/assets/f-logo.svg"
+            alt="logo"
+            class="image image-sm logo"
+          />
+          <a href="/index.html">
+            <div class="nav-head nav-doc-head">Fab-UI</div></a
+          >
         </div>
-      </div>
 
-      <div class="example">
-        <div class="av-cont">
-          <div class="card shadow">
-            <div class="card-content">
-              <div class="card-content-title">The Minions</div>
-              <div class="card-content-text">
-                Minions is a 2015 American computer-animated comedy film produced by
-                Illumination Entertainment and distributed by Universal Pictures. It
-                is the spin-off prequel and the third installment overall in the
-                Despicable Me franchise.
-              </div>
-            </div>
+        <div class="nav-icon-wrap">
+          <div class="nav-icon-chip">
+            <a href="/docs/doc.html">
+              <div class="nav-head nav-doc-head">Docs</div></a
+            >
           </div>
-        </div> 
-      </div>
-
-      <pre>
-        <code class="html image">
-             &lt;div class="card shadow"&gt;
-               &lt;div class="card-content"&gt;
-                 &lt;div class="card-content-title"&gt;The Minions&lt;/div&gt;
-                 &lt;div class="card-content-text"&gt;
-                   Text
-                 &lt;/div&gt;
-               &lt;/div&gt;
-             &lt;/div&gt;
-        </code>
-        </pre>
-
-      <!-- text card end-->
-
-       <!-- Simple Image card -->
-       <div class="sub-head">
-        <div class="h4 text-bold main-head-title text-black">
-          Simple Image Card
-        </div>
-      </div>
-
-      <div class="example">
-        <div class="av-cont">
-          <div class="card shadow">
-            <div class="card-image-container">
-              <img
-                src="https://th.bing.com/th/id/OIP.4Yid8PMcIUJzK_l5BsOoeQHaEO?w=290&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-                alt="image"
-                class="card-image"
-              />
-            </div>
-            <div class="card-content">
-              <div class="card-image-content-title">Minions</div>
-              <div class="card-image-content-text">
-                Minions is a 2015 American computer-animated comedy film produced by
-                Illumination Entertainment and distributed by Universal Pictures. It
-                is the spin-off prequel and the third installment overall in the
-                Despicable Me franchise.
-              </div>
-            </div>
-          </div>
-        </div> 
-      </div>
-
-      <pre>
-        <code class="html image">
-            &lt;div class="card shadow"&gt;
-              &lt;div class="card-image-container"&gt;
-                &lt;img src="" alt="image" class="card-image"/&gt; 
-              &lt;/div&gt;
-              &lt;div class="card-content"&gt;
-                &lt;div class="card-image-content-title"&gt;Minions&lt;/div&gt;
-                &lt;div class="card-image-content-text"&gt;
-                   Text
-                &lt;/div&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
-        </code>
-        </pre>
-
-      <!-- Simple card end-->
-
-
-       <!-- Simple Image card with footer -->
-       <div class="sub-head">
-        <div class="h4 text-bold main-head-title text-black">
-          Image Card with Footer
-        </div>
-      </div>
-
-      <div class="example">
-        <div class="av-cont">
-          <div class="card shadow">
-            <div class="card-image-container">
-              <img
-                src="https://th.bing.com/th/id/OIP.6GF7ohLMUfEYzuo8seQGFwHaEs?w=285&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-                alt="image"
-                class="card-image"
-              />
-            </div>
-      
-            <div class="card-content">
-              <div class="card-image-content-title">atomic habits</div>
-              <div class="card-image-content-text">
-                This breakthrough book from James Clear is the most comprehensive
-                guide on how to change your habits and get 1% better every day.
-              </div>
-            </div>
-      
-            <footer class="card-footer">
-              <div>
-                <button class="card-footer-btn">READ</button>
-                <button class="card-footer-btn">BOOKMARK</button>
-              </div>
-              <div class="card-footer-icon">
-                <i class="far fa-heart"></i>
-                <i class="fas fa-share"></i>
-                <i class="fas fa-ellipsis-v"></i>
-              </div>
-            </footer>
+          <div class="nav-icon-chip">
+            <a href="/docs/doc.html">
+              <div class="nav-head nav-doc-head">
+                <i class="fa-brands fa-github fa nav-icon btn-doc"></i></div
+            ></a>
           </div>
         </div>
-      </div>
+      </nav>
+      <!--  -->
 
-      <pre>
-        <code class="html image">
-               &lt;div class="card shadow"&gt;
-                &lt;div class="card-image-container"&gt;
-                  &lt;img src="" alt="image"class="card-image" /&gt; 
-                &lt;/div&gt;
-                &lt;div class="card-content"&gt;
-                  &lt;div class="card-image-content-title"&gt;atomic habits&lt;/div&gt;
-                  &lt;div class="card-image-content-text"&gt;
-                  Text
-                  &lt;/div&gt;
-                &lt;/div&gt;
-                &lt;footer class="card-footer"&gt;
-                  &lt;div&gt;
-                    &lt;button class="card-footer-btn"&gt;READ&lt;/button&gt;
-                    &lt;button class="card-footer-btn"&gt;BOOKMARK&lt;/button&gt;
-                  &lt;/div&gt;
-                  &lt;div class="card-footer-icon"&gt;
-                    &lt;i class="far fa-heart"&gt;&lt;/i&gt;
-                    &lt;i class="fas fa-share"&gt;&lt;/i&gt;
-                    &lt;i class="fas fa-ellipsis-v"&gt;&lt;/i&gt;
-                  &lt;/div&gt;
-                &lt;/footer&gt;
-              &lt;/div&gt;
-        </code>
-        </pre>
+      <div class="main-wrap">
+        <!-- aside -->
+        <aside class="aside">
+          <div class="aside-container">
+            <div class="aside-header h4 text-black">Getting Started</div>
 
-      <!-- Simple card with footer end-->
+            <a href="/docs/doc.html">
+              <div class="aside-element h6">Installation</div></a
+            >
+          </div>
+          <div class="aside-container">
+            <div class="aside-header h4 text-black">Components</div>
 
-        <!--Card with Text Overlay -->
-        <div class="sub-head">
+            <a href="/docs/docs-alert.html"
+              ><div class="aside-element h6">Alert</div></a
+            >
+            <a href="/docs/docs-avatar.html"
+              ><div class="aside-element h6">Avatar</div></a
+            >
+            <a href="/docs/docs-badge.html">
+              <div class="aside-element h6">Badge</div></a
+            >
+            <a href="/docs/docs-button.html">
+              <div class="aside-element h6">Button</div></a
+            >
+            <a href="/docs/docs-card.html"
+              ><div class="aside-element h6">Card</div></a
+            >
+            <a href="/docs/docs-image.html">
+              <div class="aside-element h6">Image</div></a
+            >
+            <a href="/docs/docs-input.html"
+              ><div class="aside-element h6">Input</div></a
+            >
+            <a href="/docs/docs-navigation.html">
+              <div class="aside-element h6">Navigation</div></a
+            >
+            <a href="/docs/docs-snackbar.html"
+              ><div class="aside-element h6">Snackbar</div></a
+            >
+            <a href="/docs/docs-typography.html">
+              <div class="aside-element h6">Typography</div></a
+            >
+          </div>
+        </aside>
+        <!--  -->
+
+        <div class="main">
+          <div class="main-head">
+            <div class="h3 text-bold main-head-title text-black">Cards</div>
+            <p class="h5 main-head-text text-black">
+              Cards can be used for various purpose like social media, e-comm
+              websites etc. They can have a lot of variations to serve the
+              purpose.
+            </p>
+          </div>
+
+          <!-- text card -->
+          <div class="sub-head">
             <div class="h4 text-bold main-head-title text-black">
-                Card with Text Overlay
+              Only Text Card
             </div>
           </div>
-    
+
+          <div class="example">
+            <div class="av-cont">
+              <div class="card shadow">
+                <div class="card-content">
+                  <div class="card-content-title">The Minions</div>
+                  <div class="card-content-text">
+                    Minions is a 2015 American computer-animated comedy film
+                    produced by Illumination Entertainment and distributed by
+                    Universal Pictures. It is the spin-off prequel and the third
+                    installment overall in the Despicable Me franchise.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <pre>
+<code class="html image code-snip">
+&lt;div class="card shadow"&gt;
+&lt;div class="card-content"&gt;
+&lt;div class="card-content-title"&gt;The Minions&lt;/div&gt;
+&lt;div class="card-content-text"&gt;
+Text
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+</code>
+</pre>
+
+          <!-- text card end-->
+
+          <!-- Simple Image card -->
+          <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+              Simple Image Card
+            </div>
+          </div>
+
+          <div class="example">
+            <div class="av-cont">
+              <div class="card shadow">
+                <div class="card-image-container">
+                  <img
+                    src="https://th.bing.com/th/id/OIP.4Yid8PMcIUJzK_l5BsOoeQHaEO?w=290&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                    alt="image"
+                    class="card-image"
+                  />
+                </div>
+                <div class="card-content">
+                  <div class="card-image-content-title">Minions</div>
+                  <div class="card-image-content-text">
+                    Minions is a 2015 American computer-animated comedy film
+                    produced by Illumination Entertainment and distributed by
+                    Universal Pictures. It is the spin-off prequel and the third
+                    installment overall in the Despicable Me franchise.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <pre>
+<code class="html image code-snip">
+&lt;div class="card shadow"&gt;
+&lt;div class="card-image-container"&gt;
+&lt;img src="" alt="image" class="card-image"/&gt; 
+&lt;/div&gt;
+&lt;div class="card-content"&gt;
+&lt;div class="card-image-content-title"&gt;Minions&lt;/div&gt;
+&lt;div class="card-image-content-text"&gt;
+Text
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
+          <!-- Simple card end-->
+
+          <!-- Simple Image card with footer -->
+          <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+              Image Card with Footer
+            </div>
+          </div>
+
+          <div class="example">
+            <div class="av-cont">
+              <div class="card shadow">
+                <div class="card-image-container">
+                  <img
+                    src="https://th.bing.com/th/id/OIP.6GF7ohLMUfEYzuo8seQGFwHaEs?w=285&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                    alt="image"
+                    class="card-image"
+                  />
+                </div>
+
+                <div class="card-content">
+                  <div class="card-image-content-title">atomic habits</div>
+                  <div class="card-image-content-text">
+                    This breakthrough book from James Clear is the most
+                    comprehensive guide on how to change your habits and get 1%
+                    better every day.
+                  </div>
+                </div>
+
+                <footer class="card-footer">
+                  <div>
+                    <button class="card-footer-btn">READ</button>
+                    <button class="card-footer-btn">BOOKMARK</button>
+                  </div>
+                  <div class="card-footer-icon">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-share"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                  </div>
+                </footer>
+              </div>
+            </div>
+          </div>
+
+          <pre>
+<code class="html image code-snip">
+&lt;div class="card shadow"&gt;
+&lt;div class="card-image-container"&gt;
+&lt;img src="" alt="image"class="card-image" /&gt; 
+&lt;/div&gt;
+&lt;div class="card-content"&gt;
+&lt;div class="card-image-content-title"&gt;atomic habits&lt;/div&gt;
+&lt;div class="card-image-content-text"&gt;
+Text
+&lt;/div&gt;&lt;/div&gt;
+&lt;footer class="card-footer"&gt;
+&lt;div&gt;
+&lt;button class="card-footer-btn"&gt;READ&lt;/button&gt;
+&lt;button class="card-footer-btn"&gt;BOOKMARK&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class="card-footer-icon"&gt;
+&lt;i class="far fa-heart"&gt;&lt;/i&gt;
+&lt;i class="fas fa-share"&gt;&lt;/i&gt;
+&lt;i class="fas fa-ellipsis-v"&gt;&lt;/i&gt;
+&lt;/div&gt;
+&lt;/footer&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
+          <!-- Simple card with footer end-->
+
+          <!--Card with Text Overlay -->
+          <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+              Card with Text Overlay
+            </div>
+          </div>
+
           <div class="example">
             <div class="av-cont">
               <div class="card card-image shadow">
@@ -245,7 +277,9 @@
                   />
                   <div class="card-content card-text-overlay">
                     <div class="card-image-content-title">Tied ribbons</div>
-                    <div class="card-image-content-text">Set of 3 Wall Arts</div>
+                    <div class="card-image-content-text">
+                      Set of 3 Wall Arts
+                    </div>
                   </div>
                 </div>
                 <div class="card-content">
@@ -261,40 +295,40 @@
               </div>
             </div>
           </div>
-    
+
           <pre>
-            <code class="html image">
-                 &lt;div class="card card-image shadow"&gt;
-                   &lt;div class="card-image-container"&gt;
-                     &lt;img  src="" alt="image" class="card-image" /&gt;  
-                     &lt;div class="card-content card-text-overlay"&gt;
-                       &lt;div class="card-image-content-title"&gt;Tied ribbons&lt;/div&gt;
-                       &lt;div class="card-image-content-text"&gt;Set of 3 Wall Arts&lt;/div&gt;
-                     &lt;/div&gt;
-                   &lt;/div&gt;
-                   &lt;div class="card-content"&gt;
-                      Rs. 2192&lt;del&gt;Rs. 5099&lt;/del&gt; &nbsp
-                     &lt;span class="card-text-red"&gt;(57% OFF)&lt;/span&gt;
-                   &lt;/div&gt;
-                   &lt;footer class="card-footer"&gt;
-                     &lt;div&gt;
-                       &lt;button class="card-footer-btn"&gt;buy now&lt;/button&gt;
-                       &lt;button class="card-footer-btn"&gt;add to cart&lt;/button&gt;
-                     &lt;/div&gt;
-                   &lt;/footer&gt;
-                 &lt;/div&gt;
-            </code>
-            </pre>
-    
+<code class="html image code-snip">
+&lt;div class="card card-image shadow"&gt;
+&lt;div class="card-image-container"&gt;
+&lt;img  src="" alt="image" class="card-image" /&gt;  
+&lt;div class="card-content card-text-overlay"&gt;
+&lt;div class="card-image-content-title"&gt;Tied ribbons&lt;/div&gt;
+&lt;div class="card-image-content-text"&gt;Set of 3 Wall Arts&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card-content"&gt;
+Rs. 2192&lt;del&gt;Rs. 5099&lt;/del&gt; &nbsp
+&lt;span class="card-text-red"&gt;(57% OFF)&lt;/span&gt;
+&lt;/div&gt;
+&lt;footer class="card-footer"&gt;
+&lt;div&gt;
+&lt;button class="card-footer-btn"&gt;buy now&lt;/button&gt;
+&lt;button class="card-footer-btn"&gt;add to cart&lt;/button&gt;
+&lt;/div&gt;
+&lt;/footer&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
           <!--Card with Text Overlay end-->
 
-             <!--Horizontal Card -->
-        <div class="sub-head">
+          <!--Horizontal Card -->
+          <div class="sub-head">
             <div class="h4 text-bold main-head-title text-black">
-                Horizontal Card
+              Horizontal Card
             </div>
           </div>
-    
+
           <div class="example">
             <div class="av-cont">
               <div class="card card-image card-hr shadow">
@@ -305,10 +339,12 @@
                 </div>
                 <div class="card-hr-content">
                   <div class="card-content">
-                    <div class="card-image-content-title">lenovo Ideapad Flex 5</div>
+                    <div class="card-image-content-title">
+                      lenovo Ideapad Flex 5
+                    </div>
                     <div class="card-image-content-text">
-                      (8 GB/512 GB SSD/Windows 10 Home) 5 14ITL05 2 in 1 Laptop (14 inch,
-                      Graphite Grey, 1.5 kg, With MS Office)
+                      (8 GB/512 GB SSD/Windows 10 Home) 5 14ITL05 2 in 1 Laptop
+                      (14 inch, Graphite Grey, 1.5 kg, With MS Office)
                     </div>
                     <div>
                       Rs. 72,990 <del>Rs. 90,000</del> &nbsp;
@@ -321,44 +357,44 @@
                   </div>
                 </div>
               </div>
-            </div> 
-          </div>
-    
-          <pre>
-            <code class="html image">
-                  &lt;div class="card card-image card-hr shadow"&gt;
-                   &lt;div class="card-image-container card-hr-image-container"&gt;
-                     &lt;img src="" /&gt; 
-                   &lt;/div&gt;
-                   &lt;div class="card-hr-content"&gt;
-                     &lt;div class="card-content"&gt;
-                       &lt;div class="card-image-content-title"&gt;lenovo Ideapad Flex 5&lt;/div&gt;
-                       &lt;div class="card-image-content-text"&gt;
-                         Text
-                       &lt;/div&gt;
-                       &lt;div&gt;
-                          Rs. 72,990&lt;del&gt;Rs. 90,000&lt;/del&gt; &nbsp;
-                         &lt;span class="card-text-red"&gt;(18% OFF)&lt;/span&gt;
-                       &lt;/div&gt;
-                     &lt;/div&gt;
-                     &lt;div class="card-btn-container"&gt;
-                       &lt;button class="card-btn"&gt;buy now&lt;/button&gt;
-                       &lt;button class="card-btn"&gt;add to cart&lt;/button&gt;
-                     &lt;/div&gt;
-                   &lt;/div&gt;
-                 &lt;/div&gt;
-            </code>
-            </pre>
-    
-          <!--Horizontal Card end-->
-
-            <!--E-Commerce Card -->
-        <div class="sub-head">
-            <div class="h4 text-bold main-head-title text-black">
-                E-Commerce Card
             </div>
           </div>
-    
+
+          <pre>
+<code class="html image code-snip">
+&lt;div class="card card-image card-hr shadow"&gt;
+&lt;div class="card-image-container card-hr-image-container"&gt;
+&lt;img src="" /&gt; 
+&lt;/div&gt;
+&lt;div class="card-hr-content"&gt;
+&lt;div class="card-content"&gt;
+&lt;div class="card-image-content-title"&gt;lenovo Ideapad Flex 5&lt;/div&gt;
+&lt;div class="card-image-content-text"&gt;
+Text
+&lt;/div&gt;
+&lt;div&gt;
+Rs. 72,990&lt;del&gt;Rs. 90,000&lt;/del&gt; &nbsp;
+&lt;span class="card-text-red"&gt;(18% OFF)&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card-btn-container"&gt;
+&lt;button class="card-btn"&gt;buy now&lt;/button&gt;
+&lt;button class="card-btn"&gt;add to cart&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
+          <!--Horizontal Card end-->
+
+          <!--E-Commerce Card -->
+          <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+              E-Commerce Card
+            </div>
+          </div>
+
           <div class="example">
             <div class="av-cont">
               <div class="card card-image shadow">
@@ -369,7 +405,7 @@
                     class="card-image"
                   />
                 </div>
-          
+
                 <div class="card-content">
                   <div class="card-image-content-title">INDIA CIRCUS</div>
                   <div class="card-image-content-text">Set of 2 Cups</div>
@@ -379,379 +415,368 @@
                   </div>
                 </div>
               </div>
-            </div> 
+            </div>
           </div>
-    
+
           <pre>
-            <code class="html image">
-                  &lt;div class="card card-image shadow"&gt;
-                    &lt;div class="card-image-container"&gt;
-                      &lt;img src="" alt="image" class="card-image"  /&gt;
-                    &lt;/div&gt;
-                    &lt;div class="card-content"&gt;
-                      &lt;div class="card-image-content-title"&gt;INDIA CIRCUS&lt;/div&gt;
-                      &lt;div class="card-image-content-text"&gt;Set of 2 Cups&lt;/div&gt;
-                      &lt;div&gt;
-                        Rs. 696 &lt;del&gt;Rs. 839&lt;/del&gt; &nbsp;
-                        &lt;span class="card-text-red"&gt;(17% OFF)&lt;/span&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-            </code>
-            </pre>
+<code class="html image code-snip">
+&lt;div class="card card-image shadow"&gt;
+&lt;div class="card-image-container"&gt;
+&lt;img src="" alt="image" class="card-image"  /&gt;
+&lt;/div&gt;
+&lt;div class="card-content"&gt;
+&lt;div class="card-image-content-title"&gt;INDIA CIRCUS&lt;/div&gt;
+&lt;div class="card-image-content-text"&gt;Set of 2 Cups&lt;/div&gt;
+&lt;div&gt;
+Rs. 696 &lt;del&gt;Rs. 839&lt;/del&gt; &nbsp;
+&lt;span class="card-text-red"&gt;(17% OFF)&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
 
-            <div class="example">
-              <div class="av-cont">
-                <div class="card card-image shadow">
-                  <div class="card-image-container">
-                    <img
-                      src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/5/30/5bb03537-d3d4-47b6-8ce4-b907cb3a74001559198556735-1.jpg"
-                      alt="image"
-                      class="card-image"
-                    />
-                    <div class="card-rating">
-                      <span class="rating">4.7</span>
-                      <i class="fas fa-star card-icon-star"></i> &nbsp; | &nbsp; 78
-                    </div>
+          <div class="example">
+            <div class="av-cont">
+              <div class="card card-image shadow">
+                <div class="card-image-container">
+                  <img
+                    src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/5/30/5bb03537-d3d4-47b6-8ce4-b907cb3a74001559198556735-1.jpg"
+                    alt="image"
+                    class="card-image"
+                  />
+                  <div class="card-rating">
+                    <span class="rating">4.7</span>
+                    <i class="fas fa-star card-icon-star"></i> &nbsp; | &nbsp;
+                    78
                   </div>
-                  <div class="card-content">
-                    <div class="card-image-content-title">INDIA CIRCUS</div>
-                    <div class="card-image-content-text">Set of 2 Cups</div>
-                    <div>
-                      Rs. 696 <del>Rs. 839</del> &nbsp;
-                      <span class="card-text-red">(17% OFF)</span>
-                    </div>
-                  </div>
-                  <footer class="card-footer">
-                    <div>
-                      <button class="card-footer-btn">buy now</button>
-                      <button class="card-footer-btn">add to cart</button>
-                    </div>
-                    <div class="card-footer-icon">
-                      <i class="far fa-heart"></i>
-                      <i class="fas fa-share"></i>
-                      <i class="fas fa-ellipsis-v"></i>
-                    </div>
-                  </footer>
                 </div>
-              </div>  
-              </div>
-        
-              <pre>
-                <code class="html image">
-                      &lt;div class="card card-image shadow"&gt;
-                       &lt;div class="card-image-container"&gt;
-                         &lt;img src="" alt="image"  class="card-image" /&gt;
-                         &lt;div class="card-rating"&gt;
-                           &lt;span class="rating"&gt;4.7&lt;/span&gt;
-                           &lt;i class="fas fa-star card-icon-star"&gt;&lt;/i&gt; &nbsp; | &nbsp; 78
-                         &lt;/div&gt;
-                       &lt;/div&gt;
-                       &lt;div class="card-content"&gt;
-                         &lt;div class="card-image-content-title"&gt;INDIA CIRCUS&lt;/div&gt;
-                         &lt;div class="card-image-content-text"&gt;Set of 2 Cups&lt;/div&gt;
-                         &lt;div&gt;
-                            Rs. 696&lt;del&gt;Rs. 839&lt;/del&gt; &nbsp;
-                           &lt;span class="card-text-red"&gt;(17% OFF)&lt;/span&gt;
-                         &lt;/div&gt;
-                       &lt;/div&gt;
-                       &lt;footer class="card-footer"&gt;
-                         &lt;div&gt;
-                           &lt;button class="card-footer-btn"&gt;buy now&lt;/button&gt;
-                           &lt;button class="card-footer-btn"&gt;add to cart&lt;/button&gt;
-                         &lt;/div&gt;
-                         &lt;div class="card-footer-icon"&gt;
-                           &lt;i class="far fa-heart"&gt;&lt;/i&gt;
-                           &lt;i class="fas fa-share"&gt;&lt;/i&gt;
-                           &lt;i class="fas fa-ellipsis-v"&gt;&lt;/i&gt;
-                         &lt;/div&gt;
-                       &lt;/footer&gt;
-                     &lt;/div&gt;
-                </code>
-                </pre>
-    
-
-                <div class="example">
-                  <div class="av-cont">
-                    <div class="card card-image shadow">
-                      <div class="card-badge">trending</div>
-                      <div class="card-image-container">
-                        <img
-                          src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15453156/2021/9/15/d614f9eb-01e6-4332-94d8-0f083954bcb01631686626128TIEDRIBBONSSetOf3TriangleWallArtsPainting1.jpg"
-                          alt="image"
-                          class="card-image"
-                        />
-                      </div>
-                      <div class="card-content">
-                        <div class="card-image-content-title">Tied ribbons</div>
-                        <div class="card-image-content-text">Set of 3 Wall Arts</div>
-                        <div>
-                          Rs. 2192 <del>Rs. 5099</del> &nbsp;
-                          <span class="card-text-red">(57% OFF)</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>  
+                <div class="card-content">
+                  <div class="card-image-content-title">INDIA CIRCUS</div>
+                  <div class="card-image-content-text">Set of 2 Cups</div>
+                  <div>
+                    Rs. 696 <del>Rs. 839</del> &nbsp;
+                    <span class="card-text-red">(17% OFF)</span>
                   </div>
-            
-                  <pre>
-                    <code class="html image">
-                          &lt;div class="card card-image shadow"&gt;
-                           &lt;div class="card-badge"&gt;trending&lt;/div&gt;
-                           &lt;div class="card-image-container"&gt;
-                             &lt;img src=""  alt="image" class="card-image"  /&gt;
-                           &lt;/div&gt;
-                           &lt;div class="card-content"&gt;
-                             &lt;div class="card-image-content-title"&gt;Tied ribbons&lt;/div&gt;
-                             &lt;div class="card-image-content-text"&gt;Set of 3 Wall Arts&lt;/div&gt;
-                             &lt;div&gt;
-                                Rs. 2192&lt;del&gt;Rs. 5099&lt;/del&gt; &nbsp;
-                               &lt;span class="card-text-red"&gt;(57% OFF)&lt;/span&gt;
-                             &lt;/div&gt;
-                           &lt;/div&gt;
-                         &lt;/div&gt;
-                    </code>
-                    </pre>
+                </div>
+                <footer class="card-footer">
+                  <div>
+                    <button class="card-footer-btn">buy now</button>
+                    <button class="card-footer-btn">add to cart</button>
+                  </div>
+                  <div class="card-footer-icon">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-share"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                  </div>
+                </footer>
+              </div>
+            </div>
+          </div>
 
-                    <div class="example">
-                        <div class="av-cont">
+          <pre>
+<code class="html image code-snip">
+&lt;div class="card card-image shadow"&gt;
+&lt;div class="card-image-container"&gt;
+&lt;img src="" alt="image"  class="card-image" /&gt;
+&lt;div class="card-rating"&gt;
+&lt;span class="rating"&gt;4.7&lt;/span&gt;
+&lt;i class="fas fa-star card-icon-star"&gt;&lt;/i&gt; &nbsp; | &nbsp; 78
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card-content"&gt;
+&lt;div class="card-image-content-title"&gt;INDIA CIRCUS&lt;/div&gt;
+&lt;div class="card-image-content-text"&gt;Set of 2 Cups&lt;/div&gt;
+&lt;div&gt;
+Rs. 696&lt;del&gt;Rs. 839&lt;/del&gt; &nbsp;
+&lt;span class="card-text-red"&gt;(17% OFF)&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;footer class="card-footer"&gt;
+&lt;div&gt;
+&lt;button class="card-footer-btn"&gt;buy now&lt;/button&gt;
+&lt;button class="card-footer-btn"&gt;add to cart&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class="card-footer-icon"&gt;
+&lt;i class="far fa-heart"&gt;&lt;/i&gt;
+&lt;i class="fas fa-share"&gt;&lt;/i&gt;
+&lt;i class="fas fa-ellipsis-v"&gt;&lt;/i&gt;
+&lt;/div&gt;
+&lt;/footer&gt;
+&lt;/div&gt;
+</code>
+</pre>
 
-                            <div class="card card-image shadow">
-                                <i class="fas fa-times card-icon-dismiss"></i>
-                                <div class="card-image-container">
-                                  <img
-                                    src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15453156/2021/9/15/d614f9eb-01e6-4332-94d8-0f083954bcb01631686626128TIEDRIBBONSSetOf3TriangleWallArtsPainting1.jpg"
-                                    alt="image"
-                                    class="card-image"
-                                  />
-                                </div>                          
-                                <div class="card-content">
-                                  <div class="card-image-content-title">Tied ribbons</div>
-                                  <div class="card-image-content-text">Set of 3 Wall Arts</div>
-                                  <div>
-                                    Rs. 2192 <del>Rs. 5099</del> &nbsp;
-                                    <span class="card-text-red">(57% OFF)</span>
-                                  </div>
-                                </div>
-                              </div>
+          <div class="example">
+            <div class="av-cont">
+              <div class="card card-image shadow">
+                <div class="card-badge">trending</div>
+                <div class="card-image-container">
+                  <img
+                    src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15453156/2021/9/15/d614f9eb-01e6-4332-94d8-0f083954bcb01631686626128TIEDRIBBONSSetOf3TriangleWallArtsPainting1.jpg"
+                    alt="image"
+                    class="card-image"
+                  />
+                </div>
+                <div class="card-content">
+                  <div class="card-image-content-title">Tied ribbons</div>
+                  <div class="card-image-content-text">Set of 3 Wall Arts</div>
+                  <div>
+                    Rs. 2192 <del>Rs. 5099</del> &nbsp;
+                    <span class="card-text-red">(57% OFF)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-                              <div class="card card-image shadow">
-                                <div class="card-image-container">
-                                  <img
-                                    src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/5/30/5bb03537-d3d4-47b6-8ce4-b907cb3a74001559198556735-1.jpg"
-                                    alt="image"
-                                    class="card-image"
-                                  />
-                                  <i class="fas fa-heart card-icon-heart"></i>
-                                </div>
-                                <div class="card-content">
-                                  <div class="card-image-content-title">INDIA CIRCUS</div>
-                                  <div class="card-image-content-text">Set of 2 Cups</div>
-                                  <div>
-                                    Rs. 696 <del>Rs. 839</del> &nbsp;
-                                    <span class="card-text-red">(17% OFF)</span>
-                                  </div>
-                                </div>
-                              </div>
+          <pre>
+<code class="html image code-snip">
+&lt;div class="card card-image shadow"&gt;
+&lt;div class="card-badge"&gt;trending&lt;/div&gt;
+&lt;div class="card-image-container"&gt;
+&lt;img src=""  alt="image" class="card-image"  /&gt;
+&lt;/div&gt;
+&lt;div class="card-content"&gt;
+&lt;div class="card-image-content-title"&gt;Tied ribbons&lt;/div&gt;
+&lt;div class="card-image-content-text"&gt;Set of 3 Wall Arts&lt;/div&gt;
+&lt;div&gt;
+Rs. 2192&lt;del&gt;Rs. 5099&lt;/del&gt; &nbsp;
+&lt;span class="card-text-red"&gt;(57% OFF)&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
 
-                        </div>
-                      </div>
-                
-                      <pre>
-                        <code class="html image">
-                             &lt;div class="card card-image shadow"&gt;
-                               &lt;i class="fas fa-times card-icon-dismiss"&gt;&lt;/i&gt;
-                               &lt;div class="card-image-container"&gt;
-                                 &lt;img src="" alt="image" class="card-image"/&gt;
-                               &lt;/div&gt;                          
-                               &lt;div class="card-content"&gt;
-                                 &lt;div class="card-image-content-title"&gt;Tied ribbons&lt;/div&gt;
-                                 &lt;div class="card-image-content-text"&gt;Set of 3 Wall Arts&lt;/div&gt;
-                                 &lt;div&gt;
-                                    Rs. 2192&lt;del&gt;Rs. 5099&lt;/del&gt; &nbsp;
-                                   &lt;span class="card-text-red"&gt;(57% OFF)&lt;/span&gt;
-                                 &lt;/div&gt;
-                               &lt;/div&gt;
-                              &lt;/div&gt;
+          <div class="example">
+            <div class="av-cont">
+              <div class="card card-image shadow">
+                <i class="fas fa-times card-icon-dismiss"></i>
+                <div class="card-image-container">
+                  <img
+                    src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15453156/2021/9/15/d614f9eb-01e6-4332-94d8-0f083954bcb01631686626128TIEDRIBBONSSetOf3TriangleWallArtsPainting1.jpg"
+                    alt="image"
+                    class="card-image"
+                  />
+                </div>
+                <div class="card-content">
+                  <div class="card-image-content-title">Tied ribbons</div>
+                  <div class="card-image-content-text">Set of 3 Wall Arts</div>
+                  <div>
+                    Rs. 2192 <del>Rs. 5099</del> &nbsp;
+                    <span class="card-text-red">(57% OFF)</span>
+                  </div>
+                </div>
+              </div>
 
-                              &lt;div class="card card-image shadow"&gt;
-                               &lt;div class="card-image-container"&gt;
-                                 &lt;img src="" alt="image"class="card-image" /&gt;
-                                 &lt;i class="fas fa-heart card-icon-heart"&gt;&lt;/i&gt;
-                               &lt;/div&gt;
-                               &lt;div class="card-content"&gt;
-                                 &lt;div class="card-image-content-title"&gt;INDIA CIRCUS&lt;/div&gt;
-                                 &lt;div class="card-image-content-text"&gt;Set of 2 Cups&lt;/div&gt;
-                                 &lt;div&gt;
-                                    Rs. 696&lt;del&gt;Rs. 839&lt;/del&gt; &nbsp;
-                                   &lt;span class="card-text-red"&gt;(17% OFF)&lt;/span&gt;
-                                 &lt;/div&gt;
-                               &lt;/div&gt;
-                             &lt;/div&gt;
-                        </code>
-                        </pre>
+              <div class="card card-image shadow">
+                <div class="card-image-container">
+                  <img
+                    src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/5/30/5bb03537-d3d4-47b6-8ce4-b907cb3a74001559198556735-1.jpg"
+                    alt="image"
+                    class="card-image"
+                  />
+                  <i class="fas fa-heart card-icon-heart"></i>
+                </div>
+                <div class="card-content">
+                  <div class="card-image-content-title">INDIA CIRCUS</div>
+                  <div class="card-image-content-text">Set of 2 Cups</div>
+                  <div>
+                    Rs. 696 <del>Rs. 839</del> &nbsp;
+                    <span class="card-text-red">(17% OFF)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-                        <div class="example">
-                            <div class="av-cont">
+          <pre>
+<code class="html image code-snip">
+&lt;div class="card card-image shadow"&gt;
+&lt;i class="fas fa-times card-icon-dismiss"&gt;&lt;/i&gt;
+&lt;div class="card-image-container"&gt;
+&lt;img src="" alt="image" class="card-image"/&gt;
+&lt;/div&gt;                          
+&lt;div class="card-content"&gt;
+&lt;div class="card-image-content-title"&gt;Tied ribbons&lt;/div&gt;
+&lt;div class="card-image-content-text"&gt;Set of 3 Wall Arts&lt;/div&gt;
+&lt;div&gt;
+Rs. 2192&lt;del&gt;Rs. 5099&lt;/del&gt; &nbsp;
+&lt;span class="card-text-red"&gt;(57% OFF)&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="card card-image shadow"&gt;
+&lt;div class="card-image-container"&gt;
+&lt;img src="" alt="image"class="card-image" /&gt;
+&lt;i class="fas fa-heart card-icon-heart"&gt;&lt;/i&gt;
+&lt;/div&gt;
+&lt;div class="card-content"&gt;
+&lt;div class="card-image-content-title"&gt;INDIA CIRCUS&lt;/div&gt;
+&lt;div class="card-image-content-text"&gt;Set of 2 Cups&lt;/div&gt;
+&lt;div&gt;
+Rs. 696&lt;del&gt;Rs. 839&lt;/del&gt; &nbsp;
+&lt;span class="card-text-red"&gt;(17% OFF)&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
+          <div class="example">
+            <div class="av-cont">
+              <div class="card card-image shadow">
+                <div class="card-image-container">
+                  <img
+                    src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/5/30/5bb03537-d3d4-47b6-8ce4-b907cb3a74001559198556735-1.jpg"
+                    alt="image"
+                    class="card-image"
+                  />
+                </div>
+                <div class="card-content">
+                  <div class="card-image-content-title">INDIA CIRCUS</div>
+                  <div class="card-image-content-text">Set of 2 Cups</div>
+                  <div>
+                    Rs. 696 <del>Rs. 839</del> &nbsp;
+                    <span class="card-text-red">(17% OFF)</span>
+                  </div>
+                </div>
+                <div class="card-btn-container">
+                  <button class="card-btn">buy now</button>
+                  <button class="card-btn">add to cart</button>
+                </div>
+              </div>
+
+              <div class="card card-image shadow">
+                <div class="card-badge">limited offer</div>
+                <div class="card-image-container">
+                  <img
+                    src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15453156/2021/9/15/d614f9eb-01e6-4332-94d8-0f083954bcb01631686626128TIEDRIBBONSSetOf3TriangleWallArtsPainting1.jpg"
+                    alt="image"
+                    class="card-image"
+                  />
+                  <i class="fas fa-heart card-icon-heart"></i>
+                </div>
+                <div class="card-content">
+                  <div class="card-image-content-title">Tied ribbons</div>
+                  <div class="card-image-content-text">Set of 3 Wall Arts</div>
+                  <div>
+                    Rs. 2192 <del>Rs. 5099</del> &nbsp;
+                    <span class="card-text-red">(57% OFF)</span>
+                  </div>
+                </div>
+                <div class="card-btn-container">
+                  <button class="card-btn">buy now</button>
+                  <button class="card-btn">add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <pre>
+<code class="html image code-snip">
+&lt;div class="card card-image shadow"&gt;
+&lt;div class="card-image-container"&gt;
+&lt;img src="" alt="image" class="card-image" /&gt;   
+&lt;/div&gt;
+&lt;div class="card-content"&gt;
+&lt;div class="card-image-content-title"&gt;INDIA CIRCUS&lt;/div&gt;
+&lt;div class="card-image-content-text"&gt;Set of 2 Cups&lt;/div&gt;
+&lt;div&gt;
+Rs. 696 &lt;del&gt;Rs. 839&lt;/del&gt; &nbsp;
+&lt;span class="card-text-red"&gt;(17% OFF)&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card-btn-container"&gt;
+&lt;button class="card-btn"&gt;buy now&lt;/button&gt;
+&lt;button class="card-btn"&gt;add to cart&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
     
-                                <div class="card card-image shadow">
-                                    <div class="card-image-container">
-                                      <img
-                                        src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/5/30/5bb03537-d3d4-47b6-8ce4-b907cb3a74001559198556735-1.jpg"
-                                        alt="image"
-                                        class="card-image"
-                                      />
-                                    </div>
-                                    <div class="card-content">
-                                      <div class="card-image-content-title">INDIA CIRCUS</div>
-                                      <div class="card-image-content-text">Set of 2 Cups</div>
-                                      <div>
-                                        Rs. 696 <del>Rs. 839</del> &nbsp;
-                                        <span class="card-text-red">(17% OFF)</span>
-                                      </div>
-                                    </div>
-                                    <div class="card-btn-container">
-                                      <button class="card-btn">buy now</button>
-                                      <button class="card-btn">add to cart</button>
-                                    </div>
-                                  </div>
-    
-                                  <div class="card card-image shadow">
-                                    <div class="card-badge">limited offer</div>
-                                    <div class="card-image-container">
-                                      <img
-                                        src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15453156/2021/9/15/d614f9eb-01e6-4332-94d8-0f083954bcb01631686626128TIEDRIBBONSSetOf3TriangleWallArtsPainting1.jpg"
-                                        alt="image"
-                                        class="card-image"
-                                      />
-                                      <i class="fas fa-heart card-icon-heart"></i>
-                                    </div>
-                                    <div class="card-content">
-                                      <div class="card-image-content-title">Tied ribbons</div>
-                                      <div class="card-image-content-text">Set of 3 Wall Arts</div>
-                                      <div>
-                                        Rs. 2192 <del>Rs. 5099</del> &nbsp;
-                                        <span class="card-text-red">(57% OFF)</span>
-                                      </div>
-                                    </div>
-                                    <div class="card-btn-container">
-                                      <button class="card-btn">buy now</button>
-                                      <button class="card-btn">add to cart</button>
-                                    </div>
-                                  </div>
-    
-                            </div>
-                          </div>
-                    
-                          <pre>
-                            <code class="html image">
-                                   &lt;div class="card card-image shadow"&gt;
-                                    &lt;div class="card-image-container"&gt;
-                                      &lt;img src="" alt="image" class="card-image" /&gt;   
-                                    &lt;/div&gt;
-                                    &lt;div class="card-content"&gt;
-                                      &lt;div class="card-image-content-title"&gt;INDIA CIRCUS&lt;/div&gt;
-                                      &lt;div class="card-image-content-text"&gt;Set of 2 Cups&lt;/div&gt;
-                                      &lt;div&gt;
-                                        Rs. 696 &lt;del&gt;Rs. 839&lt;/del&gt; &nbsp;
-                                        &lt;span class="card-text-red"&gt;(17% OFF)&lt;/span&gt;
-                                      &lt;/div&gt;
-                                    &lt;/div&gt;
-                                    &lt;div class="card-btn-container"&gt;
-                                      &lt;button class="card-btn"&gt;buy now&lt;/button&gt;
-                                      &lt;button class="card-btn"&gt;add to cart&lt;/button&gt;
-                                    &lt;/div&gt;
-                                   &lt;/div&gt;
-    
-                                   &lt;div class="card card-image shadow"&gt;
-                                    &lt;div class="card-badge"&gt;limited offer&lt;/div&gt;
-                                    &lt;div class="card-image-container"&gt;
-                                      &lt;img src="" alt="image" class="card-image" /&gt;
-                                      &lt;i class="fas fa-heart card-icon-heart"&gt;&lt;/i&gt;
-                                    &lt;/div&gt;
-                                    &lt;div class="card-content"&gt;
-                                      &lt;div class="card-image-content-title"&gt;Tied ribbons&lt;/div&gt;
-                                      &lt;div class="card-image-content-text"&gt;Set of 3 Wall Arts&lt;/div&gt;
-                                      &lt;div&gt;
-                                        Rs. 2192 &lt;del&gt;Rs. 5099&lt;/del&gt; &nbsp;
-                                        &lt;span class="card-text-red"&gt;(57% OFF)&lt;/span&gt;
-                                      &lt;/div&gt;
-                                    &lt;/div&gt;
-                                    &lt;div class="card-btn-container"&gt;
-                                      &lt;button class="card-btn"&gt;buy now&lt;/button&gt;
-                                      &lt;button class="card-btn"&gt;add to cart&lt;/button&gt;
-                                    &lt;/div&gt;
-                                  &lt;/div&gt;
-                            </code>
-                            </pre>
-        
+&lt;div class="card card-image shadow"&gt;
+&lt;div class="card-badge"&gt;limited offer&lt;/div&gt;
+&lt;div class="card-image-container"&gt;
+&lt;img src="" alt="image" class="card-image" /&gt;
+&lt;i class="fas fa-heart card-icon-heart"&gt;&lt;/i&gt;
+&lt;/div&gt;
+&lt;div class="card-content"&gt;
+&lt;div class="card-image-content-title"&gt;Tied ribbons&lt;/div&gt;
+&lt;div class="card-image-content-text"&gt;Set of 3 Wall Arts&lt;/div&gt;
+&lt;div&gt;
+Rs. 2192 &lt;del&gt;Rs. 5099&lt;/del&gt; &nbsp;
+&lt;span class="card-text-red"&gt;(57% OFF)&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="card-btn-container"&gt;
+&lt;button class="card-btn"&gt;buy now&lt;/button&gt;
+&lt;button class="card-btn"&gt;add to cart&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
           <!--E-Commerce end-->
-
-
 
           <div class="nav-foot">
             <div class="nav-foot-pill">
-              <a href="/docs/docs-button.html"><i class="fa-solid fa-chevron-left fa"></i> <span class="h5">Button</span></a> 
+              <a href="/docs/docs-button.html"
+                ><i class="fa-solid fa-chevron-left fa"></i>
+                <span class="h5">Button</span></a
+              >
             </div>
             <div class="nav-foot-pill">
-              <a href="/docs/docs-image.html"><span class="h5">Image</span> <i class="fa-solid fa-chevron-right fa"></i></a> 
+              <a href="/docs/docs-image.html"
+                ><span class="h5">Image</span>
+                <i class="fa-solid fa-chevron-right fa"></i
+              ></a>
             </div>
           </div>
-        
-
-</div>
-
-  </div>
-
-
-
-
-
-
-   <!-- footer -->
-   <footer class="foot">
-    <div class="foot-icon">
-      <div class="nav-icon-chip">
-        <a href="https://github.com/anamkaa">
-          <i class="fa-brands fa-github fa nav-icon nav-icon-doc"></i>
-        </a>
+        </div>
       </div>
-      <div class="nav-icon-chip">
-        <a href="https://twitter.com/anamkaa_">
-          <i class="fa-brands fa-twitter fa nav-icon nav-icon-doc"></i>
-        </a>
-      </div>
-      <div class="nav-icon-chip">
-        <a href="https://www.linkedin.com/in/anamkaa/">
-          <i class="fa-brands fa-linkedin fa nav-icon nav-icon-doc"></i>
-        </a>
-      </div>
-    </div>
 
-    <p class="h6 text-center">
-      Made with <i class="far fa-heart"></i> by Anamika
-    </p>
-    <div class="text-small text-center">
-      Illustrations by
-      <a href="https://freewebillustrations.com/" target="_blank"
-        >FreeWebIllustrations</a
-      >
-    </div>
-    <div class="text-small text-center">
-      <i class="fa-solid fa-copyright fa"></i> 2022 | Fab-UI | All rights
-      reserved
-    </div>
-  </footer>
-  <!--  -->
+      <!-- footer -->
+      <footer class="foot">
+        <div class="foot-icon">
+          <div class="nav-icon-chip">
+            <a href="https://github.com/anamkaa">
+              <i class="fa-brands fa-github fa nav-icon nav-icon-doc"></i>
+            </a>
+          </div>
+          <div class="nav-icon-chip">
+            <a href="https://twitter.com/anamkaa_">
+              <i class="fa-brands fa-twitter fa nav-icon nav-icon-doc"></i>
+            </a>
+          </div>
+          <div class="nav-icon-chip">
+            <a href="https://www.linkedin.com/in/anamkaa/">
+              <i class="fa-brands fa-linkedin fa nav-icon nav-icon-doc"></i>
+            </a>
+          </div>
+        </div>
 
+        <p class="h6 text-center">
+          Made with <i class="far fa-heart"></i> by Anamika
+        </p>
+        <div class="text-small text-center">
+          Illustrations by
+          <a href="https://freewebillustrations.com/" target="_blank"
+            >FreeWebIllustrations</a
+          >
+        </div>
+        <div class="text-small text-center">
+          <i class="fa-solid fa-copyright fa"></i> 2022 | Fab-UI | All rights
+          reserved
+        </div>
+      </footer>
+      <!--  -->
     </div>
-    
-
 
     <script src="/path/to/highlight.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
     <script>
       hljs.highlightAll();
     </script>
-</body>
+  </body>
 </html>

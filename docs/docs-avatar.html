@@ -1,377 +1,469 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script
-    src="https://kit.fontawesome.com/c4d0bd5372.js"
-    crossorigin="anonymous"
-  ></script>
-    <title>Avatar | Fab-UI</title>  
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/shades-of-purple.min.css"
-/>
-    <link rel="stylesheet" href="/stylesheets/main.css">
-</head>
-<body>
-    
+      src="https://kit.fontawesome.com/c4d0bd5372.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Avatar | Fab-UI</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/shades-of-purple.min.css"
+    />
+    <link rel="stylesheet" href="/stylesheets/main.css" />
+  </head>
+  <body>
     <div class="container">
-
-     <!--  navbar-->
-     <nav class="nav-wrap nav-wrap-doc">
-      <div class="nav-doc-header">
-        <img src="/assets/f-logo.svg" alt="logo" class="image image-sm logo" />
-        <a href="/index.html"> <div class="nav-head nav-doc-head">Fab-UI</div></a> 
-      </div>
-
-      <div class="nav-icon-wrap">
-        <div class="nav-icon-chip">
-          <a href="/docs/doc.html"> <div class="nav-head nav-doc-head">Docs</div></a> 
-        </div>
-        <div class="nav-icon-chip">
-          <a href="/docs/doc.html"> <div class="nav-head nav-doc-head"><i class="fa-brands fa-github fa nav-icon btn-doc"></i></div></a> 
-        </div>
-      </div>
-    </nav>
-    <!--  -->
-  
-
-        <div class="main-wrap">
-
-          <!-- aside -->
- <aside class="aside">
-  <div class="aside-container">
-      <div class="aside-header h4 text-black">Getting Started</div>
-     
-      <a href="/docs/doc.html"> <div class="aside-element h6">Installation</div></a>
-  </div>
-  <div class="aside-container">
-      <div class="aside-header h4 text-black">Components</div>
-     
-     <a href="/docs/docs-alert.html"><div class="aside-element h6">Alert</div></a> 
-     <a href="/docs/docs-avatar.html"><div class="aside-element h6">Avatar</div></a> 
-     <a href="/docs/docs-badge.html"> <div class="aside-element h6">Badge</div></a>
-     <a href="/docs/docs-button.html"> <div class="aside-element h6">Button</div></a>
-     <a href="/docs/docs-card.html"><div class="aside-element h6">Card</div></a> 
-     <a href="/docs/docs-image.html"> <div class="aside-element h6">Image</div></a>
-     <a href="/docs/docs-input.html"><div class="aside-element h6">Input</div></a> 
-     <a href="/docs/docs-navigation.html"> <div class="aside-element h6">Navigation</div></a>
-     <a href="/docs/docs-snackbar.html"><div class="aside-element h6">Snackbar</div></a> 
-     <a href="/docs/docs-typography.html"> <div class="aside-element h6">Typography</div></a>
-  </div>
-</aside>
-<!--  -->
-  
-          <!-- main content -->
-          <div class="main">
-
-            <div class="main-head">
-              <div class="h3 text-bold main-head-title text-black">Avatar</div>
-              <p class="h5 main-head-text text-black">
-               Avatar are used to show profile images. They can be in different shapes and sizes.
-              </p>
-            </div>
-  
-        <!-- simple avatar -->
-            <div class="sub-head">
-              <div class="h4 text-bold main-head-title text-black">
-                Simple Avatar
-              </div>
-              <p class="h6 main-head-text text-black">
-                Use the class <code class="code-pill">.avatar</code> to get a simple avatar.
-              </p>
-            </div>
-  
-            <div class="example">
-               <div class="av-cont">
-                <img src="https://bit.ly/dan-abramov" alt="avatar-img" class="avatar" />
-               </div>
-              
-            </div>
-
-
-             <pre>
-             <code class="html image">
-             &lt;img src="" alt="avatar-img" class="avatar" /&gt;  
-             </code>
-             </pre>
-  
-            <!-- <script src="https://gist.github.com/anamkaa/43e8f70bc8f13e3953a912bb58cc56a4.js"></script> -->
-
-            <!-- simple avatar end-->
-
-             <!-- square avatar -->
-             <div class="sub-head">
-                <div class="h4 text-bold main-head-title text-black">
-                  Square Avatar
-                </div>
-                <p class="h6 main-head-text text-black">
-                  Use the class <code class="code-pill">.avatar</code> and use  <code class="code-pill">.avatar-sq</code> get a square avatar.
-                </p>
-              </div>
-    
-              <div class="example">
-                <div class="av-cont">
-                  <img src="https://bit.ly/dan-abramov" alt="avatar-img" class="avatar avatar-sq" />
-                </div>
-              
-              </div>
-
-              <pre>
-                <code class="html image">
-                &lt;img src="" alt="avatar-img" class="avatar avatar-sq" &gt;  
-                </code>
-                </pre>
-    
-              <!-- <script src="https://gist.github.com/anamkaa/43e8f70bc8f13e3953a912bb58cc56a4.js"></script> -->
-  
-              <!-- square avatar end-->
-
-               <!-- sizes avatar -->
-             <div class="sub-head">
-                <div class="h4 text-bold main-head-title text-black">
-                  Avatar Size
-                </div>
-                <p class="h6 main-head-text text-black">
-                  Use the class <code class="code-pill">.avatar</code> and use  <code class="code-pill">.avatar-sm</code> for small,  <code class="code-pill">.avatar-lg</code> for large,  <code class="code-pill">.avatar-xl</code> for extra-large avatar. Adding class  <code class="code-pill">.avatar-sq</code> will give square avatars in required sizes.
-                </p>
-              </div>
-    
-              <div class="example">
-
-                <div class="av-cont">
-                  <img src="https://bit.ly/dan-abramov" alt="avatar-img" class="avatar avatar-sm" />
-
-                  <img src="https://bit.ly/dan-abramov" alt="avatar-img" class="avatar" />
-              
-                  <img src="https://bit.ly/dan-abramov" alt="avatar-img" class="avatar avatar-lg" />
-              
-                  <img src="https://bit.ly/dan-abramov" alt="avatar-img" class="avatar avatar-xl" />
-  
-                  </div>
-                  <div class="av-cont">
-  
-                  <img src="https://bit.ly/dan-abramov" alt="avatar-img" class="avatar avatar-sq avatar-sm" />
-  
-                  <img src="https://bit.ly/dan-abramov" alt="avatar-img" class="avatar avatar-sq" />
-  
-                  <img src="https://bit.ly/dan-abramov" alt="avatar-img" class="avatar avatar-sq avatar-lg" />
-  
-                  <img src="https://bit.ly/dan-abramov" alt="avatar-img" class="avatar avatar-sq avatar-xl" />
-                </div>
-             
-
-              </div>
-
-              <pre>
-                <code class="html image">
-                   &lt;img src="" alt="avatar-img" class="avatar avatar-sm" /&gt;
-
-                   &lt;img src="" alt="avatar-img" class="avatar" /&gt;
-                
-                   &lt;img src="" alt="avatar-img" class="avatar avatar-lg" /&gt;
-                
-                   &lt;img src="" alt="avatar-img" class="avatar avatar-xl" /&gt;
-
-                   &lt;img src="" alt="avatar-img" class="avatar avatar-sq avatar-sm" /&gt;
-
-                   &lt;img src="" alt="avatar-img" class="avatar avatar-sq" /&gt;
-
-                   &lt;img src="" alt="avatar-img" class="avatar avatar-sq avatar-lg" /&gt;
-
-                   &lt;img src="" alt="avatar-img" class="avatar avatar-sq avatar-xl" /&gt;
-                </code>
-                </pre>
-    
-              <!-- <script src="https://gist.github.com/anamkaa/43e8f70bc8f13e3953a912bb58cc56a4.js"></script> -->
-  
-              <!-- sizes avatar end-->
-
-              
-               <!-- bordered avatar -->
-             <div class="sub-head">
-                <div class="h4 text-bold main-head-title text-black">
-                  Avatar with border
-                </div>
-                <p class="h6 main-head-text text-black">
-                  Use the class <code class="code-pill">.avatar</code> and use  <code class="code-pill">.avatar-border</code> for avatar with border.
-                </p>
-              </div>
-    
-              <div class="example">
-                <div class="av-cont">
-                  <img src="https://bit.ly/dan-abramov" alt="avatar-img" class="avatar avatar-sm avatar-border" />
-
-                  <img src="https://bit.ly/dan-abramov" alt="avatar-img" class="avatar avatar-border" />
-              
-                  <img src="https://bit.ly/dan-abramov" alt="avatar-img" class="avatar avatar-lg avatar-border" />
-              
-                  <img src="https://bit.ly/dan-abramov" alt="avatar-img" class="avatar avatar-xl avatar-border" />
-                </div>
-                
-            
-                <div class="av-cont">
-                  <img src="https://bit.ly/dan-abramov" alt="avatar-img" class="avatar avatar-sq avatar-sm avatar-border" />
-            
-                  <img src="https://bit.ly/dan-abramov" alt="avatar-img" class="avatar avatar-sq avatar-border" />
-              
-                  <img src="https://bit.ly/dan-abramov" alt="avatar-img" class="avatar avatar-sq avatar-lg avatar-border" />
-              
-                  <img src="https://bit.ly/dan-abramov" alt="avatar-img" class="avatar avatar-sq avatar-xl avatar-border" />
-                </div>
-            
-              
-              </div>
-
-              <pre>
-                <code class="html image">
-                   &lt;img src="" alt="avatar-img" class="avatar avatar-sm avatar-border" /&gt;
-
-                   &lt;img src="" alt="avatar-img" class="avatar avatar-border" /&gt;
-                
-                   &lt;img src="" alt="avatar-img" class="avatar avatar-lg avatar-border" /&gt;
-                
-                   &lt;img src="" alt="avatar-img" class="avatar avatar-xl avatar-border" /&gt;
-                
-                   &lt;img src="" alt="avatar-img" class="avatar avatar-sq avatar-sm avatar-border" /&gt;
-                
-                   &lt;img src="" alt="avatar-img" class="avatar avatar-sq avatar-border" /&gt;
-                
-                   &lt;img src="" alt="avatar-img" class="avatar avatar-sq avatar-lg avatar-border" /&gt;
-                
-                   &lt;img src="" alt="avatar-img" class="avatar avatar-sq avatar-xl avatar-border" /&gt;
-                </code>
-                </pre>
-    
-              <!-- <script src="https://gist.github.com/anamkaa/43e8f70bc8f13e3953a912bb58cc56a4.js"></script> -->
-  
-              <!-- bordered avatar end-->
-
-               <!-- badge avatar -->
-             <div class="sub-head">
-                <div class="h4 text-bold main-head-title text-black">
-                  Avatar with badge
-                </div>
-                <p class="h6 main-head-text text-black">
-                  Use the class <code class="code-pill">.badge</code> and use  <code class="code-pill">.badge-online</code> for green ,  <code class="code-pill">.badge-idle</code> for yellow,  <code class="code-pill">.badge-dnd</code> for red badge on avatar.
-                </p>
-              </div>
-    
-              <div class="example">
-
-                <div class="av-cont">
-                    <div class="avatar-container">
-                        <img src="https://bit.ly/dan-abramov" alt="avatar-img" class="avatar" />
-                        <div class="badge badge-online"></div>
-                    </div>
-            
-                    <div class="avatar-container">
-                        <img src="https://bit.ly/dan-abramov" alt="avatar-img" class="avatar" />
-                        <div class="badge badge-idle"></div>
-                    </div>
-            
-                    <div class="avatar-container">
-                        <img src="https://bit.ly/dan-abramov" alt="avatar-img" class="avatar" />
-                        <div class="badge badge-dnd"></div>
-                    </div>
-                </div>
-               
-    
+      <!--  navbar-->
+      <nav class="nav-wrap nav-wrap-doc">
+        <div class="nav-doc-header">
+          <img
+            src="/assets/f-logo.svg"
+            alt="logo"
+            class="image image-sm logo"
+          />
+          <a href="/index.html">
+            <div class="nav-head nav-doc-head">Fab-UI</div></a
+          >
         </div>
 
-       
-              <!-- <script src="https://gist.github.com/anamkaa/43e8f70bc8f13e3953a912bb58cc56a4.js"></script> -->
-  
-              <pre>
-                <code class="html image">
-                   &lt;div class="avatar-container"&gt;
-                       &lt;img src="" alt="avatar-img" class="avatar" /&gt;
-                       &lt;div class="badge badge-online"&gt;&lt;/div&gt;
-                   &lt;/div&gt;
-            
-                   &lt;div class="avatar-container"&gt;
-                       &lt;img src="" alt="avatar-img" class="avatar" /&gt;
-                       &lt;div class="badge badge-idle"&gt;&lt;/div&gt;
-                   &lt;/div&gt;
-            
-                   &lt;div class="avatar-container"&gt;
-                       &lt;img src="" alt="avatar-img" class="avatar" /&gt;
-                       &lt;div class="badge badge-dnd"&gt;&lt;/div&gt;
-                   &lt;/div&gt;
-                </code>
-                </pre>
-              <!-- badge avatar end-->
-  
-           
-
-              <div class="nav-foot">
-                <div class="nav-foot-pill">
-                  <a href="/docs/docs-alert.html"><i class="fa-solid fa-chevron-left fa"></i> <span class="h5">Alert</span></a> 
-                </div>
-                <div class="nav-foot-pill">
-                  <a href="/docs/docs-badge.html"><span class="h5">Badge</span> <i class="fa-solid fa-chevron-right fa"></i></a> 
-                </div>
-              </div>
-          
-</div>
-          <!--  -->
-
-
-        </div>
-
-
-  
-        <!-- footer -->
-        <footer class="foot">
-          <div class="foot-icon">
-            <div class="nav-icon-chip">
-              <a href="https://github.com/anamkaa">
-                <i class="fa-brands fa-github fa nav-icon nav-icon-doc"></i>
-              </a>
-            </div>
-            <div class="nav-icon-chip">
-              <a href="https://twitter.com/anamkaa_">
-                <i class="fa-brands fa-twitter fa nav-icon nav-icon-doc"></i>
-              </a>
-            </div>
-            <div class="nav-icon-chip">
-              <a href="https://www.linkedin.com/in/anamkaa/">
-                <i class="fa-brands fa-linkedin fa nav-icon nav-icon-doc"></i>
-              </a>
-            </div>
-          </div>
-  
-          <p class="h6 text-center">
-            Made with <i class="far fa-heart"></i> by Anamika
-          </p>
-          <div class="text-small text-center">
-            Illustrations by
-            <a href="https://freewebillustrations.com/" target="_blank"
-              >FreeWebIllustrations</a
+        <div class="nav-icon-wrap">
+          <div class="nav-icon-chip">
+            <a href="/docs/doc.html">
+              <div class="nav-head nav-doc-head">Docs</div></a
             >
           </div>
-          <div class="text-small text-center">
-            <i class="fa-solid fa-copyright fa"></i> 2022 | Fab-UI | All rights
-            reserved
+          <div class="nav-icon-chip">
+            <a href="/docs/doc.html">
+              <div class="nav-head nav-doc-head">
+                <i class="fa-brands fa-github fa nav-icon btn-doc"></i></div
+            ></a>
           </div>
-        </footer>
+        </div>
+      </nav>
+      <!--  -->
+
+      <div class="main-wrap">
+        <!-- aside -->
+        <aside class="aside">
+          <div class="aside-container">
+            <div class="aside-header h4 text-black">Getting Started</div>
+
+            <a href="/docs/doc.html">
+              <div class="aside-element h6">Installation</div></a
+            >
+          </div>
+          <div class="aside-container">
+            <div class="aside-header h4 text-black">Components</div>
+
+            <a href="/docs/docs-alert.html"
+              ><div class="aside-element h6">Alert</div></a
+            >
+            <a href="/docs/docs-avatar.html"
+              ><div class="aside-element h6">Avatar</div></a
+            >
+            <a href="/docs/docs-badge.html">
+              <div class="aside-element h6">Badge</div></a
+            >
+            <a href="/docs/docs-button.html">
+              <div class="aside-element h6">Button</div></a
+            >
+            <a href="/docs/docs-card.html"
+              ><div class="aside-element h6">Card</div></a
+            >
+            <a href="/docs/docs-image.html">
+              <div class="aside-element h6">Image</div></a
+            >
+            <a href="/docs/docs-input.html"
+              ><div class="aside-element h6">Input</div></a
+            >
+            <a href="/docs/docs-navigation.html">
+              <div class="aside-element h6">Navigation</div></a
+            >
+            <a href="/docs/docs-snackbar.html"
+              ><div class="aside-element h6">Snackbar</div></a
+            >
+            <a href="/docs/docs-typography.html">
+              <div class="aside-element h6">Typography</div></a
+            >
+          </div>
+        </aside>
+        <!--  -->
+
+        <!-- main content -->
+        <div class="main">
+          <div class="main-head">
+            <div class="h3 text-bold main-head-title text-black">Avatar</div>
+            <p class="h5 main-head-text text-black">
+              Avatar are used to show profile images. They can be in different
+              shapes and sizes.
+            </p>
+          </div>
+
+          <!-- simple avatar -->
+          <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+              Simple Avatar
+            </div>
+            <p class="h6 main-head-text text-black">
+              Use the class <code class="code-pill">.avatar</code> to get a
+              simple avatar.
+            </p>
+          </div>
+
+          <div class="example">
+            <div class="av-cont">
+              <img
+                src="https://bit.ly/dan-abramov"
+                alt="avatar-img"
+                class="avatar"
+              />
+            </div>
+          </div>
+
+          <pre>
+<code class="html image code-snip">
+&lt;img src="" alt="avatar-img" class="avatar"/&gt;  
+</code>
+</pre>
+
+          <!-- simple avatar end-->
+
+          <!-- square avatar -->
+          <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+              Square Avatar
+            </div>
+            <p class="h6 main-head-text text-black">
+              Use the class <code class="code-pill">.avatar</code> and use
+              <code class="code-pill">.avatar-sq</code> get a square avatar.
+            </p>
+          </div>
+
+          <div class="example">
+            <div class="av-cont">
+              <img
+                src="https://bit.ly/dan-abramov"
+                alt="avatar-img"
+                class="avatar avatar-sq"
+              />
+            </div>
+          </div>
+
+          <pre>
+<code class="html image code-snip">
+&lt;img src="" alt="avatar-img" class="avatar avatar-sq"&gt;  
+</code>
+</pre>
+
+          <!-- square avatar end-->
+
+          <!-- sizes avatar -->
+          <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+              Avatar Size
+            </div>
+            <p class="h6 main-head-text text-black">
+              Use the class <code class="code-pill">.avatar</code> and use
+              <code class="code-pill">.avatar-sm</code> for small,
+              <code class="code-pill">.avatar-lg</code> for large,
+              <code class="code-pill">.avatar-xl</code> for extra-large avatar.
+              Adding class <code class="code-pill">.avatar-sq</code> will give
+              square avatars in required sizes.
+            </p>
+          </div>
+
+          <div class="example">
+            <div class="av-cont">
+              <img
+                src="https://bit.ly/dan-abramov"
+                alt="avatar-img"
+                class="avatar avatar-sm"
+              />
+
+              <img
+                src="https://bit.ly/dan-abramov"
+                alt="avatar-img"
+                class="avatar"
+              />
+
+              <img
+                src="https://bit.ly/dan-abramov"
+                alt="avatar-img"
+                class="avatar avatar-lg"
+              />
+
+              <img
+                src="https://bit.ly/dan-abramov"
+                alt="avatar-img"
+                class="avatar avatar-xl"
+              />
+            </div>
+            <div class="av-cont">
+              <img
+                src="https://bit.ly/dan-abramov"
+                alt="avatar-img"
+                class="avatar avatar-sq avatar-sm"
+              />
+
+              <img
+                src="https://bit.ly/dan-abramov"
+                alt="avatar-img"
+                class="avatar avatar-sq"
+              />
+
+              <img
+                src="https://bit.ly/dan-abramov"
+                alt="avatar-img"
+                class="avatar avatar-sq avatar-lg"
+              />
+
+              <img
+                src="https://bit.ly/dan-abramov"
+                alt="avatar-img"
+                class="avatar avatar-sq avatar-xl"
+              />
+            </div>
+          </div>
+
+          <pre>
+<code class="html image code-snip">
+&lt;img src="" alt="avatar-img" class="avatar avatar-sm" /&gt;
+
+&lt;img src="" alt="avatar-img" class="avatar" /&gt;
+                
+&lt;img src="" alt="avatar-img" class="avatar avatar-lg" /&gt;
+                
+&lt;img src="" alt="avatar-img" class="avatar avatar-xl" /&gt;
+
+&lt;img src="" alt="avatar-img" class="avatar avatar-sq avatar-sm" /&gt;
+
+&lt;img src="" alt="avatar-img" class="avatar avatar-sq" /&gt;
+
+&lt;img src="" alt="avatar-img" class="avatar avatar-sq avatar-lg" /&gt;
+
+&lt;img src="" alt="avatar-img" class="avatar avatar-sq avatar-xl" /&gt;
+</code>
+</pre>
+
+          <!-- sizes avatar end-->
+
+          <!-- bordered avatar -->
+          <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+              Avatar with border
+            </div>
+            <p class="h6 main-head-text text-black">
+              Use the class <code class="code-pill">.avatar</code> and use
+              <code class="code-pill">.avatar-border</code> for avatar with
+              border.
+            </p>
+          </div>
+
+          <div class="example">
+            <div class="av-cont">
+              <img
+                src="https://bit.ly/dan-abramov"
+                alt="avatar-img"
+                class="avatar avatar-sm avatar-border"
+              />
+
+              <img
+                src="https://bit.ly/dan-abramov"
+                alt="avatar-img"
+                class="avatar avatar-border"
+              />
+
+              <img
+                src="https://bit.ly/dan-abramov"
+                alt="avatar-img"
+                class="avatar avatar-lg avatar-border"
+              />
+
+              <img
+                src="https://bit.ly/dan-abramov"
+                alt="avatar-img"
+                class="avatar avatar-xl avatar-border"
+              />
+            </div>
+
+            <div class="av-cont">
+              <img
+                src="https://bit.ly/dan-abramov"
+                alt="avatar-img"
+                class="avatar avatar-sq avatar-sm avatar-border"
+              />
+
+              <img
+                src="https://bit.ly/dan-abramov"
+                alt="avatar-img"
+                class="avatar avatar-sq avatar-border"
+              />
+
+              <img
+                src="https://bit.ly/dan-abramov"
+                alt="avatar-img"
+                class="avatar avatar-sq avatar-lg avatar-border"
+              />
+
+              <img
+                src="https://bit.ly/dan-abramov"
+                alt="avatar-img"
+                class="avatar avatar-sq avatar-xl avatar-border"
+              />
+            </div>
+          </div>
+
+          <pre>
+<code class="html image code-snip">
+&lt;img src="" alt="avatar-img" class="avatar avatar-sm avatar-border" /&gt;
+
+&lt;img src="" alt="avatar-img" class="avatar avatar-border" /&gt;
+                
+&lt;img src="" alt="avatar-img" class="avatar avatar-lg avatar-border" /&gt;
+                
+&lt;img src="" alt="avatar-img" class="avatar avatar-xl avatar-border" /&gt;
+                
+&lt;img src="" alt="avatar-img" class="avatar avatar-sq avatar-sm avatar-border" /&gt;
+                
+&lt;img src="" alt="avatar-img" class="avatar avatar-sq avatar-border" /&gt;
+                
+&lt;img src="" alt="avatar-img" class="avatar avatar-sq avatar-lg avatar-border" /&gt;
+                
+&lt;img src="" alt="avatar-img" class="avatar avatar-sq avatar-xl avatar-border" /&gt;
+</code>
+</pre>
+
+          <!-- bordered avatar end-->
+
+          <!-- badge avatar -->
+          <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+              Avatar with badge
+            </div>
+            <p class="h6 main-head-text text-black">
+              Use the class <code class="code-pill">.badge</code> and use
+              <code class="code-pill">.badge-online</code> for green ,
+              <code class="code-pill">.badge-idle</code> for yellow,
+              <code class="code-pill">.badge-dnd</code> for red badge on avatar.
+            </p>
+          </div>
+
+          <div class="example">
+            <div class="av-cont">
+              <div class="avatar-container">
+                <img
+                  src="https://bit.ly/dan-abramov"
+                  alt="avatar-img"
+                  class="avatar"
+                />
+                <div class="badge badge-online"></div>
+              </div>
+
+              <div class="avatar-container">
+                <img
+                  src="https://bit.ly/dan-abramov"
+                  alt="avatar-img"
+                  class="avatar"
+                />
+                <div class="badge badge-idle"></div>
+              </div>
+
+              <div class="avatar-container">
+                <img
+                  src="https://bit.ly/dan-abramov"
+                  alt="avatar-img"
+                  class="avatar"
+                />
+                <div class="badge badge-dnd"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <script src="https://gist.github.com/anamkaa/43e8f70bc8f13e3953a912bb58cc56a4.js"></script> -->
+
+          <pre>
+<code class="html image code-snip">
+&lt;div class="avatar-container"&gt;
+&lt;img src="" alt="avatar-img" class="avatar" /&gt;
+&lt;div class="badge badge-online"&gt;
+&lt;/div&gt;&lt;/div&gt;
+            
+&lt;div class="avatar-container"&gt;
+&lt;img src="" alt="avatar-img" class="avatar" /&gt;
+&lt;div class="badge badge-idle"&gt;
+&lt;/div&gt;&lt;/div&gt;
+            
+&lt;div class="avatar-container"&gt;
+&lt;img src="" alt="avatar-img" class="avatar" /&gt;
+&lt;div class="badge badge-dnd"&gt;
+&lt;/div&gt;&lt;/div&gt;
+</code>
+</pre>
+          <!-- badge avatar end-->
+
+          <div class="nav-foot">
+            <div class="nav-foot-pill">
+              <a href="/docs/docs-alert.html"
+                ><i class="fa-solid fa-chevron-left fa"></i>
+                <span class="h5">Alert</span></a
+              >
+            </div>
+            <div class="nav-foot-pill">
+              <a href="/docs/docs-badge.html"
+                ><span class="h5">Badge</span>
+                <i class="fa-solid fa-chevron-right fa"></i
+              ></a>
+            </div>
+          </div>
+        </div>
         <!--  -->
       </div>
 
+      <!-- footer -->
+      <footer class="foot">
+        <div class="foot-icon">
+          <div class="nav-icon-chip">
+            <a href="https://github.com/anamkaa">
+              <i class="fa-brands fa-github fa nav-icon nav-icon-doc"></i>
+            </a>
+          </div>
+          <div class="nav-icon-chip">
+            <a href="https://twitter.com/anamkaa_">
+              <i class="fa-brands fa-twitter fa nav-icon nav-icon-doc"></i>
+            </a>
+          </div>
+          <div class="nav-icon-chip">
+            <a href="https://www.linkedin.com/in/anamkaa/">
+              <i class="fa-brands fa-linkedin fa nav-icon nav-icon-doc"></i>
+            </a>
+          </div>
+        </div>
 
-
-
-
-
-
-
+        <p class="h6 text-center">
+          Made with <i class="far fa-heart"></i> by Anamika
+        </p>
+        <div class="text-small text-center">
+          Illustrations by
+          <a href="https://freewebillustrations.com/" target="_blank"
+            >FreeWebIllustrations</a
+          >
+        </div>
+        <div class="text-small text-center">
+          <i class="fa-solid fa-copyright fa"></i> 2022 | Fab-UI | All rights
+          reserved
+        </div>
+      </footer>
+      <!--  -->
+    </div>
 
     <script src="/path/to/highlight.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
     <script>
       hljs.highlightAll();
     </script>
-</body>
+  </body>
 </html>
