@@ -61,8 +61,13 @@ color: var(--info);
     gap: 5%;
 }
 
-/* @media screen and (max-width:650px) {
+@media screen and (max-width:650px) {
     .aside{
         display: none;
     }
-} */
+
+}
+
+.code-snip{
+    max-width: 80vw;
+}
