@@ -56,10 +56,11 @@
   display: flex;
   align-items: center;
   margin: 0.2rem;
-  padding: 0.2rem;
+  padding: 0rem;
   border-radius: 0.1rem;
 }
 
 .nav-search-icon{
+  padding: 0 0.3rem 0 0.3rem;
   color: black;
 }
