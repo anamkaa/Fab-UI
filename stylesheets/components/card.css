@@ -76,8 +76,8 @@
 .card-icon-heart {
   color: var(--bg-color);
   position: absolute;
-  right: 3%;
-  bottom: 3%;
+  right: 5%;
+  bottom: 5%;
   font-size: 1.5rem;
   z-index: 999;
 }
