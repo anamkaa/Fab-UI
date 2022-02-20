@@ -61,9 +61,36 @@ color: var(--info);
     gap: 5%;
 }
 
+.aside-toggle{
+    margin:  0 1rem;
+    padding: 1rem;
+    display: none;
+    color: var(--info-dark);
+}
+
+.ph-list{
+    font-size: 2.5rem;
+}
+
 @media screen and (max-width:650px) {
-    .aside{
+
+    .aside-toggle{
+        display: block;
+    }
+
+    aside{
         display: none;
+        position: relative;
+        opacity: 0.9;
+    }
+
+    aside.show{
+        display: block;
+        z-index: 9999;
+    }
+
+    .main-wrap{
+        flex-direction: column;
     }
 
 }
