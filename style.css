@@ -68,6 +68,9 @@
   justify-content: center;
   align-items: center;
   background-color: #fedd6d;
+  position: relative;
+  bottom: 0;
+  z-index: 99;
 }
 
 .foot-icon {
