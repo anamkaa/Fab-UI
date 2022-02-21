@@ -4,7 +4,7 @@
     background-color: var(--bg-color);
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 99;
 }
 
 .text-black{
@@ -84,12 +84,16 @@ color: var(--info);
     aside{
         display: none;
         position: relative;
-        opacity: 0.9;
+        
     }
 
     aside.show{
         display: block;
-        z-index: 9999;
+        height: 100vh;
+        z-index: 9;
+        position: fixed;
+        top: 70px;
+        opacity: 0.9;
     }
 
     .main-wrap{
