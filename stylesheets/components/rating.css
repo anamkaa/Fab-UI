@@ -1,0 +1,29 @@
+@import url("/stylesheets/main.css");
+
+.rating-cont{
+    margin: 0.5rem;
+}
+
+.rating-bdg{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+     gap: 0.2rem;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    width: fit-content;
+    padding: 0.3rem;
+    margin: 0.3rem;
+}
+
+.rating-bdg-red{
+    background-color: var(--badge-dnd);
+}
+
+.rating-bdg-yellow{
+    background-color: var(--badge-idle);
+}
+
+.rating-bdg-green{
+    background-color: var(--badge-online);
+}
