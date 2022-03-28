@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <script
+      src="https://kit.fontawesome.com/c4d0bd5372.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Grid | Fab-UI</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/shades-of-purple.min.css"
+    />
+    <link rel="stylesheet" href="/stylesheets/main.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!--  navbar-->
+      <nav class="nav-wrap nav-wrap-doc">
+        <div class="nav-doc-header">
+          <img
+            src="/assets/f-logo.svg"
+            alt="logo"
+            class="image image-sm logo"
+          />
+          <a href="/index.html">
+            <div class="nav-head nav-doc-head">Fab-UI</div>
+          </a>
+        </div>
+
+        <div class="nav-icon-wrap">
+          <div class="nav-icon-chip">
+            <a href="/docs/doc.html">
+              <div class="nav-head nav-doc-head">Docs</div>
+            </a>
+          </div>
+          <div class="nav-icon-chip">
+            <a href="/docs/doc.html">
+              <div class="nav-head nav-doc-head">
+                <i class="fa-brands fa-github fa nav-icon btn-doc"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <!--  -->
+
+      <div class="aside-toggle" id="aside-toggle">
+        <i class="ph-list"></i>
+      </div>
+
+      <div class="main-wrap">
+        <!-- aside -->
+        <aside class="aside" id="aside">
+          <div class="aside-container">
+            <div class="aside-header h4 text-black">Getting Started</div>
+
+            <a href="/docs/doc.html">
+              <div class="aside-element h6">Installation</div>
+            </a>
+          </div>
+          <div class="aside-container">
+            <div class="aside-header h4 text-black">Components</div>
+
+            <a href="/docs/docs-alert.html">
+              <div class="aside-element h6">Alert</div>
+            </a>
+            <a href="/docs/docs-avatar.html">
+              <div class="aside-element h6">Avatar</div>
+            </a>
+            <a href="/docs/docs-badge.html">
+              <div class="aside-element h6">Badge</div>
+            </a>
+            <a href="/docs/docs-button.html">
+              <div class="aside-element h6">Button</div>
+            </a>
+            <a href="/docs/docs-card.html">
+              <div class="aside-element h6">Card</div>
+            </a>
+            <a href="/docs/docs-image.html">
+              <div class="aside-element h6">Image</div>
+            </a>
+            <a href="/docs/docs-input.html">
+              <div class="aside-element h6">Input</div>
+            </a>
+            <a href="/docs/docs-navigation.html">
+              <div class="aside-element h6">Navigation</div>
+            </a>
+            <a href="/docs/docs-snackbar.html">
+              <div class="aside-element h6">Snackbar</div>
+            </a>
+            <a href="/docs/docs-typography.html">
+              <div class="aside-element h6">Typography</div>
+            </a>
+            <a href="/docs/docs-list.html">
+              <div class="aside-element h6">List</div>
+            </a>
+            <a href="/docs/docs-rating.html">
+              <div class="aside-element h6">Rating</div>
+            </a>
+            <a href="/docs/docs-modal.html">
+              <div class="aside-element h6">Modal</div>
+            </a>
+            <a href="/docs/docs-grid.html">
+              <div class="aside-element h6">Grid</div>
+            </a>
+          </div>
+        </aside>
+        <!--  -->
+
+        <div class="main">
+          <div class="main-head">
+            <div class="h3 text-bold main-head-title text-black">Grid</div>
+          </div>
+
+           <!-- 2 item  -->
+           <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+              Two Item Grid
+            </div>
+          </div>
+
+          <div class="example">
+            <div class="grid-cont grid-2-col">
+                <div class="grid-item">One</div>
+                <div class="grid-item">Two</div>
+            </div>
+          </div>
+
+          <pre>
+<code class="html image code-snip">
+&lt;div class="grid-cont grid-2-col"&gt;
+&lt;div class="grid-item"&gt;One&lt;/div&gt;
+&lt;div class="grid-item"&gt;Two&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+ <!--2 item end-->
+
+  <!-- 3 item  -->
+  <div class="sub-head">
+    <div class="h4 text-bold main-head-title text-black">
+     Three Item Grid
+    </div>
+  </div>
+
+  <div class="example">
+    <div class="grid-cont grid-3-col">
+        <div class="grid-item">One</div>
+        <div class="grid-item">Two</div>
+        <div class="grid-item">Three</div>
+    </div>
+  </div>
+
+  <pre>
+<code class="html image code-snip">
+&lt;div class="grid-cont grid-3-col"&gt;
+&lt;div class="grid-item"&gt;One&lt;/div&gt;
+&lt;div class="grid-item"&gt;Two&lt;/div&gt;
+&lt;div class="grid-item"&gt;Three&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+<!--3 item end-->
+
+          <!-- 2 col  -->
+          <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+              Two Column Grid
+            </div>
+          </div>
+
+          <div class="example">
+            <div class="grid-cont grid-2-col">
+                <div class="grid-item">One</div>
+                <div class="grid-item">Two</div>
+                <div class="grid-item">Three</div>
+                <div class="grid-item">Four</div>
+            </div>
+          </div>
+
+          <pre>
+<code class="html image code-snip">
+&lt;div class="grid-cont grid-2-col"&gt;
+&lt;div class="grid-item"&gt;One&lt;/div&gt;
+&lt;div class="grid-item"&gt;Two&lt;/div&gt;
+&lt;div class="grid-item"&gt;Three&lt;/div&gt;
+&lt;div class="grid-item"&gt;Four&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+ <!--2 col end-->
+
+          <!-- 3 col  -->
+          <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+              Three Column Grid
+            </div>
+          </div>
+
+          <div class="example">
+            <div class="grid-cont grid-3-col">
+              <div class="grid-item">One</div>
+              <div class="grid-item">Two</div>
+              <div class="grid-item">Three</div>
+              <div class="grid-item">Four</div>
+              <div class="grid-item">Five</div>
+              <div class="grid-item">Six</div>
+            </div>
+          </div>
+
+          <pre>
+<code class="html image code-snip">
+&lt;div class="grid-cont grid-3-col"&gt;
+&lt;div class="grid-item"&gt;One&lt;/div&gt;
+&lt;div class="grid-item"&gt;Two&lt;/div&gt;
+&lt;div class="grid-item"&gt;Three&lt;/div&gt;
+&lt;div class="grid-item"&gt;Four&lt;/div&gt;
+&lt;div class="grid-item"&gt;Five&lt;/div&gt;
+&lt;div class="grid-item"&gt;Six&lt;/div&gt;
+&lt;/div&gt;
+</code>
+</pre>
+
+          <!-- 3 col end-->
+
+          <div class="nav-foot">
+            <div class="nav-foot-pill">
+              <a href="/docs/docs-typography.html"
+                ><i class="fa-solid fa-chevron-left fa"></i>
+                <span class="h5">Typography</span></a
+              >
+            </div>
+            <div class="nav-foot-pill">
+              <a href="/docs/docs-rating.html"
+                ><span class="h5">Rating</span>
+                <i class="fa-solid fa-chevron-right fa"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <footer class="foot">
+        <div class="foot-icon">
+          <div class="nav-icon-chip">
+            <a href="https://github.com/anamkaa">
+              <i class="fa-brands fa-github fa nav-icon nav-icon-doc"></i>
+            </a>
+          </div>
+          <div class="nav-icon-chip">
+            <a href="https://twitter.com/anamkaa_">
+              <i class="fa-brands fa-twitter fa nav-icon nav-icon-doc"></i>
+            </a>
+          </div>
+          <div class="nav-icon-chip">
+            <a href="https://www.linkedin.com/in/anamkaa/">
+              <i class="fa-brands fa-linkedin fa nav-icon nav-icon-doc"></i>
+            </a>
+          </div>
+        </div>
+
+        <p class="h6 text-center">
+          Made with <i class="far fa-heart"></i> by Anamika
+        </p>
+        <div class="text-small text-center">
+          Illustrations by
+          <a href="https://freewebillustrations.com/" target="_blank"
+            >FreeWebIllustrations</a
+          >
+        </div>
+        <div class="text-small text-center">
+          <i class="fa-solid fa-copyright fa"></i> 2022 | Fab-UI | All rights
+          reserved
+        </div>
+      </footer>
+      <!--  -->
+    </div>
+
+    <script src="/app.js"></script>
+    <script src="/path/to/highlight.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>
