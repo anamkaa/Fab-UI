@@ -9,7 +9,7 @@
       src="https://kit.fontawesome.com/c4d0bd5372.js"
       crossorigin="anonymous"
     ></script>
-    <title>Rating | Fab-UI</title>
+    <title>Modal | Fab-UI</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/shades-of-purple.min.css"
@@ -117,130 +117,141 @@
 
         <div class="main">
           <div class="main-head">
-            <div class="h3 text-bold main-head-title text-black">Rating</div>
+            <div class="h3 text-bold main-head-title text-black">Modal</div>
             <p class="h5 main-head-text text-black">
-              Ratings can be useful in showing feedbacks.
+              Modals are interactive boxes that can be used for giving
+              reminders, complete certain actions and more.
             </p>
           </div>
 
           <!-- horizontal list -->
           <div class="sub-head">
             <div class="h4 text-bold main-head-title text-black">
-              Rating Icons
+              Simple Modal
             </div>
           </div>
 
           <div class="example">
             <div class="av-cont">
-              <div class="rating-cont">
-                <i class="ph-star-fill"></i>
-                <i class="ph-star-fill"></i>
-                <i class="ph-star-half-fill"></i>
+              <div class="wrapper">
+                <p class="supporting-text">Only Supporting Text</p>
+                <div class="options linear">
+                  <button class="only-text-btn">Option 1</button>
+                  <button class="only-text-btn">Option 2</button>
+                </div>
               </div>
             </div>
 
             <div class="av-cont">
-              <div class="rating-cont">
-                <i class="ph-star-fill"></i>
-                <i class="ph-star-fill"></i>
-                <i class="ph-star-fill"></i>
-                <i class="ph-star-half-fill"></i>
-              </div>
-            </div>
-
-            <div class="av-cont">
-              <div class="rating-cont">
-                <i class="ph-star-fill"></i>
-                <i class="ph-star-fill"></i>
-                <i class="ph-star-fill"></i>
-                <i class="ph-star-fill"></i>
-                <i class="ph-star-half-fill"></i>
+              <div class="wrapper">
+                <p class="supporting-text">Only Supporting Text</p>
+                <div class="options linear">
+                  <button class="only-text-btn">Option 1</button>
+                </div>
               </div>
             </div>
           </div>
 
           <pre>
 <code class="html image code-snip">
-&lt;div class="rating-cont"&gt;
-&lt;i class="ph-star-fill"&gt;&lt;/i&gt;
-&lt;i class="ph-star-fill"&gt;&lt;/i&gt;
-&lt;i class="ph-star-half-fill"&gt;&lt;/i&gt;
+&lt;div class="wrapper"&gt;
+&lt;p class="supporting-text"&gt;Only Supporting Text&lt;/p&gt;
+&lt;div class="options linear"&gt;
+&lt;button class="only-text-btn"&gt;
+Option 1
+&lt;/button&gt;
+&lt;button class="only-text-btn"&gt;
+Option 2
+&lt;/button&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div class="rating-cont"&gt;
-&lt;i class="ph-star-fill"&gt;&lt;/i&gt;
-&lt;i class="ph-star-fill"&gt;&lt;/i&gt;
-&lt;i class="ph-star-fill"&gt;&lt;/i&gt;
-&lt;i class="ph-star-half-fill"&gt;&lt;/i&gt;
+&lt;div class="wrapper"&gt;
+&lt;p class="supporting-text"&gt;Only Supporting Text&lt;/p&gt;
+&lt;div class="options linear"&gt;
+&lt;button class="only-text-btn"&gt;
+Option 1
+&lt;/button&gt;
 &lt;/div&gt;
-
-&lt;div class="rating-cont"&gt;
-&lt;i class="ph-star-fill"&gt;&lt;/i&gt;
-&lt;i class="ph-star-fill"&gt;&lt;/i&gt;
-&lt;i class="ph-star-fill"&gt;&lt;/i&gt;
-&lt;i class="ph-star-fill"&gt;&lt;/i&gt;
-&lt;i class="ph-star-half-fill"&gt;&lt;/i&gt;
 &lt;/div&gt;
 </code>
 </pre>
 
-          <!--horizontal list end-->
+          <!--simple modal end-->
 
-          <!-- vertical list -->
+          <!-- modal w title -->
           <div class="sub-head">
             <div class="h4 text-bold main-head-title text-black">
-              Rating badge
+              Modal with title text
             </div>
           </div>
 
           <div class="example">
             <div class="av-cont">
-              <div class="rating-bdg rating-bdg-red">
-                <span>2.5</span> <i class="ph-star-fill"></i>
+              <div class="wrapper">
+                <header class="title">Title Text</header>
+                <p class="supporting-text">Supporting Text</p>
+                <div class="options linear">
+                  <button class="only-text-btn">Option 1</button>
+                  <button class="only-text-btn">Option 2</button>
+                </div>
               </div>
             </div>
 
             <div class="av-cont">
-              <div class="rating-bdg rating-bdg-yellow">
-                <span>3.5</span> <i class="ph-star-fill"></i>
-              </div>
-            </div>
-
-            <div class="av-cont">
-              <div class="rating-bdg rating-bdg-green">
-                <span>4.5</span> <i class="ph-star-fill"></i>
+              <div class="wrapper">
+                <header class="title">Title Text</header>
+                <p class="supporting-text">Supporting Text</p>
+                <div class="options stacked">
+                  <button class="only-text-btn">Option 1</button>
+                  <button class="only-text-btn">Option 2</button>
+                </div>
               </div>
             </div>
           </div>
 
           <pre>
 <code class="html image code-snip">
-&lt;div class="rating-bdg rating-bdg-red"&gt;
-&lt;span&gt;2.5&lt;/span&gt;  &lt;i class="ph-star-fill"&gt;&lt;/i&gt;
+&lt;div class="wrapper"&gt;
+&lt;header class="title"&gt;Title Text&lt;/header&gt;
+&lt;p class="supporting-text"&gt; Supporting Text&lt;/p&gt;
+&lt;div class="options linear"&gt;
+&lt;button class="only-text-btn"&gt;
+Option 1
+&lt;/button&gt;
+&lt;button class="only-text-btn"&gt;
+Option 2
+&lt;/button&gt;
 &lt;/div&gt;
- 
-&lt;div class="rating-bdg rating-bdg-yellow"&gt;
-&lt;span&gt;3.5&lt;/span&gt;  &lt;i class="ph-star-fill"&gt;&lt;/i&gt;
 &lt;/div&gt;
- 
-&lt;div class="rating-bdg rating-bdg-green"&gt;
-&lt;span&gt;4.5&lt;/span&gt;  &lt;i class="ph-star-fill"&gt;&lt;/i&gt;
+
+&lt;div class="wrapper"&gt;
+&lt;header class="title"&gt;Title Text&lt;/header&gt;
+&lt;p class="supporting-text"&gt; Supporting Text&lt;/p&gt;
+&lt;div class="options stacked"&gt;
+&lt;button class="only-text-btn"&gt;
+Option 1
+&lt;/button&gt;
+&lt;button class="only-text-btn"&gt;
+Option 2
+&lt;/button&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 </code>
 </pre>
 
-          <!-- round image end-->
+          <!-- modal with title end-->
 
           <div class="nav-foot">
             <div class="nav-foot-pill">
-              <a href="/docs/docs-list.html"
+              <a href="/docs/docs-rating.html"
                 ><i class="fa-solid fa-chevron-left fa"></i>
-                <span class="h5">List</span></a
+                <span class="h5">Rating</span></a
               >
             </div>
             <div class="nav-foot-pill">
-              <a href="/docs/docs-modal.html"
-                ><span class="h5">Modal</span>
+              <a href="/docs/docs-grid.html"
+                ><span class="h5">Grid</span>
                 <i class="fa-solid fa-chevron-right fa"></i
               ></a>
             </div>
