@@ -1,158 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/phosphor-icons"></script>
-    <script
-      src="https://kit.fontawesome.com/c4d0bd5372.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/c4d0bd5372.js" crossorigin="anonymous"></script>
     <title>Modal | Fab-UI</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/shades-of-purple.min.css"
-    />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/shades-of-purple.min.css" />
     <link rel="stylesheet" href="/stylesheets/main.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <div class="container">
-      <!--  navbar-->
-      <nav class="nav-wrap nav-wrap-doc">
-        <div class="nav-doc-header">
-          <img
-            src="/assets/f-logo.svg"
-            alt="logo"
-            class="image image-sm logo"
-          />
-          <a href="/index.html">
-            <div class="nav-head nav-doc-head">Fab-UI</div>
-          </a>
-        </div>
+        <!--  navbar-->
+        <nav class="nav-wrap nav-wrap-doc">
+            <div class="nav-doc-header">
+                <img src="/assets/f-logo.svg" alt="logo" class="image image-sm logo" />
+                <a href="/index.html">
+                    <div class="nav-head nav-doc-head">Fab-UI</div>
+                </a>
+            </div>
 
-        <div class="nav-icon-wrap">
-          <div class="nav-icon-chip">
-            <a href="/docs/doc.html">
-              <div class="nav-head nav-doc-head">Docs</div>
-            </a>
-          </div>
-          <div class="nav-icon-chip">
-            <a href="/docs/doc.html">
-              <div class="nav-head nav-doc-head">
-                <i class="fa-brands fa-github fa nav-icon btn-doc"></i>
-              </div>
-            </a>
-          </div>
-        </div>
-      </nav>
-      <!--  -->
-
-      <div class="aside-toggle" id="aside-toggle">
-        <i class="ph-list"></i>
-      </div>
-
-      <div class="main-wrap">
-        <!-- aside -->
-        <aside class="aside" id="aside">
-          <div class="aside-container">
-            <div class="aside-header h4 text-black">Getting Started</div>
-
-            <a href="/docs/doc.html">
-              <div class="aside-element h6">Installation</div>
-            </a>
-          </div>
-          <div class="aside-container">
-            <div class="aside-header h4 text-black">Components</div>
-
-            <a href="/docs/docs-alert.html">
-              <div class="aside-element h6">Alert</div>
-            </a>
-            <a href="/docs/docs-avatar.html">
-              <div class="aside-element h6">Avatar</div>
-            </a>
-            <a href="/docs/docs-badge.html">
-              <div class="aside-element h6">Badge</div>
-            </a>
-            <a href="/docs/docs-button.html">
-              <div class="aside-element h6">Button</div>
-            </a>
-            <a href="/docs/docs-card.html">
-              <div class="aside-element h6">Card</div>
-            </a>
-            <a href="/docs/docs-image.html">
-              <div class="aside-element h6">Image</div>
-            </a>
-            <a href="/docs/docs-input.html">
-              <div class="aside-element h6">Input</div>
-            </a>
-            <a href="/docs/docs-navigation.html">
-              <div class="aside-element h6">Navigation</div>
-            </a>
-            <a href="/docs/docs-snackbar.html">
-              <div class="aside-element h6">Snackbar</div>
-            </a>
-            <a href="/docs/docs-typography.html">
-              <div class="aside-element h6">Typography</div>
-            </a>
-            <a href="/docs/docs-list.html">
-              <div class="aside-element h6">List</div>
-            </a>
-            <a href="/docs/docs-rating.html">
-              <div class="aside-element h6">Rating</div>
-            </a>
-            <a href="/docs/docs-modal.html">
-              <div class="aside-element h6">Modal</div>
-            </a>
-            <a href="/docs/docs-grid.html">
-              <div class="aside-element h6">Grid</div>
-            </a>
-            <a href="/docs/docs-slider.html">
-              <div class="aside-element h6">Slider</div>
-            </a>
-          </div>
-        </aside>
+            <div class="nav-icon-wrap">
+                <div class="nav-icon-chip">
+                    <a href="/docs/doc.html">
+                        <div class="nav-head nav-doc-head">Docs</div>
+                    </a>
+                </div>
+                <div class="nav-icon-chip">
+                    <a href="/docs/doc.html">
+                        <div class="nav-head nav-doc-head">
+                            <i class="fa-brands fa-github fa nav-icon btn-doc"></i></div>
+                    </a>
+                </div>
+            </div>
+        </nav>
         <!--  -->
 
-        <div class="main">
-          <div class="main-head">
-            <div class="h3 text-bold main-head-title text-black">Modal</div>
-            <p class="h5 main-head-text text-black">
-              Modals are interactive boxes that can be used for giving
-              reminders, complete certain actions and more.
-            </p>
-          </div>
+        <div class="aside-toggle" id="aside-toggle">
+            <i class="ph-list"></i>
+        </div>
 
-          <!-- horizontal list -->
-          <div class="sub-head">
-            <div class="h4 text-bold main-head-title text-black">
-              Simple Modal
-            </div>
-          </div>
+        <div class="main-wrap">
+            <!-- aside -->
+            <aside class="aside" id="aside">
+                <div class="aside-container">
+                    <div class="aside-header h4 text-black">Getting Started</div>
 
-          <div class="example">
-            <div class="av-cont">
-              <div class="wrapper">
-                <p class="supporting-text">Only Supporting Text</p>
-                <div class="options linear">
-                  <button class="only-text-btn">Option 1</button>
-                  <button class="only-text-btn">Option 2</button>
+                    <a href="/docs/doc.html">
+                        <div class="aside-element h6">Installation</div>
+                    </a>
                 </div>
-              </div>
-            </div>
+                <div class="aside-container">
+                    <div class="aside-header h4 text-black">Components</div>
 
-            <div class="av-cont">
-              <div class="wrapper">
-                <p class="supporting-text">Only Supporting Text</p>
-                <div class="options linear">
-                  <button class="only-text-btn">Option 1</button>
+                    <a href="/docs/docs-alert.html">
+                        <div class="aside-element h6">Alert</div>
+                    </a>
+                    <a href="/docs/docs-avatar.html">
+                        <div class="aside-element h6">Avatar</div>
+                    </a>
+                    <a href="/docs/docs-badge.html">
+                        <div class="aside-element h6">Badge</div>
+                    </a>
+                    <a href="/docs/docs-button.html">
+                        <div class="aside-element h6">Button</div>
+                    </a>
+                    <a href="/docs/docs-card.html">
+                        <div class="aside-element h6">Card</div>
+                    </a>
+                    <a href="/docs/docs-image.html">
+                        <div class="aside-element h6">Image</div>
+                    </a>
+                    <a href="/docs/docs-input.html">
+                        <div class="aside-element h6">Input</div>
+                    </a>
+                    <a href="/docs/docs-navigation.html">
+                        <div class="aside-element h6">Navigation</div>
+                    </a>
+                    <a href="/docs/docs-snackbar.html">
+                        <div class="aside-element h6">Snackbar</div>
+                    </a>
+                    <a href="/docs/docs-typography.html">
+                        <div class="aside-element h6">Typography</div>
+                    </a>
+                    <a href="/docs/docs-list.html">
+                        <div class="aside-element h6">List</div>
+                    </a>
+                    <a href="/docs/docs-rating.html">
+                        <div class="aside-element h6">Rating</div>
+                    </a>
+                    <a href="/docs/docs-modal.html">
+                        <div class="aside-element h6">Modal</div>
+                    </a>
+                    <a href="/docs/docs-grid.html">
+                        <div class="aside-element h6">Grid</div>
+                    </a>
                 </div>
-              </div>
-            </div>
-          </div>
+            </aside>
+            <!--  -->
 
-          <pre>
+            <div class="main">
+                <div class="main-head">
+                    <div class="h3 text-bold main-head-title text-black">Modal</div>
+                    <p class="h5 main-head-text text-black">
+                       Modals are interactive boxes that can be used for giving reminders, complete certain actions and more.
+                    </p>
+                </div>
+
+                <!-- horizontal list -->
+                <div class="sub-head">
+                    <div class="h4 text-bold main-head-title text-black">
+                        Simple Modal
+                    </div>
+                </div>
+
+                <div class="example">
+                    <div class="av-cont">
+                        <div class="wrapper">
+                            <p class="supporting-text">Only Supporting Text</p>
+                            <div class="options linear">
+                              <button class="only-text-btn">
+                                Option 1
+                              </button>
+                              <button class="only-text-btn">
+                                Option 2
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                    
+                          <div class="av-cont">
+                          <div class="wrapper">
+                            <p class="supporting-text">Only Supporting Text</p>
+                            <div class="options linear">
+                              <button class="only-text-btn">
+                                Option 1
+                              </button>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+
+                <pre>
 <code class="html image code-snip">
 &lt;div class="wrapper"&gt;
 &lt;p class="supporting-text"&gt;Only Supporting Text&lt;/p&gt;
@@ -177,40 +170,48 @@ Option 1
 </code>
 </pre>
 
-          <!--simple modal end-->
+                <!--simple modal end-->
 
-          <!-- modal w title -->
-          <div class="sub-head">
-            <div class="h4 text-bold main-head-title text-black">
-              Modal with title text
-            </div>
-          </div>
-
-          <div class="example">
-            <div class="av-cont">
-              <div class="wrapper">
-                <header class="title">Title Text</header>
-                <p class="supporting-text">Supporting Text</p>
-                <div class="options linear">
-                  <button class="only-text-btn">Option 1</button>
-                  <button class="only-text-btn">Option 2</button>
+                <!-- modal w title -->
+                <div class="sub-head">
+                    <div class="h4 text-bold main-head-title text-black">
+                       Modal with title text
+                    </div>
                 </div>
-              </div>
-            </div>
 
-            <div class="av-cont">
-              <div class="wrapper">
-                <header class="title">Title Text</header>
-                <p class="supporting-text">Supporting Text</p>
-                <div class="options stacked">
-                  <button class="only-text-btn">Option 1</button>
-                  <button class="only-text-btn">Option 2</button>
+                <div class="example">
+                    <div class="av-cont">
+                        <div class="wrapper">
+                            <header class="title">Title Text</header>
+                            <p class="supporting-text"> Supporting Text</p>
+                            <div class="options linear">
+                              <button class="only-text-btn">
+                                Option 1
+                              </button>
+                              <button class="only-text-btn">
+                                Option 2
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+
+                     <div class="av-cont">
+                          <div class="wrapper">
+                            <header class="title">Title Text</header>
+                            <p class="supporting-text"> Supporting Text</p>
+                            <div class="options stacked">
+                              <button class="only-text-btn">
+                                Option 1
+                              </button>
+                              <button class="only-text-btn">
+                                Option 2
+                              </button>
+                            </div>
+                          </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <pre>
+                <pre>
 <code class="html image code-snip">
 &lt;div class="wrapper"&gt;
 &lt;header class="title"&gt;Title Text&lt;/header&gt;
@@ -240,67 +241,63 @@ Option 2
 </code>
 </pre>
 
-          <!-- modal with title end-->
+                <!-- modal with title end-->
 
-          <div class="nav-foot">
-            <div class="nav-foot-pill">
-              <a href="/docs/docs-rating.html"
-                ><i class="fa-solid fa-chevron-left fa"></i>
-                <span class="h5">Rating</span></a
-              >
+
+                <div class="nav-foot">
+                    <div class="nav-foot-pill">
+                        <a href="/docs/docs-rating.html"><i class="fa-solid fa-chevron-left fa"></i>
+                            <span class="h5">Rating</span></a>
+                    </div>
+                    <div class="nav-foot-pill">
+                        <a href="/docs/docs-grid.html"><span class="h5">Grid</span>
+                            <i class="fa-solid fa-chevron-right fa"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="nav-foot-pill">
-              <a href="/docs/docs-grid.html"
-                ><span class="h5">Grid</span>
-                <i class="fa-solid fa-chevron-right fa"></i
-              ></a>
+        </div>
+
+        <!-- footer -->
+        <footer class="foot">
+            <div class="foot-icon">
+                <div class="nav-icon-chip">
+                    <a href="https://github.com/anamkaa">
+                        <i class="fa-brands fa-github fa nav-icon nav-icon-doc"></i>
+                    </a>
+                </div>
+                <div class="nav-icon-chip">
+                    <a href="https://twitter.com/anamkaa_">
+                        <i class="fa-brands fa-twitter fa nav-icon nav-icon-doc"></i>
+                    </a>
+                </div>
+                <div class="nav-icon-chip">
+                    <a href="https://www.linkedin.com/in/anamkaa/">
+                        <i class="fa-brands fa-linkedin fa nav-icon nav-icon-doc"></i>
+                    </a>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
 
-      <!-- footer -->
-      <footer class="foot">
-        <div class="foot-icon">
-          <div class="nav-icon-chip">
-            <a href="https://github.com/anamkaa">
-              <i class="fa-brands fa-github fa nav-icon nav-icon-doc"></i>
-            </a>
-          </div>
-          <div class="nav-icon-chip">
-            <a href="https://twitter.com/anamkaa_">
-              <i class="fa-brands fa-twitter fa nav-icon nav-icon-doc"></i>
-            </a>
-          </div>
-          <div class="nav-icon-chip">
-            <a href="https://www.linkedin.com/in/anamkaa/">
-              <i class="fa-brands fa-linkedin fa nav-icon nav-icon-doc"></i>
-            </a>
-          </div>
-        </div>
-
-        <p class="h6 text-center">
-          Made with <i class="far fa-heart"></i> by Anamika
-        </p>
-        <div class="text-small text-center">
-          Illustrations by
-          <a href="https://freewebillustrations.com/" target="_blank"
-            >FreeWebIllustrations</a
-          >
-        </div>
-        <div class="text-small text-center">
-          <i class="fa-solid fa-copyright fa"></i> 2022 | Fab-UI | All rights
-          reserved
-        </div>
-      </footer>
-      <!--  -->
+            <p class="h6 text-center">
+                Made with <i class="far fa-heart"></i> by Anamika
+            </p>
+            <div class="text-small text-center">
+                Illustrations by
+                <a href="https://freewebillustrations.com/" target="_blank">FreeWebIllustrations</a>
+            </div>
+            <div class="text-small text-center">
+                <i class="fa-solid fa-copyright fa"></i> 2022 | Fab-UI | All rights
+                reserved
+            </div>
+        </footer>
+        <!--  -->
     </div>
 
     <script src="/app.js"></script>
     <script src="/path/to/highlight.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
     <script>
-      hljs.highlightAll();
+        hljs.highlightAll();
     </script>
-  </body>
+</body>
+
 </html>
