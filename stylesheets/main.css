@@ -14,6 +14,9 @@
 @import url("/stylesheets/components/list.css");
 @import url("/stylesheets/components/rating.css");
 @import url("/stylesheets/components/modal.css");
+@import url("/stylesheets/components/grid.css");
+@import url("/stylesheets/components/slider.css");
+@import url("/stylesheets/components/nav-hamburger.css");
 @import url("/style.css");
 @import url("/docs/doc.css");
 @import url("/docs/docs-alert.css");
