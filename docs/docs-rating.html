@@ -1,153 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/phosphor-icons"></script>
-    <script src="https://kit.fontawesome.com/c4d0bd5372.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/c4d0bd5372.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Rating | Fab-UI</title>
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/shades-of-purple.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/shades-of-purple.min.css"
+    />
     <link rel="stylesheet" href="/stylesheets/main.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <!--  navbar-->
-        <nav class="nav-wrap nav-wrap-doc">
-            <div class="nav-doc-header">
-                <img src="/assets/f-logo.svg" alt="logo" class="image image-sm logo" />
-                <a href="/index.html">
-                    <div class="nav-head nav-doc-head">Fab-UI</div>
-                </a>
-            </div>
-
-            <div class="nav-icon-wrap">
-                <div class="nav-icon-chip">
-                    <a href="/docs/doc.html">
-                        <div class="nav-head nav-doc-head">Docs</div>
-                    </a>
-                </div>
-                <div class="nav-icon-chip">
-                    <a href="/docs/doc.html">
-                        <div class="nav-head nav-doc-head">
-                            <i class="fa-brands fa-github fa nav-icon btn-doc"></i></div>
-                    </a>
-                </div>
-            </div>
-        </nav>
-        <!--  -->
-
-        <div class="aside-toggle" id="aside-toggle">
-            <i class="ph-list"></i>
+      <!--  navbar-->
+      <nav class="nav-wrap nav-wrap-doc">
+        <div class="nav-doc-header">
+          <img
+            src="/assets/f-logo.svg"
+            alt="logo"
+            class="image image-sm logo"
+          />
+          <a href="/index.html">
+            <div class="nav-head nav-doc-head">Fab-UI</div>
+          </a>
         </div>
 
-        <div class="main-wrap">
-            <!-- aside -->
-            <aside class="aside" id="aside">
-                <div class="aside-container">
-                    <div class="aside-header h4 text-black">Getting Started</div>
+        <div class="nav-icon-wrap">
+          <div class="nav-icon-chip">
+            <a href="/docs/doc.html">
+              <div class="nav-head nav-doc-head">Docs</div>
+            </a>
+          </div>
+          <div class="nav-icon-chip">
+            <a href="/docs/doc.html">
+              <div class="nav-head nav-doc-head">
+                <i class="fa-brands fa-github fa nav-icon btn-doc"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <!--  -->
 
-                    <a href="/docs/doc.html">
-                        <div class="aside-element h6">Installation</div>
-                    </a>
-                </div>
-                <div class="aside-container">
-                    <div class="aside-header h4 text-black">Components</div>
+      <div class="aside-toggle" id="aside-toggle">
+        <i class="ph-list"></i>
+      </div>
 
-                    <a href="/docs/docs-alert.html">
-                        <div class="aside-element h6">Alert</div>
-                    </a>
-                    <a href="/docs/docs-avatar.html">
-                        <div class="aside-element h6">Avatar</div>
-                    </a>
-                    <a href="/docs/docs-badge.html">
-                        <div class="aside-element h6">Badge</div>
-                    </a>
-                    <a href="/docs/docs-button.html">
-                        <div class="aside-element h6">Button</div>
-                    </a>
-                    <a href="/docs/docs-card.html">
-                        <div class="aside-element h6">Card</div>
-                    </a>
-                    <a href="/docs/docs-image.html">
-                        <div class="aside-element h6">Image</div>
-                    </a>
-                    <a href="/docs/docs-input.html">
-                        <div class="aside-element h6">Input</div>
-                    </a>
-                    <a href="/docs/docs-navigation.html">
-                        <div class="aside-element h6">Navigation</div>
-                    </a>
-                    <a href="/docs/docs-snackbar.html">
-                        <div class="aside-element h6">Snackbar</div>
-                    </a>
-                    <a href="/docs/docs-typography.html">
-                        <div class="aside-element h6">Typography</div>
-                    </a>
-                    <a href="/docs/docs-list.html">
-                        <div class="aside-element h6">List</div>
-                    </a>
-                    <a href="/docs/docs-rating.html">
-                        <div class="aside-element h6">Rating</div>
-                    </a>
-                    <a href="/docs/docs-modal.html">
-                        <div class="aside-element h6">Modal</div>
-                    </a>
-                    <a href="/docs/docs-grid.html">
-                        <div class="aside-element h6">Grid</div>
-                    </a>
-                </div>
-            </aside>
-            <!--  -->
+      <div class="main-wrap">
+        <!-- aside -->
+        <aside class="aside" id="aside">
+          <div class="aside-container">
+            <div class="aside-header h4 text-black">Getting Started</div>
 
-            <div class="main">
-                <div class="main-head">
-                    <div class="h3 text-bold main-head-title text-black">Rating</div>
-                    <p class="h5 main-head-text text-black">
-                       Ratings can be useful in showing feedbacks.
-                    </p>
-                </div>
+            <a href="/docs/doc.html">
+              <div class="aside-element h6">Installation</div>
+            </a>
+          </div>
+          <div class="aside-container">
+            <div class="aside-header h4 text-black">Components</div>
 
-                <!-- horizontal list -->
-                <div class="sub-head">
-                    <div class="h4 text-bold main-head-title text-black">
-                       Rating Icons
-                    </div>
-                </div>
+            <a href="/docs/docs-alert.html">
+              <div class="aside-element h6">Alert</div>
+            </a>
+            <a href="/docs/docs-avatar.html">
+              <div class="aside-element h6">Avatar</div>
+            </a>
+            <a href="/docs/docs-badge.html">
+              <div class="aside-element h6">Badge</div>
+            </a>
+            <a href="/docs/docs-button.html">
+              <div class="aside-element h6">Button</div>
+            </a>
+            <a href="/docs/docs-card.html">
+              <div class="aside-element h6">Card</div>
+            </a>
+            <a href="/docs/docs-image.html">
+              <div class="aside-element h6">Image</div>
+            </a>
+            <a href="/docs/docs-input.html">
+              <div class="aside-element h6">Input</div>
+            </a>
+            <a href="/docs/docs-navigation.html">
+              <div class="aside-element h6">Navigation</div>
+            </a>
+            <a href="/docs/docs-snackbar.html">
+              <div class="aside-element h6">Snackbar</div>
+            </a>
+            <a href="/docs/docs-typography.html">
+              <div class="aside-element h6">Typography</div>
+            </a>
+            <a href="/docs/docs-list.html">
+              <div class="aside-element h6">List</div>
+            </a>
+            <a href="/docs/docs-rating.html">
+              <div class="aside-element h6">Rating</div>
+            </a>
+            <a href="/docs/docs-modal.html">
+              <div class="aside-element h6">Modal</div>
+            </a>
+            <a href="/docs/docs-grid.html">
+              <div class="aside-element h6">Grid</div>
+            </a>
+            <a href="/docs/docs-slider.html">
+              <div class="aside-element h6">Slider</div>
+            </a>
+          </div>
+        </aside>
+        <!--  -->
 
-                <div class="example">
-                    <div class="av-cont">
-                        <div class="rating-cont">
-                            <i class="ph-star-fill"></i>
-                            <i class="ph-star-fill"></i>
-                            <i class="ph-star-half-fill"></i>
-                        </div>
-                    </div>
-                    
-                        <div class="av-cont">
-                        <div class="rating-cont">
-                            <i class="ph-star-fill"></i>
-                            <i class="ph-star-fill"></i>
-                            <i class="ph-star-fill"></i>
-                            <i class="ph-star-half-fill"></i>
-                        </div>
-                    </div>
-                    
-                        <div class="av-cont">
-                        <div class="rating-cont">
-                            <i class="ph-star-fill"></i>
-                            <i class="ph-star-fill"></i>
-                            <i class="ph-star-fill"></i>
-                            <i class="ph-star-fill"></i>
-                            <i class="ph-star-half-fill"></i>
-                        </div>
-                    </div>
-                </div>
+        <div class="main">
+          <div class="main-head">
+            <div class="h3 text-bold main-head-title text-black">Rating</div>
+            <p class="h5 main-head-text text-black">
+              Ratings can be useful in showing feedbacks.
+            </p>
+          </div>
 
-                <pre>
+          <!-- horizontal list -->
+          <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+              Rating Icons
+            </div>
+          </div>
+
+          <div class="example">
+            <div class="av-cont">
+              <div class="rating-cont">
+                <i class="ph-star-fill"></i>
+                <i class="ph-star-fill"></i>
+                <i class="ph-star-half-fill"></i>
+              </div>
+            </div>
+
+            <div class="av-cont">
+              <div class="rating-cont">
+                <i class="ph-star-fill"></i>
+                <i class="ph-star-fill"></i>
+                <i class="ph-star-fill"></i>
+                <i class="ph-star-half-fill"></i>
+              </div>
+            </div>
+
+            <div class="av-cont">
+              <div class="rating-cont">
+                <i class="ph-star-fill"></i>
+                <i class="ph-star-fill"></i>
+                <i class="ph-star-fill"></i>
+                <i class="ph-star-fill"></i>
+                <i class="ph-star-half-fill"></i>
+              </div>
+            </div>
+          </div>
+
+          <pre>
 <code class="html image code-snip">
 &lt;div class="rating-cont"&gt;
 &lt;i class="ph-star-fill"&gt;&lt;/i&gt;
@@ -172,36 +184,36 @@
 </code>
 </pre>
 
-                <!--horizontal list end-->
+          <!--horizontal list end-->
 
-                <!-- vertical list -->
-                <div class="sub-head">
-                    <div class="h4 text-bold main-head-title text-black">
-                        Rating badge
-                    </div>
-                </div>
+          <!-- vertical list -->
+          <div class="sub-head">
+            <div class="h4 text-bold main-head-title text-black">
+              Rating badge
+            </div>
+          </div>
 
-                <div class="example">
-                    <div class="av-cont">
-                        <div class="rating-bdg rating-bdg-red">
-                            <span>2.5</span>   <i class="ph-star-fill"></i>
-                         </div>
-                        </div>
-                     
-                         <div class="av-cont">
-                         <div class="rating-bdg rating-bdg-yellow">
-                             <span>3.5</span>   <i class="ph-star-fill"></i>
-                          </div>
-                        </div>
-                     
-                          <div class="av-cont">
-                          <div class="rating-bdg rating-bdg-green">
-                             <span>4.5</span>   <i class="ph-star-fill"></i>
-                          </div>
-                    </div>
-                </div>
+          <div class="example">
+            <div class="av-cont">
+              <div class="rating-bdg rating-bdg-red">
+                <span>2.5</span> <i class="ph-star-fill"></i>
+              </div>
+            </div>
 
-                <pre>
+            <div class="av-cont">
+              <div class="rating-bdg rating-bdg-yellow">
+                <span>3.5</span> <i class="ph-star-fill"></i>
+              </div>
+            </div>
+
+            <div class="av-cont">
+              <div class="rating-bdg rating-bdg-green">
+                <span>4.5</span> <i class="ph-star-fill"></i>
+              </div>
+            </div>
+          </div>
+
+          <pre>
 <code class="html image code-snip">
 &lt;div class="rating-bdg rating-bdg-red"&gt;
 &lt;span&gt;2.5&lt;/span&gt;  &lt;i class="ph-star-fill"&gt;&lt;/i&gt;
@@ -217,64 +229,67 @@
 </code>
 </pre>
 
-                <!-- round image end-->
+          <!-- round image end-->
 
-               
-
-                <div class="nav-foot">
-                    <div class="nav-foot-pill">
-                        <a href="/docs/docs-list.html"><i class="fa-solid fa-chevron-left fa"></i>
-                            <span class="h5">List</span></a>
-                    </div>
-                    <div class="nav-foot-pill">
-                        <a href="/docs/docs-modal.html"><span class="h5">Modal</span>
-                            <i class="fa-solid fa-chevron-right fa"></i></a>
-                    </div>
-                </div>
+          <div class="nav-foot">
+            <div class="nav-foot-pill">
+              <a href="/docs/docs-list.html"
+                ><i class="fa-solid fa-chevron-left fa"></i>
+                <span class="h5">List</span></a
+              >
             </div>
+            <div class="nav-foot-pill">
+              <a href="/docs/docs-modal.html"
+                ><span class="h5">Modal</span>
+                <i class="fa-solid fa-chevron-right fa"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <footer class="foot">
+        <div class="foot-icon">
+          <div class="nav-icon-chip">
+            <a href="https://github.com/anamkaa">
+              <i class="fa-brands fa-github fa nav-icon nav-icon-doc"></i>
+            </a>
+          </div>
+          <div class="nav-icon-chip">
+            <a href="https://twitter.com/anamkaa_">
+              <i class="fa-brands fa-twitter fa nav-icon nav-icon-doc"></i>
+            </a>
+          </div>
+          <div class="nav-icon-chip">
+            <a href="https://www.linkedin.com/in/anamkaa/">
+              <i class="fa-brands fa-linkedin fa nav-icon nav-icon-doc"></i>
+            </a>
+          </div>
         </div>
 
-        <!-- footer -->
-        <footer class="foot">
-            <div class="foot-icon">
-                <div class="nav-icon-chip">
-                    <a href="https://github.com/anamkaa">
-                        <i class="fa-brands fa-github fa nav-icon nav-icon-doc"></i>
-                    </a>
-                </div>
-                <div class="nav-icon-chip">
-                    <a href="https://twitter.com/anamkaa_">
-                        <i class="fa-brands fa-twitter fa nav-icon nav-icon-doc"></i>
-                    </a>
-                </div>
-                <div class="nav-icon-chip">
-                    <a href="https://www.linkedin.com/in/anamkaa/">
-                        <i class="fa-brands fa-linkedin fa nav-icon nav-icon-doc"></i>
-                    </a>
-                </div>
-            </div>
-
-            <p class="h6 text-center">
-                Made with <i class="far fa-heart"></i> by Anamika
-            </p>
-            <div class="text-small text-center">
-                Illustrations by
-                <a href="https://freewebillustrations.com/" target="_blank">FreeWebIllustrations</a>
-            </div>
-            <div class="text-small text-center">
-                <i class="fa-solid fa-copyright fa"></i> 2022 | Fab-UI | All rights
-                reserved
-            </div>
-        </footer>
-        <!--  -->
+        <p class="h6 text-center">
+          Made with <i class="far fa-heart"></i> by Anamika
+        </p>
+        <div class="text-small text-center">
+          Illustrations by
+          <a href="https://freewebillustrations.com/" target="_blank"
+            >FreeWebIllustrations</a
+          >
+        </div>
+        <div class="text-small text-center">
+          <i class="fa-solid fa-copyright fa"></i> 2022 | Fab-UI | All rights
+          reserved
+        </div>
+      </footer>
+      <!--  -->
     </div>
 
     <script src="/app.js"></script>
     <script src="/path/to/highlight.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
     <script>
-        hljs.highlightAll();
+      hljs.highlightAll();
     </script>
-</body>
-
+  </body>
 </html>
